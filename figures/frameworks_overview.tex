@@ -1,0 +1,156 @@
+% 定义tikzstyle
+\tikzstyle{my-box}=[
+    rectangle,
+    draw=hidden-draw,
+    rounded corners,
+    text opacity=1,
+    minimum height=1.5em,
+    minimum width=5em,
+    inner sep=2pt,
+    align=center,
+    fill opacity=.5,
+    line width=0.8pt,
+]
+
+\tikzstyle{leaf}=[my-box, minimum height=1.5em,
+    fill=hidden-pink!80, text=black, align=left, font=\normalsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+    line width=0.8pt,
+]
+
+% 绘制思维导图
+\begin{figure*}[t]
+    \centering
+    \resizebox{0.94\textwidth}{!}{
+        \begin{forest}
+            forked edges,
+            for tree={
+                fill=level0!80,
+                grow=east,
+                reversed=true,
+                anchor=base west,
+                parent anchor=east,
+                child anchor=west,
+                base=left,
+                font=\large,
+                rectangle,
+                draw=hidden-draw,
+                rounded corners,
+                align=left,
+                minimum width=4em,
+                edge+={darkgray, line width=1pt},
+                s sep=3pt,
+                inner xsep=2pt,
+                inner ysep=3pt,
+                line width=0.8pt,
+                ver/.style={rotate=90, child anchor=north, parent anchor=south, anchor=center},
+            },
+            where level=1{text width=9em,font=\normalsize,fill=level1!80,}{},
+            where level=2{text width=8em,font=\normalsize,fill=level2!80,}{},
+            where level=3{text width=9em,font=\normalsize,fill=level3!60,}{},
+            where level=4{text width=5em,font=\normalsize,}{},
+            [
+                Frameworks of \\ LLM-Based Phone \\ Automation Agents
+                [
+                    Single Agent
+                    [
+                        Act Only
+                        [
+                            Wang et al. (2023)\cite{wang2023enabling}, leaf, text width=15em
+                        ]
+                    ]
+                    [
+                        Chain-of-Action
+                        [
+                            Auto-GUI~\cite{zhang2023you}, leaf, text width=15em
+                        ]
+                    ]
+                    [
+                        Chain-of-Thought
+                        [
+                            Android in the Zoo~\cite{zhang2024android}, leaf, text width=20em
+                        ]
+                        [
+                            MobileExperts~\cite{zhang2024mobileexperts}, leaf, text width=20em
+                        ]
+                        [
+                            Octopus v2~\cite{chen2024octopus}, leaf, text width=20em
+                        ]
+                    ]
+                    [
+                        Chain-of-Action-Thought
+                        [
+                            CoAT~\cite{zhang2024android}, leaf, text width=15em
+                        ]
+                    ]
+                ]
+                [
+                    Multi-Agent
+                    [
+                        Role-Coordinated \\ Multi-Agent \\ Framework
+                        [
+                            MMAC-Copilot~\cite{song2024mmac}
+                            [
+                                Planner, leaf, text width=10em
+                            ]
+                            [
+                                Librarian, leaf, text width=10em
+                            ]
+                            [
+                                Programmer, leaf, text width=10em
+                            ]
+                            [
+                                Viewer, leaf, text width=10em
+                            ]
+                            [
+                                Video Analyst, leaf, text width=10em
+                            ]
+                            [
+                                Mentor, leaf, text width=10em
+                            ]
+                        ]
+                        [
+                            MobileAgent-v2~\cite{wang2024mobileagentv2}
+                            [
+                                Planning Agent, leaf, text width=10em
+                            ]
+                            [
+                                Decision Agent, leaf, text width=10em
+                            ]
+                            [
+                                Reflection Agent, leaf, text width=10em
+                            ]
+                        ]
+                    ]
+                    [
+                        Scenario-Based \\ Task Execution \\ Framework
+                        [
+                            MobileExperts~\cite{zhang2024mobileexperts}, leaf, text width=20em
+                        ]
+                        [
+                            SteP Framework~\cite{sodhi2024step}, leaf, text width=20em
+                        ]
+                    ]
+                ]
+                [
+                    Human-Agent \\ Interaction
+                    [
+                        Standard Operating \\ Procedure (SOP) \\ Integration
+                        [
+                            MobileAgent~\cite{ding2024mobileagentsop}, leaf, text width=20em
+                        ]
+                    ]
+                    [
+                        Interactive Dialogue \\ and User Feedback
+                        [
+                            PromptRPA~\cite{huang2024promptrpa}, leaf, text width=20em
+                        ]
+                    ]
+                ]
+            ]
+        \end{forest}
+    }
+    \caption{Overview of Frameworks of LLM-Based Phone Automation Agents}
+    \label{fig:frameworks_overview}
+\end{figure*}

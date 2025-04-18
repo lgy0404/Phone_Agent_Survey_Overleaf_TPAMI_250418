@@ -1,0 +1,647 @@
+\documentclass[10pt,journal, compsoc]{IEEEtran}
+
+% *** CITATION PACKAGES ***
+%
+\ifCLASSOPTIONcompsoc
+  % The IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  \usepackage{cite}
+\fi
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of the IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off
+% such as if a citation ever needs to be enclosed in parenthesis.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 5.0 (2009-03-20) and later if using hyperref.sty.
+% The latest version can be obtained at:
+% http://www.ctan.org/pkg/cite
+% The documentation is contained in the cite.sty file itself.
+%
+% Note that some packages require special options to format as the Computer
+% Society requires. In particular, Computer Society  papers do not use
+% compressed citation ranges as is done in typical IEEE papers
+% (e.g., [1]-[4]). Instead, they list every citation separately in order
+% (e.g., [1], [2], [3], [4]). To get the latter we need to load the cite
+% package with the nocompress option which is supported by cite.sty v4.0
+% and later.
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation
+% can be obtained at: 
+% http://www.ctan.org/pkg/graphicx
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found at:
+% http://www.ctan.org/pkg/epslatex
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). The IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+%\usepackage{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics.
+%
+% Note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/amsmath
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%\usepackage{acronym}
+% acronym.sty was written by Tobias Oetiker. This package provides tools for
+% managing documents with large numbers of acronyms. (You don't *have* to
+% use this package - unless you have a lot of acronyms, you may feel that
+% such package management of them is bit of an overkill.)
+% Do note that the acronym environment (which lists acronyms) will have a
+% problem when used under IEEEtran.cls because acronym.sty relies on the
+% description list environment - which IEEEtran.cls has customized for
+% producing IEEE style lists. A workaround is to declared the longest
+% label width via the IEEEtran.cls \IEEEiedlistdecl global control:
+%
+% \renewcommand{\IEEEiedlistdecl}{\IEEEsetlabelwidth{SONET}}
+% \begin{acronym}
+%
+% \end{acronym}
+% \renewcommand{\IEEEiedlistdecl}{\relax}% remember to reset \IEEEiedlistdecl
+%
+% instead of using the acronym environment's optional argument.
+% The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/acronym
+
+
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as the IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/pkg/algorithms
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/pkg/algorithmicx
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/array
+
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+% Also highly recommended is Mark Wooding's extremely powerful MDW tools,
+% especially mdwmath.sty and mdwtab.sty which are used to format equations
+% and tables, respectively. The MDWtools set is already installed on most
+% LaTeX systems. The lastest version and documentation is available at:
+% http://www.ctan.org/pkg/mdwtools
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+%\usepackage{eqparbox}
+% Also of notable interest is Scott Pakin's eqparbox package for creating
+% (automatically sized) equal width boxes - aka "natural width parboxes".
+% Available at:
+% http://www.ctan.org/pkg/eqparbox
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+%\ifCLASSOPTIONcompsoc
+%  \usepackage[caption=false,font=footnotesize,labelfont=sf,textfont=sf]{subfig}
+%\else
+%  \usepackage[caption=false,font=footnotesize]{subfig}
+%\fi
+% subfig.sty, written by Steven Douglas Cochran, is the modern replacement
+% for subfigure.sty, the latter of which is no longer maintained and is
+% incompatible with some LaTeX packages including fixltx2e. However,
+% subfig.sty requires and automatically loads Axel Sommerfeldt's caption.sty
+% which will override IEEEtran.cls' handling of captions and this will result
+% in non-IEEE style figure/table captions. To prevent this problem, be sure
+% and invoke subfig.sty's "caption=false" package option (available since
+% subfig.sty version 1.3, 2005/06/28) as this is will preserve IEEEtran.cls
+% handling of captions.
+% Note that the Computer Society format requires a sans serif font rather
+% than the serif font used in traditional IEEE formatting and thus the need
+% to invoke different subfig.sty package options depending on whether
+% compsoc mode has been enabled.
+%
+% The latest version and documentation of subfig.sty can be obtained at:
+% http://www.ctan.org/pkg/subfig
+\pdfoutput=1
+
+% vtzhang
+\newcommand{\zjn}[1]{\textcolor{blue}{#1}} % Jiangning Zhang
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+% \usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography        % colors
+\usepackage{epsfig}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+% \usepackage{times}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+% \usepackage[toc,page]{appendix}
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage[dvipsnames, svgnames, x11names]{xcolor}
+\usepackage[misc]{ifsym}
+\usepackage{makecell}
+\usepackage{soul}
+\usepackage{bm}
+\usepackage{wrapfig}
+% my define package
+\usepackage{graphicx}
+\usepackage{bbding}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{threeparttable}
+
+\definecolor{linkcolor}{RGB}{255,0,0}
+\definecolor{urlcolor}{RGB}{255,105,180}
+\definecolor{citecolor}{RGB}{66,168,235}
+% \usepackage[pagebackref=true,breaklinks=true,colorlinks=true,bookmarks=false,linkcolor=linkcolor,urlcolor=urlcolor,citecolor=citecolor]{hyperref}
+\usepackage[pagebackref,breaklinks=true,colorlinks,citecolor=blue,urlcolor=blue,linkcolor=blue,bookmarks=false]{hyperref}
+\usepackage{adjustbox}
+\usepackage{pifont}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{enumitem}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % 表格列宽
+
+\def \pzo {\phantom{0}} 
+\def \distil  {\vspace{-2pt}\alambic}
+\def \alambic {\includegraphics[width=0.1\linewidth]{figs/alembic-crop.pdf}\xspace}
+\def \alambicmedium {\includegraphics[width=0.036\linewidth]{figs/alembic-crop.pdf}\xspace}
+\def \alambicsmall {\includegraphics[width=0.017\linewidth]{figs/alembic-crop.pdf}\xspace}
+\newcommand{\cmark}{\ding{52}\xspace}%
+\newcommand{\cmarkg}{\textcolor{lightgray}{\ding{52}}\xspace}%
+\newcommand{\xmark}{\ding{56}\xspace}%
+\newcommand{\xmarkg}{\textcolor{lightgray}{\ding{56}}\xspace}%
+\newcommand{\pmark}{\ding{58}\xspace}%
+\newcommand{\pmarkg}{\textcolor{lightgray}{\ding{58}}\xspace}%
+
+\definecolor{lightgray}{rgb}{0.8, 0.8, 0.8}
+\definecolor{lgray}{rgb}{0.66, 0.66, 0.66}
+% \newcommand{\grayer}[1]{\textcolor{lgray}{#1}}
+\definecolor{whit_tab}{RGB}{255, 255, 255}
+\definecolor{gray_tab}{RGB}{235, 235, 235}
+\definecolor{oran_tab}{RGB}{254, 247, 241}
+\definecolor{blue_tab}{RGB}{200, 227, 245}
+\definecolor{lblu_tab}{RGB}{231, 239, 248}
+\newcommand{\red}{\textcolor[RGB]{255, 36, 24}}
+\newcommand{\deepred}{\textcolor[RGB]{176, 36, 24}}
+\newcommand{\grayer}{\textcolor[RGB]{168, 168, 168}}
+
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+% \newcommand{\iid}{\emph{i.\thinspace{}i.\thinspace{}d.}\@\xspace}
+\newcommand{\Eq}{Eq.\@\xspace}
+\newcommand{\Eqs}{Eqs.\@\xspace}
+\newcommand{\Fig}{Fig.\@\xspace}
+\newcommand{\Figs}{Figs.\@\xspace}
+\newcommand{\Tab}{Tab.\@\xspace}
+\newcommand{\Tabs}{Tabs.\@\xspace}
+\newcommand{\Sec}{Sec.\@\xspace}
+\newcommand{\Alg}{Algorithm\@\xspace}
+\newcommand{\Secs}{Secs.\@\xspace}
+\newcommand{\Def}{Def.\@\xspace}
+\newcommand{\resp}{resp.\@\xspace}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Support for easy cross-referencing
+\usepackage[capitalize]{cleveref}
+\crefname{section}{Sec.}{Secs.}
+\Crefname{section}{Section}{Sections}
+\Crefname{table}{Table}{Tables}
+\crefname{table}{Tab.}{Tabs.}
+
+\newlength\savewidth\newcommand\shline{\noalign{\global\savewidth\arrayrulewidth\global\arrayrulewidth 1pt}\hline\noalign{\global\arrayrulewidth\savewidth}}
+\newcommand{\tablestyle}[2]{\setlength{\tabcolsep}{#1}\renewcommand{\arraystretch}{#2}\centering\footnotesize}
+\renewcommand{\paragraph}[1]{\vspace{1.25mm}\noindent\textbf{#1}}
+\newcommand\blfootnote[1]{\begingroup\renewcommand\thefootnote{}\footnote{#1}\addtocounter{footnote}{-1}\endgroup}
+
+% 定义GitHub图标命令（使用图片并链接到仓库）
+\newcommand{\githubicon}[1]{\href{#1}{\includegraphics[height=1em]{figures/github.png}}}
+\newcommand{\githubicontitle}[1]{\href{#1}{\includegraphics[height=1em]{figures/github-title.png}}}
+
+\newcommand{\ie}{i.e}
+\newcommand{\eg}{e.g}
+\newcommand{\Eg}{E.g}
+
+\def\onedot{.\xspace}
+\def\eg{\emph{e.g}\onedot} 
+\def\Eg{\emph{E.g}\onedot}
+\def\ie{\emph{i.e}\onedot}
+\def\Ie{\emph{I.e}\onedot}
+\def\cf{\emph{c.f}\onedot}
+\def\Cf{\emph{C.f}\onedot}
+\def\etc{\emph{etc}\onedot}
+\def\vs{\emph{vs}\onedot}
+\def\wrt{w.r.t\onedot}
+\def\dof{d.o.f\onedot}
+\def\etal{\emph{et al}\onedot}
+\def\aka{\emph{a.k.a}\onedot}
+
+\usepackage[edges]{forest}
+\definecolor{lightcoral}{rgb}{0.94, 0.5, 0.5}
+\definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+\definecolor{harvestgold}{rgb}{0.98, 0.85, 0.40}
+\definecolor{brightlavender}{rgb}{0.75, 0.58, 0.89}
+\definecolor{capri}{rgb}{0.0, 0.75, 1.0}
+\definecolor{carminepink}{rgb}{0.92, 0.3, 0.26}
+\definecolor{celadon}{rgb}{0.67, 0.88, 0.69}
+\definecolor{darkpastelgreen}{rgb}{0.01, 0.75, 0.24}
+
+\definecolor{hidden-draw}{RGB}{205, 44, 36}
+\definecolor{hidden-blue}{RGB}{194,232,247}
+\definecolor{hidden-orange}{RGB}{243,202,120}
+\definecolor{hidden-yellow}{RGB}{242,244,193}
+\definecolor{tree-level-1}{RGB}{245,20,85}
+\definecolor{tree-level-2}{RGB}{246,86,118}
+\definecolor{tree-level-3}{RGB}{248,177,193}
+\definecolor{tree-leaf}{RGB}{176,230,198}
+
+\definecolor{Self}{RGB}{255,0,128}
+\definecolor{Ensemble}{RGB}{0,127,255}
+\definecolor{Iterative}{RGB}{153,51,255}
+
+\definecolor{exemplar1}{RGB}{136,98,148}
+\definecolor{exemplar2}{RGB}{148,210,242}
+\definecolor{knowledge1}{RGB}{249,219,152}
+\definecolor{knowledge2}{RGB}{255,245,220}
+
+\usepackage{pifont}
+\newrobustcmd{\B}{\bfseries}
+\newcommand*\colourcheck[1]{%
+  \expandafter\newcommand\csname #1check\endcsname{\textcolor{#1}{\ding{52}}}%
+}
+\newcommand*\colourcross[1]{%
+  \expandafter\newcommand\csname #1cross\endcsname{\textcolor{#1}{\ding{55}}}%
+}
+\colourcheck{green}
+\colourcross{red}
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure.
+% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
+% corrections already built into the system in which case a warning will
+% be issued if an attempt is made to load fixltx2e.sty as it is no longer
+% needed.
+% The latest version and documentation can be found at:
+% http://www.ctan.org/pkg/fixltx2e
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/stfloats
+% Do not use the stfloats baselinefloat ability as the IEEE does not allow
+% \baselineskip to stretch. Authors submitting work to the IEEE should note
+% that the IEEE rarely uses double column equations and that authors should try
+% to avoid such use. Do not  be tempted to use the cuted.sty or midfloat.sty
+% packages (also by Sigitas Tolusis) as the IEEE does not format its papers in
+% such ways.
+% Do not attempt to use stfloats with fixltx2e as they are incompatible.
+% Instead, use Morten Hogholm'a dblfloatfix which combines the features
+% of both fixltx2e and stfloats:
+%
+% \usepackage{dblfloatfix}
+% The latest version can be found at:
+% http://www.ctan.org/pkg/dblfloatfix
+
+
+%\ifCLASSOPTIONcaptionsoff
+%  \usepackage[nomarkers]{endfloat}
+% \let\MYoriglatexcaption\caption
+% \renewcommand{\caption}[2][\relax]{\MYoriglatexcaption[#2]{#2}}
+%\fi
+% endfloat.sty was written by James Darrell McCauley, Jeff Goldberg and 
+% Axel Sommerfeldt. This package may be useful when used in conjunction with 
+% IEEEtran.cls'  captionsoff option. Some IEEE journals/societies require that
+% submissions have lists of figures/tables at the end of the paper and that
+% figures/tables without any captions are placed on a page by themselves at
+% the end of the document. If needed, the draftcls IEEEtran class option or
+% \CLASSINPUTbaselinestretch interface can be used to increase the line
+% spacing as well. Be sure and use the nomarkers option of endfloat to
+% prevent endfloat from "marking" where the figures would have been placed
+% in the text. The two hack lines of code above are a slight modification of
+% that suggested by in the endfloat docs (section 8.4.1) to ensure that
+% the full captions always appear in the list of figures/tables - even if
+% the user used the short optional argument of \caption[]{}.
+% IEEE papers do not typically make use of \caption[]'s optional argument,
+% so this should not be an issue. A similar trick can be used to disable
+% captions of packages such as subfig.sty that lack options to turn off
+% the subcaptions:
+% For subfig.sty:
+% \let\MYorigsubfloat\subfloat
+% \renewcommand{\subfloat}[2][\relax]{\MYorigsubfloat[]{#2}}
+% However, the above trick will not work if both optional arguments of
+% the \subfloat command are used. Furthermore, there needs to be a
+% description of each subfigure *somewhere* and endfloat does not add
+% subfigure captions to its list of figures. Thus, the best approach is to
+% avoid the use of subfigure captions (many IEEE journals avoid them anyway)
+% and instead reference/explain all the subfigures within the main caption.
+% The latest version of endfloat.sty and its documentation can obtained at:
+% http://www.ctan.org/pkg/endfloat
+%
+% The IEEEtran \ifCLASSOPTIONcaptionsoff conditional can also be used
+% later in the document, say, to conditionally put the References on a 
+% page by themselves.
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+
+% NOTE: PDF thumbnail features are not required in IEEE papers
+%       and their use requires extra complexity and work.
+%\ifCLASSINFOpdf
+%  \usepackage[pdftex]{thumbpdf}
+%\else
+%  \usepackage[dvips]{thumbpdf}
+%\fi
+% thumbpdf.sty and its companion Perl utility were written by Heiko Oberdiek.
+% It allows the user a way to produce PDF documents that contain fancy
+% thumbnail images of each of the pages (which tools like acrobat reader can
+% utilize). This is possible even when using dvi->ps->pdf workflow if the
+% correct thumbpdf driver options are used. thumbpdf.sty incorporates the
+% file containing the PDF thumbnail information (filename.tpm is used with
+% dvips, filename.tpt is used with pdftex, where filename is the base name of
+% your tex document) into the final ps or pdf output document. An external
+% utility, the thumbpdf *Perl script* is needed to make these .tpm or .tpt
+% thumbnail files from a .ps or .pdf version of the document (which obviously
+% does not yet contain pdf thumbnails). Thus, one does a:
+% 
+% thumbpdf filename.pdf 
+%
+% to make a filename.tpt, and:
+%
+% thumbpdf --mode dvips filename.ps
+%
+% to make a filename.tpm which will then be loaded into the document by
+% thumbpdf.sty the NEXT time the document is compiled (by pdflatex or
+% latex->dvips->ps2pdf). Users must be careful to regenerate the .tpt and/or
+% .tpm files if the main document changes and then to recompile the
+% document to incorporate the revised thumbnails to ensure that thumbnails
+% match the actual pages. It is easy to forget to do this!
+% 
+% Unix systems come with a Perl interpreter. However, MS Windows users
+% will usually have to install a Perl interpreter so that the thumbpdf
+% script can be run. The Ghostscript PS/PDF interpreter is also required.
+% See the thumbpdf docs for details. The latest version and documentation
+% can be obtained at.
+% http://www.ctan.org/pkg/thumbpdf
+
+
+% NOTE: PDF hyperlink and bookmark features are not required in IEEE
+%       papers and their use requires extra complexity and work.
+% *** IF USING HYPERREF BE SURE AND CHANGE THE EXAMPLE PDF ***
+% *** TITLE/SUBJECT/AUTHOR/KEYWORDS INFO BELOW!!           ***
+\newcommand\MYhyperrefoptions{bookmarks=true,bookmarksnumbered=true,
+pdfpagemode={UseOutlines},plainpages=false,pdfpagelabels=true,
+colorlinks=true,linkcolor={black},citecolor={black},urlcolor={black},
+pdftitle={Dynamic Spatial Temporal Learning via Temporal Pyramid Routing},%<!CHANGE!
+pdfsubject={Typesetting},%<!CHANGE!
+pdfauthor={Michael D. Shell},%<!CHANGE!
+pdfkeywords={Computer Society, IEEEtran, journal, LaTeX, paper,
+             template}}%<^!CHANGE!
+%\ifCLASSINFOpdf
+%\usepackage[\MYhyperrefoptions,pdftex]{hyperref}
+%\else
+%\usepackage[\MYhyperrefoptions,breaklinks=true,dvips]{hyperref}
+%\usepackage{breakurl}
+%\fi
+% One significant drawback of using hyperref under DVI output is that the
+% LaTeX compiler cannot break URLs across lines or pages as can be done
+% under pdfLaTeX's PDF output via the hyperref pdftex driver. This is
+% probably the single most important capability distinction between the
+% DVI and PDF output. Perhaps surprisingly, all the other PDF features
+% (PDF bookmarks, thumbnails, etc.) can be preserved in
+% .tex->.dvi->.ps->.pdf workflow if the respective packages/scripts are
+% loaded/invoked with the correct driver options (dvips, etc.). 
+% As most IEEE papers use URLs sparingly (mainly in the references), this
+% may not be as big an issue as with other publications.
+%
+% That said, Vilar Camara Neto created his breakurl.sty package which
+% permits hyperref to easily break URLs even in dvi mode.
+% Note that breakurl, unlike most other packages, must be loaded
+% AFTER hyperref. The latest version of breakurl and its documentation can
+% be obtained at:
+% http://www.ctan.org/pkg/breakurl
+% breakurl.sty is not for use under pdflatex pdf mode.
+%
+% The advanced features offer by hyperref.sty are not required for IEEE
+% submission, so users should weigh these features against the added
+% complexity of use.
+% The package options above demonstrate how to enable PDF bookmarks
+% (a type of table of contents viewable in Acrobat Reader) as well as
+% PDF document information (title, subject, author and keywords) that is
+% viewable in Acrobat reader's Document_Properties menu. PDF document
+% information is also used extensively to automate the cataloging of PDF
+% documents. The above set of options ensures that hyperlinks will not be
+% colored in the text and thus will not be visible in the printed page,
+% but will be active on "mouse over". USING COLORS OR OTHER HIGHLIGHTING
+% OF HYPERLINKS CAN RESULT IN DOCUMENT REJECTION BY THE IEEE, especially if
+% these appear on the "printed" page. IF IN DOUBT, ASK THE RELEVANT
+% SUBMISSION EDITOR. You may need to add the option hypertexnames=false if
+% you used duplicate equation numbers, etc., but this should not be needed
+% in normal IEEE work.
+% The latest version of hyperref and its documentation can be obtained at:
+% http://www.ctan.org/pkg/hyperref
+
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+% \title{Surveying Progress and Prospects: LLM-Powered UI Agents Revolutionizing Phone Automation}
+\title{LLM-Powered GUI Agents in Phone Automation: \\A Survey of Progress and Prospects} 
+
+% \title{Large Language Model Powered UI Agents in Phone Automation: Surveying Progress and Prospects}
+% \title{Large Language Model Powered UI Agents in Phone Automation: A Survey and Outlook}
+
+
+\author{William Liu$^{1,\dag}$, Liang Liu$^{1,\dag,\ddag}$, Pengxiang Zhao$^{3,\dag}$, Yaxuan Guo$^1$, Han Xiao$^{2}$, Weifeng Lin$^{2}$\\
+Yuxiang Chai$^{2}$, Shuai Ren$^1$, Xiaoyu Liang$^3$, Linghao Li$^{1,3}$, Wenhao Wang$^3$\\ 
+Tianze Wu$^3$,Yong Liu$^3$, Hao Wang$^1$, Hongsheng Li$^{2,*}$, Guanjing Xiong$^{1,*}$  \\
+\normalsize{$^1$~vivo AI Lab\quad$^2$~CUHK MMLab\quad$^3$~Zhejiang University} \\
+\small{$^\dag$~Equal Contribution, \quad $^\ddag$~Project Lead, \quad $^*$~Corresponding Authors} \\
+\texttt{\small hsli@ee.cuhk.edu.hk}\quad\;\texttt{\small guanjing.xiong@vivo.com} \\
+\small{Project Homepage: }\href{https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents}{\texttt{\small github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents}} 
+}
+
+
+% % \author{
+% % William Liu, Liang Liu, Hongsheng Li$^\dagger$ } 
+% \author{
+%   \emph{GitHub Paper List: \href{https://github.com/willamliu311/LLM-for-Phone-UI-Agents}{LLM-for-Phone-UI-Agents}} } 
+
+% % \IEEEcompsocitemizethanks{
+% % \IEEEcompsocthanksitem William Liu and Liang Liu are with vivo AI lab. E-mail:\{ 11172859, liang.liu\}@vivo.com;
+% % \IEEEcompsocthanksitem Hongsheng Li is with The Chinese University of Hong Kong. E-mail: hsli@ee.cuhk.edu.hk;
+% % }
+% % \thanks{$^\dagger$Corresponding Author: Hongsheng Li. \\Version date:  \today.}
+% % }
+
+% % \markboth{Journal of \LaTeX\ Class Files,~Vol.~14, No.~8, August~2021}%
+% % {Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer Society Journals}
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+% for Computer Society papers, we must declare the abstract and index terms
+% PRIOR to the title within the \IEEEtitleabstractindextext IEEEtran
+% command, as these need to go into the title area created by \maketitle.
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\input{0_abstract.tex}
+
+% make the title area
+\maketitle
+
+
+% To allow for easy dual compilation without having to reenter the
+% abstract/keywords data, the \IEEEtitleabstractindextext text will
+% not be used in maketitle, but will appear (i.e., to be "transported")
+% here as \IEEEdisplaynontitleabstractindextext when compsoc mode
+% is not selected <OR> if conference mode is selected - because compsoc
+% conference papers position the abstract like regular (non-compsoc)
+% papers do!
+\IEEEdisplaynontitleabstractindextext
+% \IEEEdisplaynontitleabstractindextext has no effect when using
+% compsoc under a non-conference mode.
+
+\IEEEpeerreviewmaketitle
+
+\input{1_introduction.tex}
+\input{2_development.tex}
+\input{3_frameworks.tex}
+\input{4_models.tex}
+\input{5_datasets.tex}
+\input{6_challenges.tex}
+\input{7_conclusion.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,reference}
+
+\end{document}

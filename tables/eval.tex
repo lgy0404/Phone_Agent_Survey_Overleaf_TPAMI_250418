@@ -1,0 +1,202 @@
+\begin{table*}
+    \caption{Evaluation methods related to large models for phone automation.}
+    \label{tab:model_and_data}
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{c|cccccc} \toprule\toprule	
+	\textbf{Applications} & \textbf{Dataset} & \textbf{Statistics} & \textbf{Timeframe} & \textbf{Source} & \textbf{Citations} \\ \midrule
+	
+	\multirow{7}{*}{Traffic} 
+ 	& \href{https://zenodo.org/record/5146275}{METR-LA} 
+        & 34,272 & Mar to Jun 2012 & \cite{li2018dcrnn_traffic} & 
+        \cite{shao2022pre,jin2022multivariate}
+        \\
+        &
+ 	\href{https://zenodo.org/record/5146275}{PEMS-BAY} 
+         & 52,116 & Jan 1 to May 31, 2017 & \cite{li2018dcrnn_traffic} & 
+        \cite{shao2022pre,jin2022multivariate} \\ 
+        
+	& \href{https://github.com/Davidham3/ASTGCN}{PEMS04} 
+        & 16,992 & Jan 1 to Feb 28, 2018 & \cite{doi:10.3141/1748-12} &
+        \cite{shao2022pre}
+        \\
+        
+        & \href{https://github.com/sutdcv/SUTD-TrafficQA}{SUTD-TrafficQA}
+        & 10080 videos / 62.535 questions & - & \cite{Xu_2021_CVPR} & 
+        \cite{qasemi2023traffic}
+         \\ 
+        
+	& \href{https://github.com/TolicWang/DeepST/tree/master/data/TaxiBJ}{TaxiBJ}
+        & 32 x 32 grid map with 30 minutes time-slot  & 2013 to 2016 & \cite{zhang2017deep} & 
+        \cite{song2020spatial,zheng2020gman,ullah2020applications,ullah2020applications}
+        \\ 
+        
+	& \href{https://citibikenyc.com/system-data}{BikeNYC} & 16 x 8 grid map with 1 hour time-slot
+        & 2014/04/01 - 2014/09/30 &  \cite{zhang2017deep} & 
+        \cite{ali2022exploiting} 
+         \\ 
+        & \href{https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page}{TaxiNYC} 
+        & 22349490 taxi trips in 2015 & 2009 to 2023 & \cite{revisiting_yao} & 
+        \cite{li2021spatial}
+        \\
+        & \href{https://github.com/gmu-ggs-nsf-abm-research/mobility-trends}{Mobility}
+        & foot traffic at over 5 million places & 2019 to 2020 & \cite{klise2021analysis} & 
+        \cite{yao2022understanding,rutten2022modelling}
+        \\
+        & \href{https://github.com/liuxu77/LargeST}{LargeST}
+        &  525,888 frames, 8600 sensors & 2017 to 2021 & \cite{liu2023largest} & \cite{liu2023largest}
+        \\
+    
+	\midrule
+	
+	\multirow{6}{*}{Healthcare} 
+	& \href{https://physionet.org/content/ptb-xl/1.0.3/}{PTB-XL} & 21,799 & Oct 1989 to Jun 1996 & 
+        \cite{ptb-xl} & 
+        \cite{strodthoff2020deep,mehari2022self,wang2021automated,hu2022transformer} 
+        \\
+
+        & \href{https://datacatalog.med.nyu.edu/dataset/10633}{NYUTron} & 387,144 & Jan 2011 to May 2020 & 
+        \cite{jiang2023health} & \cite{imrie2023multiple,valizadeh2023automated,qi2023evaluating,han2023medical}
+        \\
+	& \href{https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara/models/gatortron_og}{UF Health clinical corpus} & 2M & 2011 to 2021 & \cite{yang2022large} 
+        & \cite{thirunavukarasu2023large,moor2023foundation,qiu2023large} 
+        \\
+ 
+	& \href{https://www.i2b2.org/NLP/TemporalRelations/} 
+        {i2b2-2012} & 310 & 2012 & \cite{i2b2} & \cite{wang2018clinical,lewis2020pretrained,henry20202018}
+       \\
+
+        & \href{https://physionet.org/content/mimiciii/1.4/}{MIMIC-III} & 112,000 & 2001 to 2012 & \cite{mimic} & \cite{peng2019transfer,zhang2022shifting,xu2021federated}
+        \\
+
+        & \href{https://physionet.org/content/circor-heart-sound/1.0.3/}{CirCor DigiScope} & 5,282 & Jul 2014 to Jul 2015 & \cite{9658215} & 
+        \cite{reyna2022heart,fuadah2022optimal,ballas2022listen2yourheart}
+        \\
+        
+        \midrule 
+	
+	\multirow{8}{*}{\makecell[c]{Weather}} 
+
+        & \href{https://registry.opendata.aws/sevir/}{SEVIR} & 10,000 & 4 hours & \cite{veillette2020sevir} & \cite{seo2023implicit, gao2022earthformer} 
+        \\
+        
+	& \href{https://github.com/Shifts-Project/shifts}{Shifts-Weather Prediction} & 10 million 129-column entries & Sep 1, 2018 to Sep 1, 2019  & \cite{shifts2021} & \cite{morelayers2021,Hammoudeh:2023:CertifiedRegression} 
+        \\
+        
+	& \href{https://disc.gsfc.nasa.gov/}{AvePRE} & 88 meteorological satellites & Apr 1, 2012 to Feb 28, 2016 & \cite{chen2023spatialtemporal} &
+        \cite{chen2023mask} 
+        \\
+
+        & \href{https://disc.gsfc.nasa.gov/}{SurTEMP} & 525 meteorological satellites & Jan 3, 2019 to May 2, 2022 & \cite{chen2023spatialtemporal} &
+        \cite{chen2023mask} 
+        \\
+
+        & \href{https://disc.gsfc.nasa.gov/}{SurUPS} & 238 meteorological satellites  & Jan 2, 2019 to Jul 29, 2022 & \cite{chen2023spatialtemporal} &
+        \cite{chen2023mask} 
+        \\
+
+        & \href{https://github.com/pangeo-data/WeatherBench}{ERA5 reanalysis data} & 721×1440 grid points with 37 vertical levels  & hourly data from 1979 to 2018  & \cite{Rasp_2020} &
+        \cite{Rasp_2021,nguyen2023climax,Weyn_2020} 
+        \\
+        & \href{https://cds.climate.copernicus.eu/cdsapp\#!/dataset/projections-cmip6?tab=overview}{CMIP6} & Global grided in 1 vertical level & 1850-2014 for historical and 2015-2100 for SSP expt. & \cite{eyring2016overview} &
+        \cite{lee2021future,hassani2021global,jones2022global} 
+        \\
+
+        \midrule
+
+        \multirow{4}{*}{\makecell[c]{Finance}} 
+        &
+        \href{https://github.com/ashfarhangi/AA-Forecast/tree/main/dataset}{Finance (Employment)} & 15321  & during COVID-19 & \cite{aa-forecast} &
+        \cite{wu2023symphony} 
+        \\
+        &
+        \href{https://github.com/yumoxu/stocknet-dataset}{StockNet} & 88 stocks & 2014/01/01 to 2016/01/01 & \cite{xu2018stock} &
+        \cite{sawhney2020deep,xie2023pixiu,jiang2021applications,zou2022astock,xie2022word,feng2018enhancing} 
+        \\
+        &
+        \href{https://github.com/Zhihan1996/TradeTheEvent/tree/main/data\#edt-dataset}{EDT} & 303893 news articles with minute-level timestamps  & 2020/03/01 to 2021/05/06 & \cite{zhou-etal-2021-trade} &
+        \cite{ZHANG2022118312,liu2023fingpt,10075550,reneau2023feature} 
+        \\
+        &
+        \href{https://cseweb.ucsd.edu/~yaq007/NASDAQ100_stock_data.html}{NASDAQ-100} & 104 corporations, frequency is one-minute & July 26, 2016 to April 28, 2017 & \cite{qin2017dual} &
+        \cite{liu2020finrl} 
+        \\
+
+        \midrule
+
+
+        \multirow{6}{*}{\makecell[c]{Video}} 
+        &
+        \href{https://github.com/YunseokJANG/tgif-qa}{TGIF-QA} & 165K QA pairs  & - & \cite{jang-IJCV-2019} & \cite{chen2023vast,xu2023multi,maaz2023video,ye2022hitea,li2023videochat,xu2023mplug} 
+        \\
+        &
+        \href{https://drive.google.com/file/d/1pWym3bMNW_WrOZCi5Ls-wKFpaPMbLOio/view}{MSR-VTT} & 10,000 video clips & 41.2 hours & \cite{xu2016msr} &
+        \cite{jiang2022tencent,he2023vlab,chen2023vast,zeng2022socratic} 
+       \\
+        &
+        \href{https://maxbain.com/webvid-dataset/}{WebVid} & 10 million video clips &  13k hours & \cite{bain2021frozen} &
+        \cite{wang2023videofactory,luo2023videofusion,singer2022make,luo2022clip4clip} 
+        \\
+        &
+        \href{https://www.microsoft.com/en-us/download/}{MSVD} & 2,000 video snippets & 2010 & \cite{chen2011collecting} &
+        \cite{kuo2023mammut,li2023unmasked,maaz2023video,yang2023vid2seq} 
+        \\
+        &
+        \href{https://github.com/LisaAnne/TemporalLanguageRelease}{DiDeMo} & 26,892 moments & 10000*(25~30) seconds & \cite{anne2017localizing} &
+        \cite{xu2021videoclip,soldan2021vlg,li2022lavis,wang2023internvid} 
+        \\
+        &
+        \href{https://cocodataset.org/\#home}{COCO} & 164K images & - & \cite{lin2014microsoft} &
+        \cite{zong2022detrs, wang2023internimage,yu2022scaling,howard2017mobilenets} 
+        \\
+
+        \midrule
+
+        \multirow{5}{*}{\makecell[c]{Event Prediction}} 
+        &
+        \href{https://github.com/ant-research/EasyTemporalPointProcess}{Amazon} & 5.2K event sequences  & January, 2008 to October, 2018 & \cite{xue2023easytpp} & \cite{xue2022hypro,shi2023language,xue2023prompttpp} 
+        \\
+        &
+        \href{https://github.com/ant-research/EasyTemporalPointProcess}{Taobao} & 4.8K event sequences  & November 25, 2017 to December 03, 2017 & \cite{xue2023easytpp} & \cite{xue2022hypro,xue2023prompttpp} 
+        \\
+        &
+        \href{https://github.com/ant-research/EasyTemporalPointProcess}{Retweet} & 5.2K event sequences  & - & \cite{xue2023easytpp} & \cite{mei2017neural,zhang2020self,zuo2020transformer,wang2023ep} 
+        \\
+        &
+        \href{https://github.com/ant-research/EasyTemporalPointProcess}{StackOverflow} & 2.2K event sequences  & 2 years & \cite{xue2023easytpp} & \cite{mei2017neural,xue2021graphpp,zuo2020transformer,xue2022hypro,xue2023prompttpp,wang2023ep} 
+        \\
+        &
+        \href{https://github.com/ant-research/EasyTemporalPointProcess}{Taxi} & 2K event sequences  & 1 year & \cite{xue2023easytpp} & \cite{mei2020neural, xue2022hypro} 
+        \\
+
+        \midrule
+        
+        \multirow{6}{*}{\makecell[c]{Others}} 
+        &
+        \href{https://github.com/zhouhaoyi/ETDataset}{ETT} & 1-hour-level and 15-minutes-level data for 7 features & 2 years  & \cite{haoyietal-informer-2021} &
+        \cite{Zeng2022AreTE,liu2022SCINet,BaiTCN2018} 
+        \\
+        &
+        \href{https://github.com/Mcompetitions/M4-methods}{M4} &100,000 series& - & \cite{MAKRIDAKIS2018802} &
+        \cite{NBeatsPRemy,agtabular,bhatnagar2021merlion,godfried2020flowdb} 
+        \\
+        & \href{https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption}{Electricity} & 2,075,259 & 4 years & \cite{misc_individual_household_electric_power_consumption_235} &
+        \cite{liu2022SCINet,DU2023SAITS,lai2023lightcts} 
+        \\
+        &
+        \href{https://github.com/alibaba/clusterdata}{Alibaba Cluster Trace} & 1313 machines & 12 hours & \cite{cheng2018characterizing} &
+        \cite{Fan_2019,mommessin2022affinityaware,hübotter2021implementation} 
+        \\
+        &
+        \href{https://github.com/ermshaua/time-series-segmentation-benchmark}{TSSB} & 75 series & - & \cite{clasp2021} &
+        \cite{deldari2020espresso,wss2022} 
+        \\
+        &
+        \href{https://www.cs.ucr.edu/~eamonn/time_series_data_2018/}{UCR TS Classification Archive} & 128 datasets & 2002 to 2018 & \cite{dau2019ucr}
+        &
+        \cite{10.1007/978-3-031-09037-0_53,cheng2022classification,schaefer2023weasel2} 
+        \\
+    \bottomrule\bottomrule
+    \end{tabular}
+    }
+\end{table*}

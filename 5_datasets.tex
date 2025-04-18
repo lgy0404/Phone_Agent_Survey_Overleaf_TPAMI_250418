@@ -1,0 +1,184 @@
+\section{Datasets and Benchmarks}
+\label{sec:datasets_and_benchmarks}
+
+The rapid evolution of mobile technology has transformed smartphones into indispensable tools for communication, productivity, and entertainment. This shift has spurred a growing interest in developing intelligent agents capable of automating tasks and enhancing user interactions with mobile devices. These agents rely on a deep understanding of GUIs and the ability to interpret and execute instructions effectively. However, the development of such agents presents significant challenges, including the need for diverse datasets, standardized benchmarks, and robust evaluation methodologies.
+
+Datasets serve as the backbone for training and testing phone GUI agents, offering rich annotations and task diversity to enable these agents to learn and adapt to complex environment. Complementing these datasets, benchmarks provide structured environment and evaluation metrics, allowing researchers to assess agent performance in a consistent and reproducible manner. Together, datasets and benchmarks form the foundation for advancing the capabilities of GUI-based agents.
+
+This section delves into the \textbf{key datasets} and \textbf{benchmarks} that have shaped the field. Subsection~\ref{subsec:datasets} reviews notable datasets that provide the training data necessary for enabling agents to perform tasks such as language grounding, UI navigation, and multimodal interaction. Subsection~\ref{subsec:benchmarks} discusses benchmarks that facilitate the evaluation of agent performance, focusing on their contributions to reproducibility, generalization, and scalability. Through these resources, researchers and developers gain the tools needed to push the boundaries of intelligent phone automation, moving closer to creating agents that can seamlessly assist users in their daily lives.
+
+\begin{table*}[!ht]
+    \centering
+    \scriptsize % 设置表格字体大小为 scriptsize
+    \renewcommand\arraystretch{1.2} % 增加行高以提高可读性
+    \caption{Summary of datasets for phone GUI agents. 
+        "Actions" refers to the number of distinct actions available; 
+        "Demos" refers to the number of demonstration sequences; 
+        "Apps" refers to the number of applications covered; 
+        "Instr." refers to the number of natural language instructions; 
+        "Avg. Steps" refers to the average number of steps per task.}
+    \resizebox{\textwidth}{!}{ % 调整表格宽度以适应页面宽度
+    \begin{tabular}{l c c c c c c c c c}
+    \toprule
+    \textbf{Dataset} & \textbf{Date} & \textbf{Screenshots} & \textbf{UI Trees} & \textbf{Actions} & \textbf{Demos} & \textbf{Apps} & \textbf{Instr.} & \textbf{Avg. Steps} & \textbf{Contributions} \\
+    \midrule
+    \textbf{\href{http://www.interactionmining.org/rico.html}{Rico}}~\cite{deka2017rico} \githubicon{http://www.interactionmining.org/rico.html} & 2017.10 & \greencheck & \greencheck & N/A & 10,811 & 9,772 & N/A & N/A & \makecell[c]{Large-scale \\mobile dataset} \\
+    \midrule
+    \textbf{\href{https://github.com/google-research/google-research/tree/master/seq2act}{PixelHelp}}~\cite{li2020PixelHelp} \githubicon{https://github.com/google-research/google-research/tree/master/seq2act} & 2020.05 & \greencheck & \greencheck & 4 & 187 & 4 & 187 & 4.2 & \makecell[c]{Grounding instruc\\tions to actions} \\
+    \midrule
+    \textbf{\href{https://github.com/aburns4/MoTIF}{MoTIF}}~\cite{burns2021motif} \githubicon{https://github.com/aburns4/MoTIF} & 2021.04 & \greencheck & \greencheck & 6 & 4,707 & 125 & 276 & 4.5 & \makecell[c]{Interactive visual \\environment} \\
+    \midrule
+    \textbf{\href{https://github.com/google-research-datasets/uibert}{UIBert}}~\cite{bai2021uibert} \githubicon{https://github.com/google-research-datasets/uibert} & 2021.07 & \greencheck & \greencheck & N/A & N/A & N/A & 16,660 & 1 & Pre-training task \\
+    \midrule
+    \textbf{\href{https://x-lance.github.io/META-GUI-Leaderboard/}{Meta-GUI}}~\cite{sun2022metagui} \githubicon{https://x-lance.github.io/META-GUI-Leaderboard/} & 2022.05 & \redcross & \greencheck & 7 & 4,684 & 11 & 1,125 & 5.3 & Multi-turn dialogues \\
+    \midrule
+    \textbf{\href{https://github.com/google-research/google-research/tree/master/ugif}{UGIF}}~\cite{venkatesh2022ugif} \githubicon{https://github.com/google-research/google-research/tree/master/ugif} & 2022.11 & \greencheck & \greencheck & 8 & 523 & 12 & 523 & 5.3 & \makecell[c]{Multilingual UI-\\grounded instructions} \\
+    \midrule
+    \textbf{\href{https://github.com/google-research/google-research/tree/master/android_in_the_wild}{AITW}}~\cite{rawles2024androidinthewild} \githubicon{https://github.com/google-research/google-research/tree/master/android_in_the_wild} & 2023.12 & \greencheck & \redcross & 7 & 715,142 & 357 & 30,378 & 6.5 & Large-scale interactions \\
+    \midrule
+    \textbf{\href{https://github.com/IMNearth/CoAT}{AITZ}}~\cite{zhang2024aitz} \githubicon{https://github.com/IMNearth/CoAT} & 2024.03 & \greencheck & \redcross & 7 & 18,643 & 70 & 2,504 & 7.5 & \makecell[c]{Chain-of-Action-\\Thought annotations} \\
+    \midrule
+    \textbf{\href{https://github.com/OpenGVLab/GUI-Odyssey}{GUI Odyssey}}~\cite{lu2024guiodyssey} \githubicon{https://github.com/OpenGVLab/GUI-Odyssey} & 2024.06 & \redcross & \greencheck & 9 & 7,735 & 201 & 7,735 & 15.4 & Cross-app navigation \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/google-research/google-research/tree/master/android_control}{AndroidControl}}\,\cite{li2024androidcontrol}\,\githubicon{https://github.com/google-research/google-research/tree/master/android_control}} & 2024.07 & \greencheck & \greencheck & 8 & 15,283 & 833 & 15,283 & 4.8 & UI task scaling law \\
+    \midrule
+    \textbf{\href{https://yuxiangchai.github.io/AMEX/}{AMEX}}~\cite{chai2024amex} \githubicon{https://yuxiangchai.github.io/AMEX/} & 2024.07 & \greencheck & \greencheck & 8 & 2,946 & 110 & 2,946 & 12.8 & \makecell[c]{Multi-level detailed \\annotations} \\
+    \midrule
+    \textbf{\href{https://huggingface.co/datasets/mllmTeam/MobileViews}{MobileViews}}~\cite{gao2024mobileviews} \githubicon{https://huggingface.co/datasets/mllmTeam/MobileViews} & 2024.09 & \greencheck & \greencheck & N/A & N/A & 21,053 & N/A & N/A & \makecell[c]{Largest-scale \\mobile dataset} \\
+    \bottomrule
+    \end{tabular}
+    } % 结束 resizebox
+    \label{tab:datasets}
+\end{table*}
+
+\subsection{Datasets}
+\label{subsec:datasets}
+
+The development of phone automation and GUI-based agents has been significantly propelled by the availability of diverse and richly annotated datasets. These datasets provide the foundation for training and evaluating models that can understand and interact with mobile user interfaces using natural language instructions. In this subsection, we review several key datasets, highlighting their unique contributions and how they collectively advance the field. Table~\ref{tab:datasets} summarizes these datasets, providing an overview of their characteristics.
+
+Rico~\cite{deka2017rico} is the largest dataset from the early stage of GUI automation development, providing a solid foundation for understanding modern mobile interfaces and developing GUI agents. It includes various types of data, such as UI screenshots, view hierarchies, and UI metadata, offering valuable references for researchers and developers. Based on this, subsequent studies like RICO Semantics~\cite{sunkara2022towards}, GUI-WORLD~\cite{chen2024gui}, and MobileViews~\cite{gao2024mobileviews} have emerged, expanding the types and coverage of datasets and driving the growth of GUI agent research. Among them, MobileViews is currently the largest GUI dataset.
+
+
+Early efforts in dataset creation focused on mapping natural language instructions to UI actions. PixelHelp~\cite{li2020PixelHelp} pioneered this area by introducing a problem of grounding natural language instructions to mobile UI action sequences. It decomposed the task into action phrase extraction and grounding, enabling models to interpret instructions like "Turn on flight mode" and execute corresponding UI actions. Building on this, UGIF~\cite{venkatesh2022ugif} extended the challenge to a multilingual and multimodal setting. UGIF addressed cross-modal and cross-lingual retrieval and grounding, providing a dataset with instructions in English and UI interactions across multiple languages, thus highlighting the complexities of multilingual UI instruction following.
+
+Addressing task feasibility and uncertainty, MoTIF~\cite{burns2021motif} introduced a dataset that includes natural language commands which may not be satisfiable within the given UI context. By incorporating feasibility annotations and follow-up questions, MoTIF encourages research into how agents can recognize and handle infeasible tasks, enhancing robustness in interactive environment.
+
+For advancing UI understanding through pre-training, UIBert~\cite{bai2021uibert} proposed a Transformer-based model that jointly learns from image and text representations of UIs. By introducing novel pre-training tasks that leverage the correspondence between different UI features, UIBert demonstrated improvements across multiple downstream UI tasks, setting a foundation for models that require a deep understanding of GUI layouts and components.
+
+In the realm of multimodal dialogues and interactions, Meta-GUI~\cite{sun2022metagui} proposed a GUI-based task-oriented dialogue system. This work collected dialogues paired with GUI operation traces, enabling agents to perform tasks through conversational interactions and direct GUI manipulations. It bridges the gap between language understanding and action execution within mobile applications.
+
+Recognizing the need for large-scale datasets to train more generalizable agents, several works introduced extensive datasets capturing a wide range of device interactions. Android In The Wild (AITW)~\cite{rawles2024androidinthewild} released a dataset containing hundreds of thousands of episodes with human demonstrations of device interactions. It presents challenges where agents must infer actions from visual appearances and handle precise gestures. Building upon AITW, Android In The Zoo (AITZ)~\cite{zhang2024aitz} provided fine-grained semantic annotations using the Chain-of-Action-Thought (CoAT) paradigm, enhancing agents' ability to reason and make decisions in GUI navigation tasks.
+
+To address the complexities of cross-application navigation, GUI Odyssey~\cite{lu2024guiodyssey} introduced a dataset specifically designed for training and evaluating agents that navigate across multiple apps. By covering diverse apps, tasks, and devices, GUI Odyssey enables the development of agents capable of handling real-world scenarios that involve integrating multiple applications and transferring context between them.
+
+Understanding how data scale affects agent performance, AndroidControl~\cite{li2024androidcontrol} studied the impact of training data size on computer control agents. By collecting demonstrations with both high-level and low-level instructions across numerous apps, this work analyzed in-domain and out-of-domain generalization, providing insights into the scalability of fine-tuning approaches for device control agents.
+
+Focusing on detailed annotations to enhance agents' understanding of UI elements, AMEX~\cite{chai2024amex} introduced a comprehensive dataset with multi-level annotations. It includes GUI interactive element grounding, functionality descriptions, and complex natural language instructions with stepwise GUI-action chains. AMEX aims to align agents more closely with human users by providing fundamental knowledge and understanding of the mobile GUI environment from multiple levels, thus facilitating the training of agents with a deeper understanding of page layouts and UI element functionalities.
+
+Finally, we should focus on methods for generating, collecting, and annotating high-quality datasets. DreamStruct~\cite{peng2024dreamstruct} leverages LLMs to generate data design concept descriptions based on target tasks. It then produces HTML code with target labels, embedding semantic tags within. In the post-processing phase, Bing Search API or DALL·E is used to replace placeholder graphic elements, resulting in the final visual content. This research offers a dataset, DreamUI, which includes 9,774 labeled UI interfaces for reference. OS-Genesis~\cite{sun2024genesis} utilizes the method of Reverse Task Synthesis to automatically generate task instructions and corresponding action trajectories from interactions. It then integrates these with a trajectory reward model to produce high-quality and diverse GUI agent data. Learn-by-interact~\cite{su2025learn} uses LLMs to generate data through interaction with the environment and optimizes this data via \textit{backward construction}. These high-quality data generation techniques reduce the dependency on manually labeled data, facilitating agents' rapid adaptation to new environments and tasks. 
+Ferret-UI 2~\cite{li2024ferretui2masteringuniversal} uses the Set-of-Mark (SoM) visual prompt method to tag each UI component with bounding boxes and numerical labels to assist GPT-4o in recognition. Subsequently, GPT-4o generates question-and-answer task data related to UI components, covering multiple aspects of UI comprehension and thus producing high-quality training data. FedMobileAgent~\cite{wang2025fedmobileagent} automatically collects data during users' daily mobile usage and employs locally deployed VLM to annotate user actions, thereby generating a high-quality dataset. Furthermore, even in the absence of explicit ground truth annotations, we can infer user intentions through their interactions within the GUI to generate corresponding UI annotations~\cite{berkovitch2024identifying}. This approach opens up new directions for the collection and annotation of GUI data.
+
+
+Collectively, these datasets represent significant strides in advancing phone automation and GUI-based agent research. They address various challenges, from language grounding and task feasibility to large-scale device control and cross-app navigation. By providing rich annotations and diverse scenarios, they enable the training and evaluation of more capable, robust, and generalizable agents, moving closer to the goal of intelligent and autonomous phone automation solutions.
+
+\subsection{Benchmarks}
+\label{subsec:benchmarks}
+
+The development of mobile GUI-based agents is not only reliant on the availability of diverse datasets but is also significantly influenced by the presence of robust benchmarks. These benchmarks offer standardized environment, tasks, and evaluation metrics, which are essential for consistently and reproducibly assessing the performance of agents. They enable researchers to compare different models and approaches under identical conditions, thus facilitating collaborative progress. In this subsection, we will review some of the notable benchmarks that have been introduced to evaluate phone GUI agents, highlighting their unique features and contributions. A summary of these benchmarks is provided in Table~\ref{tab:benchmarks}, which allows for a comparative understanding of their characteristics.
+
+\begin{table*}[!ht]
+    \centering
+    \renewcommand\arraystretch{1.2} % 增加行高以提高可读性
+    \caption{Summary of benchmarks for phone GUI agents}
+    \resizebox{\textwidth}{!}{ % 调整表格宽度以适应页面宽度
+    \begin{tabular}{l c c c c c c c c c c}
+    \toprule
+    \textbf{Benchmark} & \textbf{Date} & \textbf{Tasks} & \textbf{\makecell[c]{Task \\Completion}} & \textbf{\makecell[c]{Action \\Quality}} & \textbf{\makecell[c]{Resource \\Efficiency}} & \textbf{\makecell[c]{Task Under-\\standing}} & \textbf{\makecell[c]{Format \\Compliance}} & \textbf{\makecell[c]{Completion \\Awareness}} & \textbf{Reward} & \textbf{\makecell[c]{Eval \\Accuracy}} \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/X-LANCE/Mobile-Env}{MobileEnv}}\\~\cite{zhang2023mobileenv} \githubicon{https://github.com/X-LANCE/Mobile-Env}} & 2023.05 & 74 & \greencheck & \redcross & \redcross & \redcross & \redcross & \redcross & \greencheck & \redcross \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/MobileLLM/AutoDroid}{AutoDroid}}\\~\cite{wen2024autodroid} \githubicon{https://github.com/MobileLLM/AutoDroid}} & 2023.09 & N/A & \greencheck & \greencheck & \redcross & \redcross & \redcross & \redcross & \redcross & \redcross \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/AndroidArenaAgent/AndroidArena}{AndroidArena}}\\~\cite{xing2024AndroidArena} \githubicon{https://github.com/AndroidArenaAgent/AndroidArena}} & 2024.02 & N/A & \greencheck & \greencheck & \greencheck & \greencheck & \greencheck & \greencheck & \greencheck & \redcross \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/llamatouch/llamatouch}{LlamaTouch}}\\~\cite{zhang2024llamatouch} \githubicon{https://github.com/llamatouch/llamatouch}} & 2024.04 & 496 & \greencheck & \greencheck & \redcross & \greencheck & \redcross & \greencheck & \redcross & \greencheck \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://b-moca.github.io/}{B-MoCA}}\\~\cite{lee2024BMoCA} \githubicon{https://b-moca.github.io/}} & 2024.04 & 131 & \greencheck & \redcross & \greencheck & \redcross & \redcross & \redcross & \redcross & \redcross \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/google-research/android_world}{AndroidWorld}}\\~\cite{rawles2024androidworld} \githubicon{https://github.com/google-research/android_world}} & 2024.05 & 116 & \greencheck & \redcross & \redcross & \redcross & \redcross & \redcross & \greencheck & \redcross \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/MobileAgentBench/mobile-agent-bench}{MobileAgent}}\\ \textbf{\href{https://github.com/MobileAgentBench/mobile-agent-bench}{Bench}}\,\cite{wang2024mobileagentbench}\,\githubicon{https://github.com/MobileAgentBench/mobile-agent-bench}} & 2024.06 & 100 & \greencheck & \greencheck & \greencheck & \redcross & \redcross & \redcross & \greencheck & \greencheck \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/bz-lab/AUITestAgent/}{AUITestAgent}}\\ ~\cite{hu2024auitestagent}\,\githubicon{https://github.com/bz-lab/AUITestAgent/}}  & 2024.07 & N/A & \greencheck & \greencheck & \redcross & \greencheck & \greencheck & \greencheck & \greencheck & \greencheck \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/THUDM/VisualAgentBench}{VisualAgent}}\\ \textbf{\href{https://github.com/THUDM/VisualAgentBench}{Bench}}\,\cite{liu2024visualagentbench}\,\githubicon{https://github.com/THUDM/VisualAgentBench}} & 2024.08 & 119 & \greencheck & \redcross & \greencheck & \redcross & \redcross & \redcross & \redcross & \redcross \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/ltzheng/agent-studio}{AgentStudio}}\\~\cite{zheng2024agentstudio} \githubicon{https://github.com/ltzheng/agent-studio}} & 2024.10 & 205 & \greencheck & \greencheck & \redcross & \greencheck & \redcross & \greencheck & \greencheck & \greencheck \\
+    \midrule
+    \makecell[l]{\textbf{\href{https://github.com/THUDM/Android-Lab}{AndroidLab}}\\~\cite{xu2024androidlab} \githubicon{https://github.com/THUDM/Android-Lab}} & 2024.11 & 138 & \greencheck & \greencheck & \greencheck & \greencheck & \redcross & \redcross & \greencheck & \greencheck \\
+    \midrule
+    \textbf{\href{https://yuxiangchai.github.io/Android-Agent-Arena/}{A3}}~\cite{chai2025a3} \githubicon{https://yuxiangchai.github.io/Android-Agent-Arena/} & 2025.01 & 201 & \greencheck & \redcross & \redcross & \redcross & \redcross & \redcross & \greencheck & \greencheck \\
+    \bottomrule
+    \end{tabular}
+    } % 结束 resizebox
+    \label{tab:benchmarks}
+\end{table*}
+
+
+
+\subsubsection{Evaluation Pipelines}
+
+Early benchmarks in the field of phone GUI agents focused on creating controlled environment for training and evaluating these agents. MobileEnv~\cite{zhang2023mobileenv}, for example, introduced a universal platform for the training and evaluation of mobile interactions. It provided an isolated and controllable setting, with support for intermediate instructions and rewards. This emphasis on reliable evaluations and the ability to more naturally reflect real-world usage scenarios was a significant step forward.
+
+To address the challenges presented by the complexities of modern operating systems and their vast action spaces, AndroidArena~\cite{xing2024AndroidArena} was developed. This benchmark was designed to evaluate large language model (LLM) agents within a complex Android environment. It introduced scalable and semi-automated methods for benchmark construction, with a particular focus on cross-application collaboration and user constraints such as security concerns.
+
+Current research primarily focuses on the overall task success rate and often overlooks the evaluation of core capabilities such as GUI grounding of agents in real-world scenarios. AgentStudio~\cite{zheng2024agentstudio} provides a comprehensive platform that spans the entire development cycle, from environment setup and data collection to agent evaluation and visualization. AgentStudio also introduces three benchmark datasets: GroundUI, IDMBench, and CriticBench. These datasets are designed to evaluate agents' capabilities in GUI grounding, learning from videos, and success detection, respectively. Additionally, it introduces a benchmark suite comprising 205 real-world tasks to comprehensively evaluate agents' practical capabilities from multiple perspectives.
+
+
+Recognizing the limitations in scalability and faithfulness of existing evaluation approaches, LlamaTouch~\cite{zhang2024llamatouch} presented a novel testbed. This testbed enabled on-device mobile UI task execution and provided a means for faithful and scalable task evaluation. It introduced fine-grained UI component annotation and a multi-level application state matching algorithm. These features allowed for the accurate detection of critical information in each screen, enhancing the evaluation's accuracy and adaptability to dynamic UI changes.
+
+B-MoCA~\cite{lee2024BMoCA} expanded the focus of benchmarking to include mobile device control agents across diverse configurations. By incorporating a randomization feature that could change device configurations such as UI layouts and language settings, B-MoCA was able to more effectively assess agents' generalization performance. It provided a realistic benchmark with 131 practical tasks, highlighting the need for agents to handle a wide range of real-world scenarios.
+
+To provide a dynamic and reproducible environment for autonomous agents, AndroidWorld~\cite{rawles2024androidworld} introduced an Android environment with 116 programmatic tasks across 20 real-world apps. This benchmark emphasized the importance of ground-truth rewards and the ability to dynamically construct tasks that were parameterized and expressed in natural language. This enabled testing on a much larger and more realistic suite of tasks.
+
+For the specific evaluation of mobile LLM agents, MobileAgentBench~\cite{wang2024mobileagentbench} proposed an efficient and user-friendly benchmark. It addressed challenges in scalability and usability by offering 100 tasks across 10 open-source apps. The benchmark also simplified the extension process for developers and ensured that it was fully autonomous and reliable.
+
+In the domain of GUI function testing, AUITestAgent~\cite{hu2024auitestagent} introduced the first automatic, natural language-driven GUI testing tool for mobile apps. By decoupling interaction and verification into separate modules and employing a multi-dimensional data extraction strategy, it enhanced the automation and accuracy of GUI testing. The practical usability of this tool was demonstrated in real-world deployments.
+
+AndroidLab~\cite{xu2024androidlab} presented a systematic Android agent framework. This framework included an operation environment with different modalities and a reproducible benchmark. Supporting both LLMs and large multimodal models (LMMs), it provided a unified platform for training and evaluating agents. Additionally, it came with an Android Instruction dataset that significantly improved the performance of open-source models.
+
+Finally, to evaluate the practical performance of mobile GUI agents in complex real-world environments, VisualAgentBench~\cite{liu2024visualagentbench} constructs a series of cross-domain tasks. This benchmark examines the agents' abilities in dynamic interaction and decision-making and provides abundant training trajectory data to support further performance improvement via behavior cloning. A3 (Android Agent Arena)~\cite{chai2025a3} integrates 201 tasks from 21 widely-used third-party applications, covering common real-world user scenarios. It supports an extended action space compatible with any dataset annotation style. Additionally, the use of business-level LLMs automates task evaluation, reducing the need for manual assessment and enhancing scalability.
+
+
+Collectively, these benchmarks have made substantial contributions to the advancement of phone GUI agents. They have achieved this by providing diverse environment, tasks, and evaluation methodologies. They have addressed various challenges, including scalability, reproducibility, generalization across configurations, and the integration of advanced models like LLMs and LMMs. By facilitating rigorous testing and comparison, they have played a crucial role in driving the development of more capable and robust phone GUI agents.
+
+\subsubsection{Evaluation Metrics}
+\label{subsec:eval_metrics}
+
+Evaluation metrics are crucial for measuring the performance of phone GUI agents, providing quantitative indicators of their effectiveness, efficiency, and reliability. This section categorizes and explains the various metrics used across different benchmarks based on their primary functions.
+
+\noindent\textbf{Task Completion Metrics.}
+Task Completion Metrics assess how effectively an agent finishes assigned tasks. \emph{Task Completion Rate} indicates the proportion of successfully finished tasks, with AndroidWorld~\cite{rawles2024androidworld} exemplifying its use for real-device assessments. \emph{Sub-Goal Success Rate} further refines this by examining each sub-goal within a larger task, as employed by AndroidLab~\cite{xu2024androidlab}, making it particularly relevant for complex tasks that require segmentation. \emph{End-to-end Task Completion Rate}, used by LlamaTouch~\cite{zhang2024llamatouch}, offers a holistic measure of whether an agent can see an entire multi-step task through to completion without interruption.
+
+\noindent\textbf{Action Execution Quality Metrics.}
+These metrics evaluate the agent’s precision and correctness when performing specific actions. \emph{Action Accuracy}, adopted by AUITestAgent~\cite{hu2024auitestagent} and AutoDroid~\cite{zhang2023youautoui}, compares each executed action to the expected one. \emph{Correct Step} measures the fraction of accurate steps in an action sequence, whereas \emph{Correct Trace} quantifies the alignment of the entire action trajectory with the ground truth. \emph{Operation Logic} checks if the agent follows logical procedures to meet task objectives, as AndroidArena~\cite{xing2024AndroidArena} demonstrates. \emph{Reasoning Accuracy}, highlighted in AUITestAgent~\cite{hu2024auitestagent}, gauges how well the agent logically interprets and responds to task requirements.
+
+\noindent\textbf{Resource Utilization and Efficiency Metrics.}
+These indicators measure how efficiently an agent handles system resources and minimizes redundant operations. \emph{Resource Consumption}, tracked by AUITestAgent~\cite{hu2024auitestagent} via Completion Tokens and Prompt Tokens, reveals how much computational cost is incurred. \emph{Step Efficiency}, applied by AUITestAgent and MobileAgentBench~\cite{wang2024mobileagentbench}, compares actual steps to an optimal lower bound, while \emph{Reversed Redundancy Ratio}, used by AndroidArena~\cite{xing2024AndroidArena} and AndroidLab~\cite{xu2024androidlab}, evaluates unnecessary detours in the action path.
+
+\noindent\textbf{Task Understanding and Reasoning Metrics.}
+These metrics concentrate on the agent’s comprehension and analytical skills. \emph{Oracle Accuracy} and \emph{Point Accuracy}, used by AUITestAgent~\cite{hu2024auitestagent}, assess how well the agent interprets task instructions and verification points. \emph{Reasoning Accuracy} indicates the correctness of the agent’s logical deductions during execution, and \emph{Nuggets Mining}, employed by AndroidArena~\cite{xing2024AndroidArena}, measures the ability to extract key contextual information from the UI environment.
+
+\noindent\textbf{Format and Compliance Metrics.}
+These metrics verify whether the agent operates within expected format constraints. \emph{Invalid Format} and \emph{Invalid Action}, for example, are tracked in AndroidArena~\cite{xing2024AndroidArena} to confirm that an agent’s outputs adhere to predefined structures and remain within permissible action ranges.
+
+\noindent\textbf{Completion Awareness and Reflection Metrics.}
+Such metrics evaluate the agent’s recognition of task boundaries and its capacity to learn from prior steps. \emph{Awareness of Completion}, explored in AndroidArena~\cite{xing2024AndroidArena}, ensures the agent terminates at the correct time. \emph{Reflexion@K} measures adaptive learning by examining how effectively the agent refines its performance over multiple iterations.
+
+\noindent\textbf{Evaluation Accuracy and Reliability Metrics.}
+These indicators measure the consistency and reliability of the evaluation process. \emph{Accuracy}, as used in LlamaTouch~\cite{zhang2024llamatouch}, validates alignment between the evaluation approach and manual verification, ensuring confidence in performance comparisons across agents.
+
+\noindent\textbf{Reward and Overall Performance Metrics.}
+These metrics combine various performance facets into aggregated scores. \emph{Task Reward}, employed by AndroidArena~\cite{xing2024AndroidArena}, provides a single effectiveness measure encompassing several factors. \emph{Average Reward}, used in MobileEnv~\cite{zhang2023mobileenv}, further reflects consistent performance across multiple tasks, indicating the agent’s stability and reliability.
+
+These evaluation metrics together provide a comprehensive framework for assessing various dimensions of phone GUI agents. They cover aspects such as effectiveness, efficiency, reliability, and the ability to adapt and learn. By using these metrics, benchmarks can objectively compare the performance of different agents and systematically measure improvements. This enables researchers to identify strengths and weaknesses in different agent designs and make informed decisions about future development directions.

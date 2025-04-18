@@ -1,0 +1,207 @@
+\tikzstyle{my-box}=[
+    rectangle,
+    draw=hidden-draw,
+    rounded corners,
+    text opacity=1,
+    minimum height=1.5em,
+    minimum width=5em,
+    inner sep=2pt,
+    align=center,
+    fill opacity=.5,
+    line width=0.8pt,
+]
+\tikzstyle{leaf}=[my-box, minimum height=1.5em,
+    fill=hidden-pink!80, text=black, align=left, font=\normalsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+    line width=0.8pt,
+]
+\begin{figure*}[t]
+    \centering
+    \resizebox{0.94\textwidth}{!}{
+        \begin{forest}
+            forked edges,
+            for tree={
+                fill=level0!80,
+                grow=east,
+                reversed=true,
+                anchor=base west,
+                parent anchor=east,
+                child anchor=west,
+                base=left,
+                font=\large,
+                rectangle,
+                draw=hidden-draw,
+                rounded corners,
+                align=left,
+                minimum width=4em,
+                edge+={darkgray, line width=1pt},
+                s sep=3pt,
+                inner xsep=2pt,
+                inner ysep=3pt,
+                line width=0.8pt,
+                ver/.style={rotate=90, child anchor=north, parent anchor=south, anchor=center},
+            },
+            where level=1{text width=9em,font=\normalsize,fill=level1!80,}{},
+            where level=2{text width=8em,font=\normalsize,fill=level2!80,}{},
+            where level=3{text width=9em,font=\normalsize,fill=level3!60,}{},
+            where level=4{text width=5em,font=\normalsize,}{},
+            [
+                Large Models for \\ Time Series and \\ Spatio-Temporal Data
+                [
+                    Large Models for \\ Time Series Data  \\ (\shortautoref{sec: Large Models for Time Series Data})
+                    [
+                        LLMs for Time \\ Series Data
+                        [
+                            General-Purpose 
+                            [ 
+                                \textbf{Forecasting: } Time-LLM~\cite{jin2023timellm}{, } OFA~\cite{zhou2023one}{, }\\ 
+                                PromptCast~\cite{xue2022promptcast}{, } TEMPO~\cite{cao2023tempo}{, } TEST~\cite{sun2023test} 
+                                {, }\\ LLM4TS~\cite{chang2023llm4ts}{, } LLMTime~\cite{gruver2023large},leaf, text width=22em
+                            ]
+                            [ 
+                                \textbf{Other Tasks: } OFA~\cite{zhou2023one}{, } TEST~\cite{sun2023test} 
+                                , leaf, text width=16.5em
+                            ]
+                        ]
+                        [
+                            Domain-Specific
+                            [   
+                                \textbf{Transportation: } %TrafficBERT~\cite{jin2021trafficbert}{, } TSSN~\cite{hou2022masked}{, } \\ST-GSP~\cite{zhao2022st}{, } 
+                                AuxMobLCast~\cite{xue2022leveraging}
+                                , leaf, text width=17em
+                            ]
+                            [   
+                                \textbf{Finance: }Yu \textit{et al.}~\cite{yu2023temporal}{, } Xie \textit{et al.}~\cite{xie2023wall}{, } \\
+                                 Instruct-FinGPT~\cite{zhang2023instruct}{, } Lopez-Lira \textit{et al.}~\cite{lopez2023can}
+                                , leaf, text width=20em
+                            ]
+                            [   
+                                \textbf{Event Prediction:} LAMP ~\cite{shi2023language}
+                                , leaf, text width=14em
+                            ]
+                            [   
+                                \textbf{Healthcare:} Liu \textit{et al.}~\cite{liu2023large}{, }NYUTron~\cite{jiang2023health}{, } \\ GatorTron~\cite{yang2022large}{, } METS~\cite{li2023frozen}
+                                , leaf, text width=19em
+                            ]
+                        ]
+                    ]
+                    [
+                        PFMs for Time \\ Series Data
+                        [
+                            General-Purpose
+                            [
+                                \textbf{Forecasting:} MTSMAE~\cite{tang2022mtsmae}{, } STEP~\cite{shao2022pre}{, } PatchTST~\cite{nie2022time}{, } \\TSMixer~\cite{ekambaram2023tsmixer}{, } TS2Vec~\cite{yue2022ts2vec}{,} SimMTM~\cite{dong2023simmtm}
+                                , leaf, text width=26em
+                            ]
+                            [
+                                \textbf{Classification:} Voice2Series~\cite{yang2021voice2series}{, } TF-C~\cite{zhang2022self}{, } \\CLUDA~\cite{ozyurt2022contrastive}{, } TS2Vec~\cite{yue2022ts2vec}{,} SimMTM~\cite{dong2023simmtm}
+                                , leaf, text width=20em   
+                            ]
+                            [
+                                \textbf{Other Tasks:} TS2Vec~\cite{yue2022ts2vec}{,} SimMTM~\cite{dong2023simmtm}
+                                , leaf, text width=18.5em   
+                            ]
+                        ]
+                        [
+                            Domain-Specific
+                            % [
+                            %     \textbf{Climate:} MetePFL~\cite{chen2023prompt}{, } FedWing~\cite{chen2023spatial}
+                            %     , leaf, text width=18.5em
+                            % ]
+                            [
+                                \textbf{Event Prediction:} PromptTPP~\cite{xue2023prompttpp}
+                                , leaf, text width=17em
+                            ]
+                        ]
+                    ]
+                ]
+                [                
+                    Large Models for \\ Spatio-Temporal \\ Data (\shortautoref{sec: Large Models for Spatio-Temporal Data})
+                    [
+                        LLMs for Spatio-\\Temporal Data
+                        [
+                            Spatio-Temporal \\Graphs
+                            % [
+                            %     \textbf{Reasoning:} Graph-ToolFormer~\cite{zhang2023graph} 
+                            %     , leaf, text width=15em
+                            % ]
+                            [
+                                \textbf{Action Recognition:}  LA-GCN~\cite{xu2023language}
+                                , leaf, text width=17em
+                            ]
+                            [
+                                \textbf{Finance:} Chen \textit{et al.}~\cite{chen2023chatgpt}
+                                , leaf, text width=11.5em
+                            ]
+                        ]
+                        [
+                            Temporal \\Knowledge Graphs
+                            [
+                                \textbf{Completion:} PPT~\cite{xu2023pre}{, } Chen \textit{et al.}~\cite{chen2023knowledge}
+                                , leaf, text width=18.5em
+                            ]
+                            [
+                                \textbf{Forecasting:} Lee \textit{et al.}~\cite{lee2023temporal}
+                                , leaf, text width=12.5em
+                            ]
+                        ]
+                        [
+                            Video Data
+                            [
+                                \textbf{Captioning:} Vid2Seq~\cite{yang2023vid2seq}
+                                , leaf, text width=12em
+                            ]
+                            [
+                                \textbf{Video Q\&A:} FrozenBiLM~\cite{yang2022zero}{, } R2A~\cite{pan2023retrieving}{, } \\VideoChat~\cite{li2023videochat}{, } MovieChat~\cite{song2023moviechat}{, } CaKE-LM~\cite{su2023language}{, }
+                                , leaf, text width=24em
+                            ]
+                            [
+                                \textbf{Other Tasks:} VidIL~\cite{wang2022language}{, } VideoLLM~\cite{chen2023videollm}{, } Valley~\cite{luo2023valley}{, } \\Video-LLaMA~\cite{zhang2023video}{, } LAVILA~\cite{zhao2023learning}{, } LAVENDER~\cite{li2023lavender}
+                                , leaf, text width=25.5em
+                            ]
+                        ]
+                    ]
+                    [
+                        PFMs for Spatio-\\Temporal Data
+                        [
+                            Spatio-Temporal \\Graphs
+                            [
+                                \textbf{Climate:} FourCastNet~\cite{pathak2022fourcastnet}{, } 
+                                MetePFL~\cite{chen2023prompt}{, }
+                                FedWing~\cite{chen2023spatial}{, }
+                                \\ClimaX~\cite{nguyen2023climax}{, }
+                                FengWu~\cite{chen2023fengwu}{, }
+                                Pangu-Weather~\cite{bi2023accurate}{, }
+                                W-MAE~\cite{man2023w}
+                                , leaf, text width=30em
+                            ]
+                            [
+                                \textbf{Transportation:} CPPBTR~\cite{duan2019pre}{, }
+                                % BDSTN~\cite{cao2021bert}{, }
+                                TrafficBERT~\cite{jin2021trafficbert}{, }
+                                TFM~\cite{wang2023building}
+                                , leaf, text width=28em
+                            ]
+                        ]
+                        [
+                            Video Data
+                            [
+                                \textbf{Multiple tasks:} mPLUG-2~\cite{xu2023mplug}{, }
+                                OmniVL~\cite{wang2022omnivl}{, }
+                                \\mPLUG-video~\cite{xu2023youku}{, }
+                                PAXION~\cite{wang2023paxion}
+                                , leaf, text width=22em
+                            ]
+                        ]
+                      ]
+                    ]
+                ]
+            ]
+        \end{forest}
+    }
+    % \vspace{-1mm}
+\caption{A comprehensive taxonomy of large language models for phone automation.}
+\vspace{-2mm}
+\label{fig:Taxonomy}
+\end{figure*}

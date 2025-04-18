@@ -1,0 +1,199 @@
+% Define tikz styles and colors
+\definecolor{level0}{RGB}{240,240,240}
+\definecolor{level1}{RGB}{220,220,220}
+\definecolor{level2}{RGB}{200,200,200}
+\definecolor{level3}{RGB}{180,180,180}
+
+\tikzstyle{my-box}=[
+    rectangle,
+    draw=black,
+    rounded corners,
+    text opacity=1,
+    minimum height=1.5em,
+    minimum width=5em,
+    inner sep=2pt,
+    align=center,
+    fill opacity=.5,
+    line width=0.8pt,
+]
+
+\tikzstyle{leaf}=[my-box,
+    fill=blue!20, text=black, align=left, font=\normalsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+    line width=0.8pt,
+]
+
+% Drawing the mind map
+\begin{figure*}[t]
+    \centering
+    \resizebox{0.94\textwidth}{!}{
+        \begin{forest}
+            forked edges,
+            for tree={
+                fill=level0,
+                grow=east,
+                reversed=true,
+                anchor=base west,
+                parent anchor=east,
+                child anchor=west,
+                base=left,
+                font=\large,
+                rectangle,
+                draw=black,
+                rounded corners,
+                align=left,
+                minimum width=4em,
+                edge+={darkgray, line width=1pt},
+                s sep=3pt,
+                inner xsep=2pt,
+                inner ysep=3pt,
+                line width=0.8pt,
+            },
+            where level=1{text width=12em,font=\normalsize,fill=level1}{},
+            where level=2{text width=12em,font=\normalsize,fill=level2}{},
+            where level=3{text width=12em,font=\normalsize,fill=level3}{},
+            where level=4{text width=12em,font=\normalsize}{},
+            [
+                Large Language Models for \\ Phone Automation
+                [
+                    Training-based Methods
+                    [
+                        GUI-Specific VLM Architectures
+                        [
+                            General-Purpose
+                            [
+                                Auto-GUI~\cite{zhang2023you}, leaf, text width=15em
+                            ]
+                            [
+                                CogAgent~\cite{hong2024cogagent}, leaf, text width=15em
+                            ]
+                            [
+                                ScreenAI~\cite{baechler2024screenai}, leaf, text width=15em
+                            ]
+                            [
+                                CoCo-Agent~\cite{ma2024coco}, leaf, text width=15em
+                            ]
+                            [
+                                MobileFlow~\cite{nong2024mobileflow}, leaf, text width=15em
+                            ]
+                        ]
+                        [
+                            Domain-Specific
+                            [
+                                WebVLN~\cite{chen2023webvln}, leaf, text width=15em
+                            ]
+                            [
+                                Ferret-UI~\cite{you2024ferret}, leaf, text width=15em
+                            ]
+                            [
+                                UI-Hawk~\cite{zhang2024uihawk}, leaf, text width=15em
+                            ]
+                            [
+                                LVG~\cite{wang2024visual}, leaf, text width=15em
+                            ]
+                            [
+                                ScreenAI~\cite{chen2024screenai}, leaf, text width=15em
+                            ]
+                        ]
+                    ]
+                    [
+                        Supervised Fine-Tuning \\ for GUI Tasks
+                        [
+                            General-Purpose
+                            [
+                                SeeClick~\cite{zhang2024seeclick}, leaf, text width=15em
+                            ]
+                            [
+                                GUICourse~\cite{li2024guicourse}, leaf, text width=15em
+                            ]
+                            [
+                                GUI Odyssey~\cite{zhou2024guiodyssey}, leaf, text width=15em
+                            ]
+                            [
+                                TinyClick~\cite{smith2024tinyclick}, leaf, text width=15em
+                            ]
+                        ]
+                        [
+                            Domain-Specific
+                            [
+                                ReALM~\cite{das2024realm}, leaf, text width=15em
+                            ]
+                            [
+                                IconDesc~\cite{smith2024inferring}, leaf, text width=15em
+                            ]
+                        ]
+                    ]
+                    [
+                        Reinforcement Learning \\ for Phone Agents
+                        [
+                            ScreenAgent~\cite{li2024screenagent}, leaf, text width=15em
+                        ]
+                        [
+                            ETO~\cite{zhang2024trial}, leaf, text width=15em
+                        ]
+                        [
+                            AutoWebGLM~\cite{li2024autowebglm}, leaf, text width=15em
+                        ]
+                        [
+                            GLAINTEL~\cite{shen2024search}, leaf, text width=15em
+                        ]
+                        [
+                            DigiRL~\cite{bai2024digirl}, leaf, text width=15em
+                        ]
+                        [
+                            Agent Q~\cite{zhang2024agentq}, leaf, text width=15em
+                        ]
+                        [
+                            DistRL~\cite{liu2024distrl}, leaf, text width=15em
+                        ]
+                    ]
+                ]
+                [
+                    Prompt Engineering
+                    [
+                        General-Purpose
+                        [
+                            DroidBot-GPT~\cite{wen2023droidbot}, leaf, text width=15em
+                        ]
+                        [
+                            GPT-4V in Wonderland~\cite{yan2023gpt}, leaf, text width=15em
+                        ]
+                        [
+                            AppAgent~\cite{zhang2023appagent}, leaf, text width=15em
+                        ]
+                        [
+                            Mobile-Agent~\cite{wang2024mobileagentv1}, leaf, text width=15em
+                        ]
+                        [
+                            Mobile-Agent-v2~\cite{wang2024mobileagentv2}, leaf, text width=15em
+                        ]
+                        [
+                            MobileExperts~\cite{zhang2024mobileexperts}, leaf, text width=15em
+                        ]
+                        [
+                            OmniParser~\cite{lu2024omniparser}, leaf, text width=15em
+                        ]
+                    ]
+                    [
+                        Domain-Specific
+                        [
+                            Navigating Interfaces \\ with AI~\cite{song2023navigating}, leaf, text width=15em
+                        ]
+                        [
+                            AXNav~\cite{taeb2024axnav}, leaf, text width=15em
+                        ]
+                        [
+                            Security Matrix for \\ Multimodal Agents~\cite{yang2024security}, leaf, text width=15em
+                        ]
+                        [
+                            Vision-Driven Automated \\ Mobile GUI Testing~\cite{liu2024vision}, leaf, text width=15em
+                        ]
+                    ]
+                ]
+            ]
+        \end{forest}
+    }
+    \caption{Overview of Large Language Models for Phone Automation}
+    \label{fig:models_overview}
+\end{figure*}

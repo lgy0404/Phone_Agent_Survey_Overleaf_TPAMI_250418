@@ -1,0 +1,290 @@
+% Define tikz styles and colors
+\definecolor{level0}{RGB}{240,240,240}
+\definecolor{level1}{RGB}{220,220,220}
+\definecolor{level2}{RGB}{200,200,200}
+\definecolor{level3}{RGB}{180,180,180}
+\definecolor{level4}{RGB}{160,160,160}
+\definecolor{level5}{RGB}{140,140,140}
+\definecolor{skyblue}{RGB}{238,91,118}
+
+\newcommand{\customfontsize}{\fontsize{6pt}{7pt}\selectfont}
+
+\tikzstyle{my-box}= [
+    rectangle,
+    draw=skyblue,
+    rounded corners,
+    text opacity=1,
+    minimum height=1.5em,
+    minimum width=5em,
+    inner sep=2pt,
+    align=center,
+    fill opacity=.5,
+]
+% define the style for leaf
+\tikzstyle{leaf}=[my-box, minimum height=1.5em,
+    fill=skyblue!40, text=black, align=left,font=\customfontsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+]
+\begin{figure*}[h!]
+
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{forest}
+            forked edges,
+            for tree={
+                grow=east,
+                reversed=true,
+                anchor=base west,
+                parent anchor=east,
+                child anchor=west,
+                base=left,
+                font=\scriptsize,
+                rectangle,
+                draw=skyblue,
+                rounded corners,
+                align=left,
+                minimum width=4em,
+                edge+={darkgray, line width=1pt},
+                s sep=3pt,
+                inner xsep=2pt,
+                inner ysep=3pt,
+                ver/.style={rotate=90, child anchor=north, parent anchor=south, anchor=center},
+            },
+            where level=1{text width=4.5em,font=\customfontsize,}{},
+            where level=2{text width=6.7em,font=\customfontsize,}{},
+            where level=3{text width=6.7em,font=\customfontsize,}{},
+            where level=4{text width=4.8em,font=\customfontsize,}{},
+            where level=5{text width=4.6em,font=\customfontsize,}{}
+            [
+        LLM-Powered GUI Agents in Phone Automation, ver
+        [
+    Frameworks\\ (\S \ref{sec:frameworks}), text width=3.5em
+    [
+        Single-Agent\\ (\S \ref{subsec:perception} - \S \ref{subsec:action})
+        [
+            \eg DroidBot-GPT~\cite{wen2023droidbot}{, }
+            Enabling Conversational~\cite{wang2023enabling}{, }
+            AutoDroid~\cite{wen2024autodroid}{, }
+            LLMPA~\cite{guan2023intelligent}{, }
+            TOL Agent~\cite{fan2024readpointedlayoutawaregui}{, }\\
+            MM-Navigator~\cite{yan2023gpt}{, } 
+            MobileGPT~\cite{lee2023exploremobilegpt}{, }
+            CogAgent~\cite{hong2024cogagent}{, }
+            OmniParser~\cite{lu2024omniparser}{, }
+            GUI Narrator~\cite{wu2024gui}{, }
+            MobileVLM~\cite{wu2024mobilevlm}{, }\\
+            AppAgent~\cite{zhang2023appagent}{, } 
+            AppAgent v2~\cite{li2024appagentv2}{, }
+            Auto-GUI~\cite{zhang2023youautoui}{, }
+            ScreenAI~\cite{baechler2024screenai}{, }
+            CoCo-agent~\cite{ma2024coco}, leaf, text width=34.8em
+        ]
+    ]
+    [
+        Multi-Agent\\ (\S \ref{subsec:mult_agent})
+        [
+            Role-Coordinated\\ (\S \ref{subsubsec: Role-Coordinated Multi-Agent})
+            [
+                \eg MMAC-Copilot~\cite{song2024mmac}{, }
+                Cradle~\cite{tan2024cradle}{, }
+                Mobile-Agent-v2~\cite{wang2024mobileagentv2}{, }
+                Mobile-Agent-E~\cite{wang2025mobile}{, }\\
+                PromptRPA~\cite{huang2024promptrpa}{, }
+                Ask-before-Plan~\cite{zhang2024ask}, leaf, text width=26.4em
+            ]
+        ]
+        [
+            Scenario-Based\\ (\S \ref{subsubsec: Scenario-Based Task Execution})
+            [
+                \eg MobileExperts\cite{zhang2024mobileexperts}{, }SteP~\cite{sodhi2024step}, leaf, text width=26.4em
+            ]
+        ]
+    ]
+    [
+        Plan-Then-Act \\ (\S \ref{subsec:plan_then_act})
+        [
+            \eg SeeAct~\cite{zheng2024gpt}{, }
+            UGround~\cite{gou2024navigating}{, }
+            LiMAC~\cite{christianos2024lightweight}{, }
+            ClickAgent~\cite{hoscilowicz2024clickagent}{, }
+            Ponder \& Press~\cite{wang2024ponder}, leaf, text width=34.8em
+        ]
+    ]
+]
+        [
+    Models \\ (\S \ref{sec:models}), text width=3.5em
+    [
+        Prompt Engineering \\ (\S\ref{subsec:prompt_engineering})
+        [
+            Text-Based Prompt \\ (\S \ref{subsubsec: Text-Based Prompt}) 
+            [
+                \eg MobileGPT~\cite{lee2023exploremobilegpt}{, }
+                AutoDroid~\cite{wen2024autodroid}{, }
+                DroidBot-GPT~\cite{wen2023droidbot}{, }
+                Enabling conversational~\cite{wang2023enabling}{, }\\
+                PromptRPA~\cite{huang2024promptrpa}{, }
+                AXNav~\cite{taeb2024axnav}, leaf, text width=26.4em
+            ]
+        ]
+        [
+            Multimodal Prompt \\ (\S \ref{subsubsec: Multimodal Prompt})
+            [
+                \eg Mobile-Agent~\cite{wang2024mobileagentv1}{, } 
+                OmniParser~\cite{lu2024omniparser}{, } 
+                VisionDroid ~\cite{liu2024vision}{, } 
+                AppAgent~\cite{zhang2023appagent}{, }\\
+                MM-Navigator~\cite{yan2023gpt}{, }
+                MobileExperts~\cite{zhang2024mobileexperts}{, }
+                VisionTasker~\cite{song2024visiontasker}{, }
+                AppAgent v2~\cite{li2024appagentv2}{, }\\
+                GUI Narrator~\cite{wu2024gui}{, }
+                Mobile-Agent-v2~\cite{wang2024mobileagentv2}{, }
+                Mobile-Agent-E~\cite{wang2025mobile}, leaf, text width=26.4em
+            ]
+        ]
+    ]
+    [
+        Training-based Methods\\ (\S\ref{subsec:training_based})
+        [
+            Task-Specific Model \\ Architectures
+            \\ (\S \ref{subsubsec:task_specific_model_architectures})
+            [
+                General-Purpose
+                [
+                    \eg Auto-GUI~\cite{zhang2023youautoui}{, }
+                    CogAgent~\cite{hong2024cogagent}{, }
+                    ScreenAI~\cite{baechler2024screenai}{, }
+                    CoCo-Agent~\cite{ma2024coco}{, }\\
+                    MobileFlow~\cite{nong2024mobileflow}{, }
+                    ShowUI~\cite{lin2024showui}{, }
+                    Aguvis~\cite{xu2024aguvis}{, }
+                    UI-TARS~\cite{qin2025ui}, leaf, text width=20em
+                ]
+            ]
+            [
+                Phone UI-Specific
+                [
+                    UI Grounding
+                    [
+                        \eg MUG~\cite{li2022mug}{, }
+                        LVG~\cite{qian2024visualgrounding}{, }
+                        UI-Hawk~\cite{zhang2024ui-hawk}{, }\\
+                        Aria-UI~\cite{yang2024aria}{, } 
+                        OS-Atlas~\cite{wu2024atlas}{, }
+                        GUI-Bee~\cite{fan2025gui}, leaf, text width=13.7em
+                    ]
+                ]
+                [
+                    UI Referring
+                    [
+                        \eg Ferret-UI~\cite{you2024ferret}{, }
+                        UI-Hawk~\cite{zhang2024ui-hawk}{, }\\
+                        Ferret-UI 2~\cite{li2024ferretui2masteringuniversal}{, }
+                        Textual Foresight~\cite{burns2024tell}, leaf, text width=13.7em
+                    ]
+                ]
+                [
+                    Screen Question \\
+                    Answering
+                    [
+                        \eg ScreenAI~\cite{baechler2024screenai}{, }
+                        WebVLN~\cite{chen2024webvln}{, }
+                        UI-Hawk~\cite{zhang2024ui-hawk}, leaf, text width=13.7em
+                    ]
+                ]
+            ]
+        ]
+        [
+            Supervised Fine-Tuning
+            \\ (\S\ref{subsubsec:sft})
+            [
+                \eg SeeClick~\cite{cheng2024seeclick}{, }
+                    InfiGUIAgent~\cite{liu2025infiguiagent}{, }
+                    GUICourse~\cite{chen2024guicourse}{, }
+                    Agent-R~\cite{yuan2025agent}{, }
+                    GUI Odyssey~\cite{lu2024guiodyssey}{, }\\
+                    TinyClick~\cite{pawlowski2024tinyclick}{, }
+                    MobileAgent~\cite{ding2024mobileagentsop}{, }
+                    ReALM~\cite{moniz2024realm}{, }
+                    IconDesc~\cite{haque2024infering}, leaf, text width=26.4em
+            ]
+        ]
+        [
+            Reinforcement Learning
+            \\ (\S\ref{subsubsec:rl})
+            [
+                Phone Agents
+                [
+                    \eg DigiRL~\cite{bai2024digirl}{, }
+                    DistRL~\cite{wang2024distrl}{, }
+                    AutoGLM~\cite{liu2024autoglm}{, }
+                    ReachAgent~\cite{wu2025reachagent}, leaf, text width=20em
+                ]
+            ]
+            [
+                Web Agents
+                [
+                    \eg ETO~\cite{song2024trial}{, }
+                    Agent Q~\cite{putta2024agentq}{, }
+                    AutoWebGLM~\cite{lai2024autowebglm}{, }
+                    GLAINTEL~\cite{Fereidouni_2024}, leaf, text width=20em
+                ]
+            ]
+            [
+                PC Agents
+                [
+                    \eg ScreenAgent~\cite{niu2024screenagent}{, }
+                    AssistGUI~\cite{gao2023assistgui}, leaf, text width=20em
+                ]
+            ]
+        ]
+    ]
+    ]
+    [
+        Datasets and \\ Benchmarks 
+        \\ (\S \ref{sec:datasets_and_benchmarks}), text width=3.5em
+        [
+            Datasets \\ (\S \ref{subsec:datasets})
+            [
+                \eg Rico~\cite{deka2017rico}{, }
+                RICO Semantics~\cite{sunkara2022towards}{, }
+                PixelHelp~\cite{li2020PixelHelp}{, }
+                MoTIF~\cite{burns2021motif}{, }
+                UIBert~\cite{bai2021uibert}{, }
+                Meta-GUI~\cite{sun2022metagui}{, }
+                UGIF~\cite{venkatesh2022ugif}{, }\\
+                AITW~\cite{rawles2024androidinthewild}{, }
+                AITZ~\cite{zhang2024aitz}{, }
+                GUI Odyssey~\cite{lu2024guiodyssey}{, }
+                GUI-WORLD~\cite{chen2024gui}
+                AndroidControl~\cite{li2024androidcontrol}{, }
+                AMEX~\cite{chai2024amex}{, }
+                MobileViews~\cite{gao2024mobileviews}, leaf, text width=34.8em
+            ]
+        ]
+        [
+            Benchmarks \\ (\S \ref{subsec:benchmarks})
+            [
+                \eg AutoDroid~\cite{wen2024autodroid}{, }
+                MobileEnv~\cite{zhang2023mobileenv}{, }
+                AndroidArena~\cite{xing2024AndroidArena}{, }
+                LlamaTouch~\cite{zhang2024llamatouch}{, }
+                B-MoCA~\cite{lee2024BMoCA}{, }
+                AndroidWorld~\cite{rawles2024androidworld}{, }\\
+                AUITestAgent~\cite{hu2024auitestagent}{, }
+                AgentStudio~\cite{zheng2024agentstudio}{, }
+                AndroidLab~\cite{xu2024androidlab}{, }
+                MobileAgentBench~\cite{wang2024mobileagentbench}{, }
+                VisualAgentBench~\cite{liu2024visualagentbench}{, }
+                A3~\cite{chai2025a3}, leaf, text width=34.8em
+            ]
+        ]
+    ]
+]
+    ]
+        \end{forest}
+    }
+    \caption{A comprehensive taxonomy of LLM-powered phone GUI agents in phone automation. Note that only a selection of representative works is included in this categorization.}
+    \label{fig:phone_agent_taxonomy_final}
+\end{figure*}

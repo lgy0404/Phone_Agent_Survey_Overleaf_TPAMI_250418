@@ -1,0 +1,93 @@
+\begin{table*}[htbp]
+    \centering
+    \caption{Summary of language and related pre-trained foundation models (i.e., LLMs \& PFMs) tailored for time series and spatio-temporal data modeling. For a general-purpose method without restricting itself to specific domains and tasks, the fourth column is marked as ``-''.}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{c|cccccccccc}
+    \toprule\toprule	
+    \textbf{} & \textbf{Category} & \textbf{Method} & \textbf{Scope} & \textbf{Task / Domain} & \textbf{Institute} & \textbf{Venue} & \textbf{Year} \\
+    \hline
+    \multirow{30}{*}{\rotatebox[origin=c]{90}{\textbf{Large Models for Time Series Data}}}
+    & \multirow{19}{*}{\rotatebox[origin=c]{0}{LLMs for Time Series Data}} 
+    &  OFA~\cite{zhou2023one} & General-Purposed & - & Alibaba & NeurIPS & 2023 \\
+    & & Time-LLM~\cite{jin2023timellm} & General-Purposed & Forecasting & Monash/Alibaba/Ant & arXiv & 2023 \\
+    & & PromptCast~\cite{xue2022promptcast} & General-Purposed & Forecasting & UNSW & arXiv & 2022 \\
+    & & TEST~\cite{sun2023test} & General-Purposed & - & PKU & arXiv & 2023 \\
+    & & LLM4TS~\cite{chang2023llm4ts} & General-Purposed & Forecasting & NYCU & arXiv & 2023 \\
+    & & TEMPO~\cite{cao2023tempo} & General-Purposed & Forecasting & USC/Google & arXiv & 2023 \\
+    & & LLMTime~\cite{gruver2023large} & General-Purposed & Forecasting & NYU/CMU & NeurIPS & 2023 \\
+    
+    & & AuxMobLCast~\cite{xue2022leveraging} & Domain-Specific & Transportation & UNSW & SIGSPATIAL & 2022 \\
+    & & Yu \textit{et al.}~\cite{yu2023temporal} & Domain-Specific & Finance & Amazon & arXiv & 2023 \\
+    & & Lopez-Lira \textit{et al.}~\cite{lopez2023can} & Domain-Specific & Finance & UFL & arXiv & 2023 \\
+    & & Instruct-FinGPT~\cite{zhang2023instruct} & Domain-Specific & Finance & Columbia & IJCAI & 2023 \\
+    & & Xie \textit{et al.}~\cite{xie2023wall} & Domain-Specific & Finance & WHU & arXiv & 2023 \\
+    & & Liu \textit{et al.}~\cite{liu2023large} & Domain-Specific & Healthcare & Google & arXiv & 2023 \\
+    & & METS~\cite{li2023frozen} & Domain-Specific & Healthcare & JLU/ICL & MIDL & 2023 \\
+    & & LAMP~\cite{shi2023language} & Domain-Specific & Event Prediction & Ant & NeurIPS & 2023 \\ % Siqiao: updated this item
+    & & NYUTron~\cite{jiang2023health} & Domain-Specific & Healthcare/Event Prediction & NYU Langone Health & Nature & 2023 \\
+    & & GatorTron~\cite{yang2022large} & Domain-Specific & Healthcare/Event Prediction & UFL & NPJ Digit. Med. & 2022 \\
+    & & Gunjal \& Durrett~\cite{gunjal2023drafting} & Domain-Specific & Event Prediction & UT Austin & arXiv & 2023 \\
+    & & LLM-Mob~\cite{wang2023i} & Domain-Specific & Transportation/Event Prediction & UCL/Liverpool & arXiv & 2023 \\
+    \cline{2-8}
+    & \multirow{11}{*}{\rotatebox[origin=c]{0}{PFMs for Time Series Data}} 
+    & Voice2Series~\cite{yang2021voice2series} & General-Purposed & Classification & Georgia Tech & ICML & 2021 \\
+    & & TF-C~\cite{zhang2022self} & General-Purposed & Classification & Harvard & NeurIPS & 2022 \\
+    & & MTSMAE~\cite{tang2022mtsmae} & General-Purposed & Forecasting & USTC & ICTAI & 2022 \\
+    & & STEP~\cite{shao2022pre} & General-Purposed & Forecasting & CAS & KDD & 2022 \\
+    & & TS2Vec~\cite{yue2022ts2vec} & General-Purposed & - & PKU & AAAI & 2022 \\
+    & & SimMTM~\cite{dong2023simmtm} & General-Purposed & - & Tsinghua & NeurIPS & 2023 \\
+    & & PatchTST~\cite{nie2022time} & General-Purposed & Forecasting & Princeton/IBM & ICLR & 2023 \\
+    & & CLUDA~\cite{ozyurt2022contrastive} & General-Purposed & Classification & ETH Zürich & ICLR & 2023 \\
+    & & TSMixer~\cite{ekambaram2023tsmixer} & General-Purposed & Forecasting & IBM & KDD & 2023 \\
+    & & PromptTPP~\cite{xue2023prompttpp} & Domain-Specific & Event Prediction & Ant & NeurIPS & 2023 \\
+    \hline\hline
+    \multirow{36}{*}{\rotatebox[origin=c]{90}{\textbf{Large Models for Spatio-Temporal Data}}}
+    & \multirow{2}{*}{\rotatebox[origin=c]{0}{LLMs for Spatio-Temporal Graphs}}
+    & Chen \textit{et al.}~\cite{chen2023chatgpt} & Domain-Specific & Finance & SIT & arXiv & 2023 \\
+    & & LA-GCN~\cite{xu2023language} & Domain-Specific & Action Recognition & Xidian & arXiv & 2023 \\
+    \cline{2-8}
+    & \multirow{12}{*}{\rotatebox[origin=c]{0}{PFMs for Spatio-Temporal Graphs}}
+    & STGCL~\cite{liu2022contrastive} & General-Purposed & Forecasting & NUS & SIGSPATIAL & 2022 \\
+    & & SPGCL~\cite{li2022mining} & General-Purposed & Forecasting & UESTC & KDD & 2022 \\
+    & & FourCastNet~\cite{pathak2022fourcastnet} & Domain-Specific & Climate & NVIDIA & arXiv & 2022 \\
+    & & MetePFL~\cite{chen2023prompt} & Domain-Specific & Climate & UTS & IJCAI & 2023 \\
+    & & FedWing~\cite{chen2023spatial} & Domain-Specific & Climate & UTS & arXiv & 2023 \\
+    & & ClimaX~\cite{nguyen2023climax} & Domain-Specific & Climate & UCLA/Microsoft & ICML & 2023 \\
+    & & FengWu~\cite{chen2023fengwu} & Domain-Specific & Climate & Shanghai AI Lab & arXiv & 2023 \\
+    & & Pangu-Weather~\cite{bi2023accurate} & Domain-Specific & Climate & Huawei & Nature & 2023 \\
+    & & W-MAE~\cite{man2023w} & Domain-Specific & Climate & UESTC & arXiv & 2023 \\
+    & & CPPBTR~\cite{duan2019pre} & Domain-Specific & Transportation & NCU & IEEE Access & 2019 \\
+    & & TrafficBERT~\cite{duan2019pre} & Domain-Specific & Transportation & CAU & Expert Syst. Appl. & 2021 \\
+    & & TFM~\cite{wang2023building} & Domain-Specific & Transportation & Shanghai AI Lab & arXiv & 2023 \\
+    \cline{2-8}
+    & \multirow{3}{*}{\rotatebox[origin=c]{0}{LLMs for Temporal Knowledge Graphs}}
+     & Lee \textit{et al.}~\cite{lee2023temporal} & General-Purposed & Forecasting & USC & arXiv & 2023 \\
+     & & PPT~\cite{xu2023pre} & General-Purposed & Completion & WHU & ACL & 2023 \\
+     & & Chen \textit{et al.}~\cite{chen2023knowledge} & Domain-Specific & Completion & Walmart & arXiv & 2023 \\
+     \cline{2-8}
+    & \multirow{15}{*}{\rotatebox[origin=c]{0}{LLMs for Video Data}}
+    & FrozenBiLM~\cite{yang2022zero} & General-Purposed & Video Question Answering & Inria Paris & NeurIPS & 2022 \\
+    & & VidIL~\cite{wang2022language} & General-Purposed & - & UIUC/MSR & NeurIPS & 2022 \\
+    & & VideoLLM~\cite{chen2023videollm} & General-Purposed & - & NJU/Shanghai AI Lab & arXiv & 2023 \\
+    & & Valley~\cite{luo2023valley} & General-Purposed & - & ByteDance/Fudan & arXiv & 2023 \\ 
+    & & Vid2Seq~\cite{yang2023vid2seq} & General-Purposed & Captioning & Google/DIENS & CVPR & 2023 \\
+    & & R2A~\cite{pan2023retrieving} & General-Purposed & Video Question Answering & CUHK/Shanghai AI Lab & arXiv & 2023 \\
+    & & VideoChat~\cite{li2023videochat} & General-Purposed & Video Question Answering & Shanghai AI Lab/NJU & arXiv & 2023 \\
+    & & MovieChat~\cite{song2023moviechat} & General-Purposed & Video Question Answering & ZJU & arXiv & 2023 \\
+    & & CaKE-LM~\cite{su2023language} & General-Purposed & Video Question Answering & NTU & CVPR & 2023 \\
+    & & Video-LLaMA~\cite{zhang2023video} & General-Purposed & - & Alibaba & arXiv & 2023 \\
+    & & LAVILA~\cite{zhao2023learning} & General-Purposed & - & Meta AI & CVPR & 2023 \\
+    & & Video-ChatGPT~\cite{maaz2023video} & General-Purposed & - & MBZUAI & arXiv & 2023 \\
+    & & LAVENDER~\cite{li2023lavender} & General-Purposed & - & Microsoft & CVPR & 2023 \\
+    & & TRIVIA~\cite{qasemi2023traffic} & Domain-Specific & Traffic-Domain VQA & USC & arXiv & 2023 \\
+    \cline{2-8}
+    & \multirow{4}{*}{\rotatebox[origin=c]{0}{PFMs for Video Data}}
+    & OmniVL~\cite{wang2022omnivl} & General-Purposed & - & Fudan & NeurIPS & 2022 \\
+    & & mPLUG-2~\cite{xu2023mplug} & General-Purposed & - & Alibaba & ICML & 2023 \\
+    & & mPLUG-video~\cite{xu2023youku} & General-Purposed & - & Alibaba & arXiv & 2023 \\
+    & & PAXION~\cite{wang2023paxion} & General-Purposed & - & UIUC & arXiv & 2023 \\
+    \bottomrule\bottomrule
+    \end{tabular}
+    }
+    \label{tab:summary}
+\end{table*}
