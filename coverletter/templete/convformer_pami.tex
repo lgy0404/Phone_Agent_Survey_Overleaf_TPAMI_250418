@@ -1,0 +1,124 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long letter 南京大学版 Nanjing University Version
+% Version 1.0 (2022-03-27)
+
+% This template was revised by Zheng-hu Nie(brian.nie@gmail.com) based on Fanchao Chen (chenfc@fudan.edu.cn).
+% This template originates from:
+% https://www.LaTeXTemplates.com
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 文档基础配置
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{charter} % Use the Charter font
+
+\usepackage[
+	a4paper, % Paper size
+	top=1in, % Top margin
+	bottom=1in, % Bottom margin
+	left=1in, % Left margin
+	right=1in, % Right margin
+	%showframe % Uncomment to show frames around the margins for debugging purposes
+]{geometry}
+
+\setlength{\parindent}{0pt} % Paragraph indentation
+\setlength{\parskip}{1em} % Vertical space between paragraphs
+
+\usepackage{graphicx} % Required for including images
+
+\usepackage{fancyhdr} % Required for customizing headers and footers
+
+\fancypagestyle{firstpage}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{0pt} % No header rule
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\fancypagestyle{subsequentpages}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{1pt} % Header rule thickness
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\AtBeginDocument{\thispagestyle{firstpage}} % Use the first page headers/footers style on the first page
+\pagestyle{subsequentpages} % Use the subsequent pages headers/footers style on subsequent pages
+
+% \newcommand{\eicname}{Yu Sun}
+% \newcommand{\eicnameshort}{Prof. Sun}
+% \newcommand{\eicemail}{sun@mie.utoronto.ca}
+\newcommand{\journal}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+\newcommand{\papertitle}{Mixer Matters: Revisiting Self-attentive Token-Mixer in Sequential Recommendation}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\includegraphics[width=0.35\textwidth]{pku_logo.png} % Logo
+\vspace{-1em} % Pull the rule closer to the logo
+\rule{\linewidth}{1pt} % Horizontal rule
+\bigskip\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\hfill
+\begin{tabular}{l @{}}
+\hfill \today \bigskip\\ % Date
+% \hfill Email: \eicemail \\
+% \hfill 163 Xianlin Road, Qixia District,\\
+% \hfill Nanjing, Jiangsu Province, 210023, China \\ % Address
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+% \begin{tabular}{@{} l}
+% 	Professor\ \eicname \\
+% 	Editor-in-chief \\
+% 	\textit{\journal}
+% \end{tabular}
+
+\bigskip % Vertical whitespace
+
+Dear editor,
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+We are writing to submit our manuscript titled “\papertitle” to \textit{\journal}, for considering the possibility of its publication. 
+
+Recommendation systems have become essential components of modern digital platforms, shaping user preferences and driving business success. Despite the success of the Transformer architecture in widespread domains, recent research in recommendation suggest that modifying its self-attentive token-mixer component can lead to significant performance improvements in recommendation systems. Motivated by this observation, we revisit the self-attentive token-mixer through controlled experiments in sequential recommendation systems. 
+
+Our results demonstrate that two primary factors are essential to the efficacy of self-attention; while the item-to-item attention can hinder performance due to its secret oversight of item ordering, a vital element in understanding user preferences.
+Based on these findings, we summarize three criteria for designing effective token-mixers: order awareness, a large receptive field, and a lightweight architecture. To exemplify these principles, we introduce ORALRec, a novel yet straightforward enhancement of the standard Transformer, which meets these criteria.  The superior performance of ORALRec validates the efficacy of the proposed criteria.
+
+Additionally, we believe that industrial practitioners will also benefit from our work for two reasons: (1) this work achieves performance improvements in both public and large-scale industrial datasets, and (2) the proposed principles pave the way for developing effective and efficient token-mixers for sequential recommendations.
+
+This work was conducted in collaboration with researchers from Peking University, Zhejiang University, and Microsoft Research. The manuscript has not been submitted elsewhere for publication, in whole or in part. All authors have contributed to the creation of this manuscript for important intellectual content and approved the final manuscript. We have read and abided by the author guidelines for manuscripts submitted to \textit{\journal}.
+
+Thank you for your consideration.
+
+
+
+\bigskip % Vertical whitespace
+
+Sincerely yours,
+
+\vspace{20pt} % Vertical whitespace
+
+Zhouchen Lin Ph.D.\\
+Professor\\
+School of Electronics Engineering and Computer Science, Peking University. \\
+Beijing, 100871, China
+\end{document}
+
+% To PIZZA, a famous fat-ass cat who lived in Dorm 12.
