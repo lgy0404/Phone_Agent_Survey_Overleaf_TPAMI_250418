@@ -12,10 +12,10 @@
 \backcite {wang2023voyager, hong2023metagpt, li2023camel, park2023generative, boiko2023emergent, qian2023communicative, xia2023towards, dasgupta2023collaborating, qian2024chatdev, dong2024self, goertzel2014artificial}{{1}{1}{section.1}}
 \backcite {wang2023voyager,hong2023metagpt,qian2024chatdev}{{1}{1}{section.1}}
 \backcite {xi2023rise,li2024personal,guo2024large,furuta2024exposing}{{1}{1}{section.1}}
-\backcite {hong2024cogagent,zheng2024gpt,zhang2023appagent,song2023navigating}{{1}{1}{figure.caption.1}}
-\backcite {wen2024autodroid}{{1}{1}{figure.caption.1}}
-\backcite {wang2024mobileagentv1,wang2024mobileagentv2}{{1}{1}{figure.caption.1}}
-\backcite {zhang2023appagent}{{1}{1}{figure.caption.1}}
+\backcite {hong2024cogagent,zheng2024gpt,zhang2023appagent,song2023navigating}{{2}{1}{figure.caption.1}}
+\backcite {wen2024autodroid}{{2}{1}{figure.caption.1}}
+\backcite {wang2024mobileagentv1,wang2024mobileagentv2}{{2}{1}{figure.caption.1}}
+\backcite {zhang2023appagent}{{2}{1}{figure.caption.1}}
 \backcite {radford2018gpt1,radford2019gpt2,brown2020gpt3,achiam2023gpt}{{2}{1}{figure.caption.1}}
 \backcite {wen2023droidbot,wen2024autodroid,wang2024mobileagentv1,wang2024mobileagentv2,liu2024vision,zhang2024mobileexperts,lu2024omniparser}{{2}{1}{figure.caption.1}}
 \backcite {arnatovich2018systematic,deshmukh2023automated,nass2024overcoming,nass2021many,tramontana2019automated}{{2}{1}{figure.caption.2}}
@@ -138,7 +138,7 @@
 \backcite {radford2018gpt1,radford2019gpt2,brown2020gpt3,achiam2023gpt}{{3}{2}{section.2}}
 \backcite {kirubakaran2013mobile,azim2013targeted,amalfitano2014mobiguitar,linares2017continuous,kong2018automated,zhao2024dinodroid}{{3}{2.1}{subsection.2.1}}
 \backcite {hecht2015tracking}{{3}{2.1.1}{subsubsection.2.1.1}}
-\backcite {kirubakaran2013mobile,kong2018automated,linares2017continuous,zein2016systematic}{{4}{2.1.1}{subsubsection.2.1.1}}
+\backcite {kirubakaran2013mobile,kong2018automated,linares2017continuous,zein2016systematic}{{3}{2.1.1}{subsubsection.2.1.1}}
 \backcite {jensen2013automated}{{4}{2.1.1}{subsubsection.2.1.1}}
 \backcite {zhao2024dinodroid}{{4}{2.1.1}{subsubsection.2.1.1}}
 \backcite {machiry2013dynodroid}{{4}{2.1.1}{subsubsection.2.1.1}}
@@ -167,10 +167,10 @@
 \backcite {cheng2024seeclick,chen2024guicourse,lu2024guiodyssey,pawlowski2024tinyclick}{{5}{2.3}{subsection.2.3}}
 \backcite {li2024androidcontrol}{{5}{2.3}{subsection.2.3}}
 \backcite {vaswani2017attention,brown2020language,radford2018improving,devlin2018bert,wen2024autodroid,zhang2023appagent}{{5}{2.3}{subsection.2.3}}
-\backcite {karanikolas2023large}{{6}{2.3}{subsection.2.3}}
-\backcite {wang2024mobileagentv1}{{6}{2.3}{subsection.2.3}}
+\backcite {karanikolas2023large}{{5}{2.3}{subsection.2.3}}
+\backcite {wang2024mobileagentv1}{{5}{2.3}{subsection.2.3}}
 \backcite {vaswani2017attention}{{6}{2.3}{subsection.2.3}}
-\backcite {zhao2023survey,chang2024survey,minaee2024large}{{7}{2.3}{subsection.2.3}}
+\backcite {zhao2023survey,chang2024survey,minaee2024large}{{6}{2.3}{subsection.2.3}}
 \backcite {gou2024navigating}{{7}{2.3}{subsection.2.3}}
 \backcite {you2024ferret}{{7}{2.3}{subsection.2.3}}
 \backcite {zhang2024ui-hawk}{{7}{2.3}{subsection.2.3}}
@@ -189,7 +189,7 @@
 \backcite {wang2024mobileagentv2,zhang2024mobileexperts,zhang2024dynamic}{{8}{3}{section.3}}
 \backcite {zheng2024gpt,gou2024navigating,hoscilowicz2024clickagent}{{8}{3}{section.3}}
 \backcite {monahan1982state,spaan2012partially}{{8}{3}{section.3}}
-\backcite {medhi2013comparison,rasanen2015sequence}{{9}{3.1.1}{subsubsection.3.1.1}}
+\backcite {medhi2013comparison,rasanen2015sequence}{{8}{3.1.1}{subsubsection.3.1.1}}
 \backcite {li2020PixelHelp}{{9}{3.1.1}{subsubsection.3.1.1}}
 \backcite {burns2021motif}{{9}{3.1.1}{subsubsection.3.1.1}}
 \backcite {bai2021uibert}{{9}{3.1.1}{subsubsection.3.1.1}}
@@ -198,7 +198,7 @@
 \backcite {wen2024autodroid}{{9}{3.1.1}{subsubsection.3.1.1}}
 \backcite {guan2023intelligent}{{9}{3.1.1}{subsubsection.3.1.1}}
 \backcite {fan2024readpointedlayoutawaregui}{{9}{3.1.1}{subsubsection.3.1.1}}
-\backcite {zhang2023youautoui}{{10}{3.1.1}{subsubsection.3.1.1}}
+\backcite {zhang2023youautoui}{{9}{3.1.1}{subsubsection.3.1.1}}
 \backcite {yan2023gpt}{{10}{3.1.1}{subsubsection.3.1.1}}
 \backcite {hong2024cogagent}{{10}{3.1.1}{subsubsection.3.1.1}}
 \backcite {zhang2023appagent}{{10}{3.1.1}{subsubsection.3.1.1}}
@@ -257,7 +257,7 @@
 \backcite {song2024mmac}{{12}{3.4.1}{subsubsection.3.4.1}}
 \backcite {wang2024mobileagentv2}{{12}{3.4.1}{subsubsection.3.4.1}}
 \backcite {wang2025mobile}{{13}{3.4.1}{subsubsection.3.4.1}}
-\backcite {tan2024cradle}{{14}{3.4.1}{subsubsection.3.4.1}}
+\backcite {tan2024cradle}{{13}{3.4.1}{subsubsection.3.4.1}}
 \backcite {zhang2024ask}{{14}{3.4.1}{subsubsection.3.4.1}}
 \backcite {huang2024promptrpa}{{14}{3.4.1}{subsubsection.3.4.1}}
 \backcite {yin2024agent}{{14}{3.4.1}{subsubsection.3.4.1}}
@@ -283,7 +283,7 @@
 \backcite {wang2024mobileagentv2}{{16}{4.1.1}{subsubsection.4.1.1}}
 \backcite {wang2023enabling}{{16}{4.1.1}{subsubsection.4.1.1}}
 \backcite {wen2023droidbot}{{16}{4.1.1}{subsubsection.4.1.1}}
-\backcite {wen2024autodroid}{{17}{4.1.1}{subsubsection.4.1.1}}
+\backcite {wen2024autodroid}{{16}{4.1.1}{subsubsection.4.1.1}}
 \backcite {lee2023exploremobilegpt}{{17}{4.1.1}{subsubsection.4.1.1}}
 \backcite {taeb2024axnav}{{17}{4.1.1}{subsubsection.4.1.1}}
 \backcite {achiam2023gpt,li2023blip,ye2023mplug,wang2023cogvlm,Qwen-VL,liu2024visual,Qwen2VL,chen2024internvl,chen2024far,koh2024visualwebarena,zheng2023synapse}{{17}{4.1.2}{subsubsection.4.1.2}}
@@ -291,6 +291,7 @@
 \backcite {achiam2023gpt}{{17}{4.1.2}{subsubsection.4.1.2}}
 \backcite {yang2023setofmark}{{17}{4.1.2}{subsubsection.4.1.2}}
 \backcite {zhang2023appagent}{{17}{4.1.2}{subsubsection.4.1.2}}
+\backcite {lu2024omniparser}{{17}{4.1.2}{subsubsection.4.1.2}}
 \backcite {wen2023droidbot}{{18}{2}{table.caption.11}}
 \backcite {wang2023enabling}{{18}{2}{table.caption.11}}
 \backcite {wen2024autodroid}{{18}{2}{table.caption.11}}
@@ -307,7 +308,6 @@
 \backcite {li2024appagentv2}{{18}{2}{table.caption.11}}
 \backcite {lu2024omniparser}{{18}{2}{table.caption.11}}
 \backcite {wang2025mobile}{{18}{2}{table.caption.11}}
-\backcite {lu2024omniparser}{{18}{4.1.2}{subsubsection.4.1.2}}
 \backcite {wu2024gui}{{18}{4.1.2}{subsubsection.4.1.2}}
 \backcite {song2024visiontasker}{{18}{4.1.2}{subsubsection.4.1.2}}
 \backcite {varghese2024yolov8}{{18}{4.1.2}{subsubsection.4.1.2}}
@@ -315,7 +315,7 @@
 \backcite {wang2024mobileagentv1, wang2024mobileagentv2}{{18}{4.1.2}{subsubsection.4.1.2}}
 \backcite {wang2025mobile}{{18}{4.1.2}{subsubsection.4.1.2}}
 \backcite {zhang2024mobileexperts}{{18}{4.1.2}{subsubsection.4.1.2}}
-\backcite {li2024appagentv2}{{19}{4.1.2}{subsubsection.4.1.2}}
+\backcite {li2024appagentv2}{{18}{4.1.2}{subsubsection.4.1.2}}
 \backcite {liu2024vision}{{19}{4.1.2}{subsubsection.4.1.2}}
 \backcite {wang2024mobileagentv2,zhang2024mobileexperts,liu2024vision}{{19}{4.1.2}{subsubsection.4.1.2}}
 \backcite {zhang2023youautoui}{{19}{4.2.1}{subsubsection.4.2.1}}
@@ -345,7 +345,7 @@
 \backcite {fan2025gui}{{20}{3}{table.caption.12}}
 \backcite {li2022mug}{{20}{4.2.1}{figure.caption.13}}
 \backcite {qian2024visualgrounding}{{20}{4.2.1}{figure.caption.13}}
-\backcite {zhang2024ui-hawk}{{21}{4.2.1}{figure.caption.13}}
+\backcite {zhang2024ui-hawk}{{20}{4.2.1}{figure.caption.13}}
 \backcite {yang2024aria}{{21}{4.2.1}{figure.caption.13}}
 \backcite {fan2025gui}{{21}{4.2.1}{figure.caption.13}}
 \backcite {wu2024atlas}{{21}{4.2.1}{figure.caption.13}}
@@ -353,7 +353,7 @@
 \backcite {you2024ferret}{{21}{4.2.1}{figure.caption.13}}
 \backcite {li2024ferretui2masteringuniversal}{{21}{4.2.1}{figure.caption.13}}
 \backcite {burns2024tell}{{21}{4.2.1}{figure.caption.13}}
-\backcite {zhang2024ui-hawk}{{22}{4.2.1}{figure.caption.13}}
+\backcite {zhang2024ui-hawk}{{21}{4.2.1}{figure.caption.13}}
 \backcite {baechler2024screenai}{{22}{4.2.1}{figure.caption.13}}
 \backcite {chen2024webvln}{{22}{4.2.1}{figure.caption.13}}
 \backcite {zhang2024ui-hawk}{{22}{4.2.1}{figure.caption.13}}
@@ -362,6 +362,7 @@
 \backcite {chen2024guicourse}{{22}{4.2.2}{table.caption.14}}
 \backcite {lu2024guiodyssey}{{22}{4.2.2}{table.caption.14}}
 \backcite {pawlowski2024tinyclick}{{22}{4.2.2}{table.caption.14}}
+\backcite {ding2024mobileagentsop}{{22}{4.2.2}{table.caption.14}}
 \backcite {ding2024mobileagentsop}{{23}{4}{table.caption.14}}
 \backcite {cheng2024seeclick}{{23}{4}{table.caption.14}}
 \backcite {moniz2024realm}{{23}{4}{table.caption.14}}
@@ -371,11 +372,10 @@
 \backcite {pawlowski2024tinyclick}{{23}{4}{table.caption.14}}
 \backcite {liu2025infiguiagent}{{23}{4}{table.caption.14}}
 \backcite {yuan2025agent}{{23}{4}{table.caption.14}}
-\backcite {ding2024mobileagentsop}{{23}{4.2.2}{table.caption.14}}
 \backcite {yuan2025agent}{{23}{4.2.2}{table.caption.14}}
 \backcite {moniz2024realm}{{23}{4.2.2}{table.caption.14}}
 \backcite {haque2024infering}{{23}{4.2.2}{table.caption.14}}
-\backcite {kaelbling1996reinforcement}{{24}{4.2.3}{subsubsection.4.2.3}}
+\backcite {kaelbling1996reinforcement}{{23}{4.2.3}{subsubsection.4.2.3}}
 \backcite {bai2024digirl}{{24}{4.2.3}{table.caption.15}}
 \backcite {wang2024distrl}{{24}{4.2.3}{table.caption.15}}
 \backcite {liu2024autoglm}{{24}{4.2.3}{table.caption.15}}
@@ -384,6 +384,7 @@
 \backcite {putta2024agentq}{{24}{4.2.3}{table.caption.15}}
 \backcite {lai2024autowebglm}{{24}{4.2.3}{table.caption.15}}
 \backcite {Fereidouni_2024}{{24}{4.2.3}{table.caption.15}}
+\backcite {niu2024screenagent}{{24}{4.2.3}{table.caption.15}}
 \backcite {bai2024digirl}{{25}{5}{table.caption.15}}
 \backcite {wang2024distrl}{{25}{5}{table.caption.15}}
 \backcite {liu2024autoglm}{{25}{5}{table.caption.15}}
@@ -394,8 +395,19 @@
 \backcite {lai2024autowebglm}{{25}{5}{table.caption.15}}
 \backcite {putta2024agentq}{{25}{5}{table.caption.15}}
 \backcite {Fereidouni_2024}{{25}{5}{table.caption.15}}
-\backcite {niu2024screenagent}{{25}{4.2.3}{table.caption.15}}
 \backcite {gao2023assistgui}{{25}{4.2.3}{table.caption.15}}
+\backcite {deka2017rico}{{26}{6}{table.caption.16}}
+\backcite {li2020PixelHelp}{{26}{6}{table.caption.16}}
+\backcite {burns2021motif}{{26}{6}{table.caption.16}}
+\backcite {bai2021uibert}{{26}{6}{table.caption.16}}
+\backcite {sun2022metagui}{{26}{6}{table.caption.16}}
+\backcite {venkatesh2022ugif}{{26}{6}{table.caption.16}}
+\backcite {rawles2024androidinthewild}{{26}{6}{table.caption.16}}
+\backcite {zhang2024aitz}{{26}{6}{table.caption.16}}
+\backcite {lu2024guiodyssey}{{26}{6}{table.caption.16}}
+\backcite {li2024androidcontrol}{{26}{6}{table.caption.16}}
+\backcite {chai2024amex}{{26}{6}{table.caption.16}}
+\backcite {gao2024mobileviews}{{26}{6}{table.caption.16}}
 \backcite {deka2017rico}{{26}{5.1}{subsection.5.1}}
 \backcite {sunkara2022towards}{{26}{5.1}{subsection.5.1}}
 \backcite {chen2024gui}{{26}{5.1}{subsection.5.1}}
@@ -407,30 +419,19 @@
 \backcite {sun2022metagui}{{26}{5.1}{subsection.5.1}}
 \backcite {rawles2024androidinthewild}{{26}{5.1}{subsection.5.1}}
 \backcite {zhang2024aitz}{{26}{5.1}{subsection.5.1}}
-\backcite {lu2024guiodyssey}{{26}{5.1}{subsection.5.1}}
-\backcite {li2024androidcontrol}{{26}{5.1}{subsection.5.1}}
-\backcite {chai2024amex}{{26}{5.1}{subsection.5.1}}
-\backcite {peng2024dreamstruct}{{26}{5.1}{subsection.5.1}}
-\backcite {sun2024genesis}{{26}{5.1}{subsection.5.1}}
-\backcite {su2025learn}{{26}{5.1}{subsection.5.1}}
-\backcite {deka2017rico}{{27}{6}{table.caption.16}}
-\backcite {li2020PixelHelp}{{27}{6}{table.caption.16}}
-\backcite {burns2021motif}{{27}{6}{table.caption.16}}
-\backcite {bai2021uibert}{{27}{6}{table.caption.16}}
-\backcite {sun2022metagui}{{27}{6}{table.caption.16}}
-\backcite {venkatesh2022ugif}{{27}{6}{table.caption.16}}
-\backcite {rawles2024androidinthewild}{{27}{6}{table.caption.16}}
-\backcite {zhang2024aitz}{{27}{6}{table.caption.16}}
-\backcite {lu2024guiodyssey}{{27}{6}{table.caption.16}}
-\backcite {li2024androidcontrol}{{27}{6}{table.caption.16}}
-\backcite {chai2024amex}{{27}{6}{table.caption.16}}
-\backcite {gao2024mobileviews}{{27}{6}{table.caption.16}}
+\backcite {lu2024guiodyssey}{{27}{5.1}{subsection.5.1}}
+\backcite {li2024androidcontrol}{{27}{5.1}{subsection.5.1}}
+\backcite {chai2024amex}{{27}{5.1}{subsection.5.1}}
+\backcite {peng2024dreamstruct}{{27}{5.1}{subsection.5.1}}
+\backcite {sun2024genesis}{{27}{5.1}{subsection.5.1}}
+\backcite {su2025learn}{{27}{5.1}{subsection.5.1}}
 \backcite {li2024ferretui2masteringuniversal}{{27}{5.1}{subsection.5.1}}
 \backcite {wang2025fedmobileagent}{{27}{5.1}{subsection.5.1}}
 \backcite {berkovitch2024identifying}{{27}{5.1}{subsection.5.1}}
 \backcite {zhang2023mobileenv}{{27}{5.2.1}{subsubsection.5.2.1}}
 \backcite {xing2024AndroidArena}{{27}{5.2.1}{subsubsection.5.2.1}}
 \backcite {zheng2024agentstudio}{{27}{5.2.1}{subsubsection.5.2.1}}
+\backcite {zhang2024llamatouch}{{27}{5.2.1}{subsubsection.5.2.1}}
 \backcite {zhang2023mobileenv}{{28}{7}{table.caption.17}}
 \backcite {wen2024autodroid}{{28}{7}{table.caption.17}}
 \backcite {xing2024AndroidArena}{{28}{7}{table.caption.17}}
@@ -443,14 +444,13 @@
 \backcite {zheng2024agentstudio}{{28}{7}{table.caption.17}}
 \backcite {xu2024androidlab}{{28}{7}{table.caption.17}}
 \backcite {chai2025a3}{{28}{7}{table.caption.17}}
-\backcite {zhang2024llamatouch}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {lee2024BMoCA}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {rawles2024androidworld}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {wang2024mobileagentbench}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {hu2024auitestagent}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {xu2024androidlab}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {liu2024visualagentbench}{{28}{5.2.1}{subsubsection.5.2.1}}
-\backcite {chai2025a3}{{29}{5.2.1}{subsubsection.5.2.1}}
+\backcite {chai2025a3}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {rawles2024androidworld}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {xu2024androidlab}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {zhang2024llamatouch}{{29}{5.2.2}{subsubsection.5.2.2}}
@@ -469,8 +469,8 @@
 \backcite {zhang2024llamatouch}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {xing2024AndroidArena}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {zhang2023mobileenv}{{29}{5.2.2}{subsubsection.5.2.2}}
-\backcite {rawles2024androidinthewild, zhang2024aitz}{{30}{6}{section.6}}
-\backcite {lin2024videogui}{{30}{6}{section.6}}
+\backcite {rawles2024androidinthewild, zhang2024aitz}{{29}{6}{section.6}}
+\backcite {lin2024videogui}{{29}{6}{section.6}}
 \backcite {li2024androidcontrol}{{30}{6}{section.6}}
 \backcite {ding2024mobileagentsop}{{30}{6}{section.6}}
 \backcite {chen2024octopus}{{30}{6}{section.6}}
