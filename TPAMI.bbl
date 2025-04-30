@@ -7,7 +7,8 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -21,827 +22,1434 @@
 \BIBdecl
 
 \bibitem{azim2013targeted}
-T.~Azim and I.~Neamtiu, ``Targeted and depth-first exploration for systematic testing of android apps,'' in \emph{Proceedings of the 2013 ACM SIGPLAN international conference on Object oriented programming systems languages \& applications}, 2013, pp. 641--660.
+T.~Azim and I.~Neamtiu, ``Targeted and depth-first exploration for systematic
+  testing of android apps,'' in \emph{Proceedings of the 2013 ACM SIGPLAN
+  international conference on Object oriented programming systems languages \&
+  applications}, 2013, pp. 641--660.
 
 \bibitem{pan2020reinforcement}
-M.~Pan, A.~Huang, G.~Wang, T.~Zhang, and X.~Li, ``Reinforcement learning based curiosity-driven testing of android applications,'' in \emph{Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis}, 2020, pp. 153--164.
+M.~Pan, A.~Huang, G.~Wang, T.~Zhang, and X.~Li, ``Reinforcement learning based
+  curiosity-driven testing of android applications,'' in \emph{Proceedings of
+  the 29th ACM SIGSOFT International Symposium on Software Testing and
+  Analysis}, 2020, pp. 153--164.
 
 \bibitem{koroglu2018qbe}
-Y.~Koroglu, A.~Sen, O.~Muslu, Y.~Mete, C.~Ulker, T.~Tanriverdi, and Y.~Donmez, ``Qbe: Qlearning-based exploration of android applications,'' in \emph{2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 105--115.
+Y.~Koroglu, A.~Sen, O.~Muslu, Y.~Mete, C.~Ulker, T.~Tanriverdi, and Y.~Donmez,
+  ``Qbe: Qlearning-based exploration of android applications,'' in \emph{2018
+  IEEE 11th International Conference on Software Testing, Verification and
+  Validation (ICST)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp.
+  105--115.
 
 \bibitem{li2019humanoid}
-Y.~Li, Z.~Yang, Y.~Guo, and X.~Chen, ``Humanoid: A deep learning-based approach to automated black-box android app testing,'' in \emph{2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2019, pp. 1070--1073.
+Y.~Li, Z.~Yang, Y.~Guo, and X.~Chen, ``Humanoid: A deep learning-based approach
+  to automated black-box android app testing,'' in \emph{2019 34th IEEE/ACM
+  International Conference on Automated Software Engineering (ASE)}.\hskip 1em
+  plus 0.5em minus 0.4em\relax IEEE, 2019, pp. 1070--1073.
 
 \bibitem{degott2019learning}
-C.~Degott, N.~P. Borges~Jr, and A.~Zeller, ``Learning user interface element interactions,'' in \emph{Proceedings of the 28th ACM SIGSOFT international symposium on software testing and analysis}, 2019, pp. 296--306.
+C.~Degott, N.~P. Borges~Jr, and A.~Zeller, ``Learning user interface element
+  interactions,'' in \emph{Proceedings of the 28th ACM SIGSOFT international
+  symposium on software testing and analysis}, 2019, pp. 296--306.
 
 \bibitem{arnatovich2018systematic}
-Y.~L. Arnatovich and L.~Wang, ``A systematic literature review of automated techniques for functional gui testing of mobile applications,'' \emph{arXiv preprint arXiv:1812.11470}, 2018.
+Y.~L. Arnatovich and L.~Wang, ``A systematic literature review of automated
+  techniques for functional gui testing of mobile applications,'' \emph{arXiv
+  preprint arXiv:1812.11470}, 2018.
 
 \bibitem{deshmukh2023automated}
-P.~S. Deshmukh, S.~S. Date, P.~N. Mahalle, and J.~Barot, ``Automated gui testing for enhancing user experience (ux): A survey of the state of the art,'' in \emph{International Conference on ICT for Sustainable Development}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2023, pp. 619--628.
+P.~S. Deshmukh, S.~S. Date, P.~N. Mahalle, and J.~Barot, ``Automated gui
+  testing for enhancing user experience (ux): A survey of the state of the
+  art,'' in \emph{International Conference on ICT for Sustainable
+  Development}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2023, pp.
+  619--628.
 
 \bibitem{nass2024overcoming}
-M.~Nass, ``On overcoming challenges with gui-based test automation,'' Ph.D. dissertation, Blekinge Tekniska H{\"o}gskola, 2024.
+M.~Nass, ``On overcoming challenges with gui-based test automation,'' Ph.D.
+  dissertation, Blekinge Tekniska H{\"o}gskola, 2024.
 
 \bibitem{nass2021many}
-M.~Nass, E.~Al{\'e}groth, and R.~Feldt, ``Why many challenges with gui test automation (will) remain,'' \emph{Information and Software Technology}, vol. 138, p. 106625, 2021.
+M.~Nass, E.~Al{\'e}groth, and R.~Feldt, ``Why many challenges with gui test
+  automation (will) remain,'' \emph{Information and Software Technology}, vol.
+  138, p. 106625, 2021.
 
 \bibitem{tramontana2019automated}
-P.~Tramontana, D.~Amalfitano, N.~Amatucci, and A.~R. Fasolino, ``Automated functional testing of mobile applications: a systematic mapping study,'' \emph{Software Quality Journal}, vol.~27, pp. 149--201, 2019.
+P.~Tramontana, D.~Amalfitano, N.~Amatucci, and A.~R. Fasolino, ``Automated
+  functional testing of mobile applications: a systematic mapping study,''
+  \emph{Software Quality Journal}, vol.~27, pp. 149--201, 2019.
 
 \bibitem{li2024personal}
-Y.~Li, H.~Wen, W.~Wang, X.~Li, Y.~Yuan, G.~Liu, J.~Liu, W.~Xu, X.~Wang, Y.~Sun \emph{et~al.}, ``Personal llm agents: Insights and survey about the capability, efficiency and security,'' \emph{arXiv preprint arXiv:2401.05459}, 2024.
+Y.~Li, H.~Wen, W.~Wang, X.~Li, Y.~Yuan, G.~Liu, J.~Liu, W.~Xu, X.~Wang, Y.~Sun
+  \emph{et~al.}, ``Personal llm agents: Insights and survey about the
+  capability, efficiency and security,'' \emph{arXiv preprint
+  arXiv:2401.05459}, 2024.
 
 \bibitem{guo2024large}
-T.~Guo, X.~Chen, Y.~Wang, R.~Chang, S.~Pei, N.~V. Chawla, O.~Wiest, and X.~Zhang, ``Large language model based multi-agents: A survey of progress and challenges,'' \emph{arXiv preprint arXiv:2402.01680}, 2024.
+T.~Guo, X.~Chen, Y.~Wang, R.~Chang, S.~Pei, N.~V. Chawla, O.~Wiest, and
+  X.~Zhang, ``Large language model based multi-agents: A survey of progress and
+  challenges,'' \emph{arXiv preprint arXiv:2402.01680}, 2024.
 
 \bibitem{wang2024survey}
-L.~Wang, C.~Ma, X.~Feng, Z.~Zhang, H.~Yang, J.~Zhang, Z.~Chen, J.~Tang, X.~Chen, Y.~Lin \emph{et~al.}, ``A survey on large language model based autonomous agents,'' \emph{Frontiers of Computer Science}, vol.~18, no.~6, p. 186345, 2024.
+L.~Wang, C.~Ma, X.~Feng, Z.~Zhang, H.~Yang, J.~Zhang, Z.~Chen, J.~Tang,
+  X.~Chen, Y.~Lin \emph{et~al.}, ``A survey on large language model based
+  autonomous agents,'' \emph{Frontiers of Computer Science}, vol.~18, no.~6, p.
+  186345, 2024.
 
 \bibitem{jin2024llms}
-H.~Jin, L.~Huang, H.~Cai, J.~Yan, B.~Li, and H.~Chen, ``From llms to llm-based agents for software engineering: A survey of current, challenges and future,'' \emph{arXiv preprint arXiv:2408.02479}, 2024.
+H.~Jin, L.~Huang, H.~Cai, J.~Yan, B.~Li, and H.~Chen, ``From llms to llm-based
+  agents for software engineering: A survey of current, challenges and
+  future,'' \emph{arXiv preprint arXiv:2408.02479}, 2024.
 
 \bibitem{bubeck2023sparks}
-S.~Bubeck, V.~Chandrasekaran, R.~Eldan, J.~Gehrke, E.~Horvitz, E.~Kamar, P.~Lee, Y.~T. Lee, Y.~Li, S.~Lundberg \emph{et~al.}, ``Sparks of artificial general intelligence: Early experiments with gpt-4,'' \emph{arXiv preprint arXiv:2303.12712}, 2023.
+S.~Bubeck, V.~Chandrasekaran, R.~Eldan, J.~Gehrke, E.~Horvitz, E.~Kamar,
+  P.~Lee, Y.~T. Lee, Y.~Li, S.~Lundberg \emph{et~al.}, ``Sparks of artificial
+  general intelligence: Early experiments with gpt-4,'' \emph{arXiv preprint
+  arXiv:2303.12712}, 2023.
 
 \bibitem{huang2024understanding}
-X.~Huang, W.~Liu, X.~Chen, X.~Wang, H.~Wang, D.~Lian, Y.~Wang, R.~Tang, and E.~Chen, ``Understanding the planning of llm agents: A survey,'' \emph{arXiv preprint arXiv:2402.02716}, 2024.
+X.~Huang, W.~Liu, X.~Chen, X.~Wang, H.~Wang, D.~Lian, Y.~Wang, R.~Tang, and
+  E.~Chen, ``Understanding the planning of llm agents: A survey,'' \emph{arXiv
+  preprint arXiv:2402.02716}, 2024.
 
 \bibitem{albrecht2018autonomous}
-S.~V. Albrecht and P.~Stone, ``Autonomous agents modelling other agents: A comprehensive survey and open problems,'' \emph{Artificial Intelligence}, vol. 258, pp. 66--95, 2018.
+S.~V. Albrecht and P.~Stone, ``Autonomous agents modelling other agents: A
+  comprehensive survey and open problems,'' \emph{Artificial Intelligence},
+  vol. 258, pp. 66--95, 2018.
 
 \bibitem{anscombe2000intention}
 G.~Anscombe, ``Intention,'' 2000.
 
 \bibitem{dennett1988precis}
-D.~C. Dennett, ``Pr{\'e}cis of the intentional stance,'' \emph{Behavioral and brain sciences}, vol.~11, no.~3, pp. 495--505, 1988.
+D.~C. Dennett, ``Pr{\'e}cis of the intentional stance,'' \emph{Behavioral and
+  brain sciences}, vol.~11, no.~3, pp. 495--505, 1988.
 
 \bibitem{shoham1993agent}
-Y.~Shoham, ``Agent-oriented programming,'' \emph{Artificial intelligence}, vol.~60, no.~1, pp. 51--92, 1993.
+Y.~Shoham, ``Agent-oriented programming,'' \emph{Artificial intelligence},
+  vol.~60, no.~1, pp. 51--92, 1993.
 
 \bibitem{poole2010artificial}
-D.~L. Poole and A.~K. Mackworth, \emph{Artificial Intelligence: foundations of computational agents}.\hskip 1em plus 0.5em minus 0.4em\relax Cambridge University Press, 2010.
+D.~L. Poole and A.~K. Mackworth, \emph{Artificial Intelligence: foundations of
+  computational agents}.\hskip 1em plus 0.5em minus 0.4em\relax Cambridge
+  University Press, 2010.
 
 \bibitem{inkster2018empathy}
-B.~Inkster, S.~Sarda, V.~Subramanian \emph{et~al.}, ``An empathy-driven, conversational artificial intelligence agent (wysa) for digital mental well-being: real-world data evaluation mixed-methods study,'' \emph{JMIR mHealth and uHealth}, vol.~6, no.~11, p. e12106, 2018.
+B.~Inkster, S.~Sarda, V.~Subramanian \emph{et~al.}, ``An empathy-driven,
+  conversational artificial intelligence agent (wysa) for digital mental
+  well-being: real-world data evaluation mixed-methods study,'' \emph{JMIR
+  mHealth and uHealth}, vol.~6, no.~11, p. e12106, 2018.
 
 \bibitem{gao2018neural}
-J.~Gao, M.~Galley, and L.~Li, ``Neural approaches to conversational ai,'' in \emph{The 41st international ACM SIGIR conference on research \& development in information retrieval}, 2018, pp. 1371--1374.
+J.~Gao, M.~Galley, and L.~Li, ``Neural approaches to conversational ai,'' in
+  \emph{The 41st international ACM SIGIR conference on research \& development
+  in information retrieval}, 2018, pp. 1371--1374.
 
 \bibitem{luger2016like}
-E.~Luger and A.~Sellen, ``" like having a really bad pa" the gulf between user expectation and experience of conversational agents,'' in \emph{Proceedings of the 2016 CHI conference on human factors in computing systems}, 2016, pp. 5286--5297.
+E.~Luger and A.~Sellen, ``" like having a really bad pa" the gulf between user
+  expectation and experience of conversational agents,'' in \emph{Proceedings
+  of the 2016 CHI conference on human factors in computing systems}, 2016, pp.
+  5286--5297.
 
 \bibitem{amershi2014power}
-S.~Amershi, M.~Cakmak, W.~B. Knox, and T.~Kulesza, ``Power to the people: The role of humans in interactive machine learning,'' \emph{AI magazine}, vol.~35, no.~4, pp. 105--120, 2014.
+S.~Amershi, M.~Cakmak, W.~B. Knox, and T.~Kulesza, ``Power to the people: The
+  role of humans in interactive machine learning,'' \emph{AI magazine},
+  vol.~35, no.~4, pp. 105--120, 2014.
 
 \bibitem{christiano2017deep}
-P.~F. Christiano, J.~Leike, T.~Brown, M.~Martic, S.~Legg, and D.~Amodei, ``Deep reinforcement learning from human preferences,'' \emph{Advances in neural information processing systems}, vol.~30, 2017.
+P.~F. Christiano, J.~Leike, T.~Brown, M.~Martic, S.~Legg, and D.~Amodei, ``Deep
+  reinforcement learning from human preferences,'' \emph{Advances in neural
+  information processing systems}, vol.~30, 2017.
 
 \bibitem{kohl2019mode}
-J.~K{\"o}hl, R.~Kolnaar, and W.~J. Ravensberg, ``Mode of action of microbial biological control agents against plant diseases: relevance beyond efficacy,'' \emph{Frontiers in plant science}, vol.~10, p. 845, 2019.
+J.~K{\"o}hl, R.~Kolnaar, and W.~J. Ravensberg, ``Mode of action of microbial
+  biological control agents against plant diseases: relevance beyond
+  efficacy,'' \emph{Frontiers in plant science}, vol.~10, p. 845, 2019.
 
 \bibitem{radford2018gpt1}
-A.~Radford, ``Improving language understanding by generative pre-training,'' 2018.
+A.~Radford, ``Improving language understanding by generative pre-training,''
+  2018.
 
 \bibitem{radford2019gpt2}
-A.~Radford, J.~Wu, R.~Child, D.~Luan, D.~Amodei, I.~Sutskever \emph{et~al.}, ``Language models are unsupervised multitask learners,'' \emph{OpenAI blog}, vol.~1, no.~8, p.~9, 2019.
+A.~Radford, J.~Wu, R.~Child, D.~Luan, D.~Amodei, I.~Sutskever \emph{et~al.},
+  ``Language models are unsupervised multitask learners,'' \emph{OpenAI blog},
+  vol.~1, no.~8, p.~9, 2019.
 
 \bibitem{brown2020gpt3}
-T.~B. Brown, ``Language models are few-shot learners,'' \emph{arXiv preprint arXiv:2005.14165}, 2020.
+T.~B. Brown, ``Language models are few-shot learners,'' \emph{arXiv preprint
+  arXiv:2005.14165}, 2020.
 
 \bibitem{achiam2023gpt}
-J.~Achiam, S.~Adler, S.~Agarwal, L.~Ahmad, I.~Akkaya, F.~L. Aleman, D.~Almeida, J.~Altenschmidt, S.~Altman, S.~Anadkat \emph{et~al.}, ``Gpt-4 technical report,'' \emph{arXiv preprint arXiv:2303.08774}, 2023.
+J.~Achiam, S.~Adler, S.~Agarwal, L.~Ahmad, I.~Akkaya, F.~L. Aleman, D.~Almeida,
+  J.~Altenschmidt, S.~Altman, S.~Anadkat \emph{et~al.}, ``Gpt-4 technical
+  report,'' \emph{arXiv preprint arXiv:2303.08774}, 2023.
 
 \bibitem{bavishi2023fuyu}
-R.~Bavishi, E.~Elsen, C.~Hawthorne, M.~Nye, A.~Odena, A.~Somani, and S.~Ta{\c{s}}{\i}rlar, ``Fuyu-8b: A multimodal architecture for ai agents,'' 2023.
+R.~Bavishi, E.~Elsen, C.~Hawthorne, M.~Nye, A.~Odena, A.~Somani, and
+  S.~Ta{\c{s}}{\i}rlar, ``Fuyu-8b: A multimodal architecture for ai agents,''
+  2023.
 
 \bibitem{wang2023voyager}
-G.~Wang, Y.~Xie, Y.~Jiang, A.~Mandlekar, C.~Xiao, Y.~Zhu, L.~Fan, and A.~Anandkumar, ``Voyager: An open-ended embodied agent with large language models,'' \emph{arXiv preprint arXiv:2305.16291}, 2023.
+G.~Wang, Y.~Xie, Y.~Jiang, A.~Mandlekar, C.~Xiao, Y.~Zhu, L.~Fan, and
+  A.~Anandkumar, ``Voyager: An open-ended embodied agent with large language
+  models,'' \emph{arXiv preprint arXiv:2305.16291}, 2023.
 
 \bibitem{hong2023metagpt}
-S.~Hong, X.~Zheng, J.~Chen, Y.~Cheng, J.~Wang, C.~Zhang, Z.~Wang, S.~K.~S. Yau, Z.~Lin, L.~Zhou \emph{et~al.}, ``Metagpt: Meta programming for multi-agent collaborative framework,'' \emph{arXiv preprint arXiv:2308.00352}, 2023.
+S.~Hong, X.~Zheng, J.~Chen, Y.~Cheng, J.~Wang, C.~Zhang, Z.~Wang, S.~K.~S. Yau,
+  Z.~Lin, L.~Zhou \emph{et~al.}, ``Metagpt: Meta programming for multi-agent
+  collaborative framework,'' \emph{arXiv preprint arXiv:2308.00352}, 2023.
 
 \bibitem{li2023camel}
-G.~Li, H.~Hammoud, H.~Itani, D.~Khizbullin, and B.~Ghanem, ``Camel: Communicative agents for" mind" exploration of large language model society,'' \emph{Advances in Neural Information Processing Systems}, vol.~36, pp. 51\,991--52\,008, 2023.
+G.~Li, H.~Hammoud, H.~Itani, D.~Khizbullin, and B.~Ghanem, ``Camel:
+  Communicative agents for" mind" exploration of large language model
+  society,'' \emph{Advances in Neural Information Processing Systems}, vol.~36,
+  pp. 51\,991--52\,008, 2023.
 
 \bibitem{park2023generative}
-J.~S. Park, J.~O'Brien, C.~J. Cai, M.~R. Morris, P.~Liang, and M.~S. Bernstein, ``Generative agents: Interactive simulacra of human behavior,'' in \emph{Proceedings of the 36th annual acm symposium on user interface software and technology}, 2023, pp. 1--22.
+J.~S. Park, J.~O'Brien, C.~J. Cai, M.~R. Morris, P.~Liang, and M.~S. Bernstein,
+  ``Generative agents: Interactive simulacra of human behavior,'' in
+  \emph{Proceedings of the 36th annual acm symposium on user interface software
+  and technology}, 2023, pp. 1--22.
 
 \bibitem{boiko2023emergent}
-D.~A. Boiko, R.~MacKnight, and G.~Gomes, ``Emergent autonomous scientific research capabilities of large language models,'' \emph{arXiv preprint arXiv:2304.05332}, 2023.
+D.~A. Boiko, R.~MacKnight, and G.~Gomes, ``Emergent autonomous scientific
+  research capabilities of large language models,'' \emph{arXiv preprint
+  arXiv:2304.05332}, 2023.
 
 \bibitem{qian2023communicative}
-C.~Qian, X.~Cong, C.~Yang, W.~Chen, Y.~Su, J.~Xu, Z.~Liu, and M.~Sun, ``Communicative agents for software development,'' \emph{arXiv preprint arXiv:2307.07924}, vol.~6, no.~3, 2023.
+C.~Qian, X.~Cong, C.~Yang, W.~Chen, Y.~Su, J.~Xu, Z.~Liu, and M.~Sun,
+  ``Communicative agents for software development,'' \emph{arXiv preprint
+  arXiv:2307.07924}, vol.~6, no.~3, 2023.
 
 \bibitem{xia2023towards}
-Y.~Xia, M.~Shenoy, N.~Jazdi, and M.~Weyrich, ``Towards autonomous system: flexible modular production system enhanced with large language model agents,'' in \emph{2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--8.
+Y.~Xia, M.~Shenoy, N.~Jazdi, and M.~Weyrich, ``Towards autonomous system:
+  flexible modular production system enhanced with large language model
+  agents,'' in \emph{2023 IEEE 28th International Conference on Emerging
+  Technologies and Factory Automation (ETFA)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2023, pp. 1--8.
 
 \bibitem{dasgupta2023collaborating}
-I.~Dasgupta, C.~Kaeser-Chen, K.~Marino, A.~Ahuja, S.~Babayan, F.~Hill, and R.~Fergus, ``Collaborating with language models for embodied reasoning,'' \emph{arXiv preprint arXiv:2302.00763}, 2023.
+I.~Dasgupta, C.~Kaeser-Chen, K.~Marino, A.~Ahuja, S.~Babayan, F.~Hill, and
+  R.~Fergus, ``Collaborating with language models for embodied reasoning,''
+  \emph{arXiv preprint arXiv:2302.00763}, 2023.
 
 \bibitem{qian2024chatdev}
-C.~Qian, W.~Liu, H.~Liu, N.~Chen, Y.~Dang, J.~Li, C.~Yang, W.~Chen, Y.~Su, X.~Cong \emph{et~al.}, ``Chatdev: Communicative agents for software development,'' in \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, 2024, pp. 15\,174--15\,186.
+C.~Qian, W.~Liu, H.~Liu, N.~Chen, Y.~Dang, J.~Li, C.~Yang, W.~Chen, Y.~Su,
+  X.~Cong \emph{et~al.}, ``Chatdev: Communicative agents for software
+  development,'' in \emph{Proceedings of the 62nd Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers)}, 2024, pp.
+  15\,174--15\,186.
 
 \bibitem{dong2024self}
-Y.~Dong, X.~Jiang, Z.~Jin, and G.~Li, ``Self-collaboration code generation via chatgpt,'' \emph{ACM Transactions on Software Engineering and Methodology}, vol.~33, no.~7, pp. 1--38, 2024.
+Y.~Dong, X.~Jiang, Z.~Jin, and G.~Li, ``Self-collaboration code generation via
+  chatgpt,'' \emph{ACM Transactions on Software Engineering and Methodology},
+  vol.~33, no.~7, pp. 1--38, 2024.
 
 \bibitem{goertzel2014artificial}
-B.~Goertzel, ``Artificial general intelligence: concept, state of the art, and future prospects,'' \emph{Journal of Artificial General Intelligence}, vol.~5, no.~1, p.~1, 2014.
+B.~Goertzel, ``Artificial general intelligence: concept, state of the art, and
+  future prospects,'' \emph{Journal of Artificial General Intelligence},
+  vol.~5, no.~1, p.~1, 2014.
 
 \bibitem{xi2023rise}
-Z.~Xi, W.~Chen, X.~Guo, W.~He, Y.~Ding, B.~Hong, M.~Zhang, J.~Wang, S.~Jin, E.~Zhou \emph{et~al.}, ``The rise and potential of large language model based agents: A survey,'' \emph{arXiv preprint arXiv:2309.07864}, 2023.
+Z.~Xi, W.~Chen, X.~Guo, W.~He, Y.~Ding, B.~Hong, M.~Zhang, J.~Wang, S.~Jin,
+  E.~Zhou \emph{et~al.}, ``The rise and potential of large language model based
+  agents: A survey,'' \emph{arXiv preprint arXiv:2309.07864}, 2023.
 
 \bibitem{furuta2024exposing}
-H.~Furuta, Y.~Matsuo, A.~Faust, and I.~Gur, ``Exposing limitations of language model agents in sequential-task compositions on the web,'' in \emph{ICLR 2024 Workshop on Large Language Model (LLM) Agents}, 2024.
+H.~Furuta, Y.~Matsuo, A.~Faust, and I.~Gur, ``Exposing limitations of language
+  model agents in sequential-task compositions on the web,'' in \emph{ICLR 2024
+  Workshop on Large Language Model (LLM) Agents}, 2024.
 
 \bibitem{hong2024cogagent}
-W.~Hong, W.~Wang, Q.~Lv, J.~Xu, W.~Yu, J.~Ji, Y.~Wang, Z.~Wang, Y.~Dong, M.~Ding \emph{et~al.}, ``Cogagent: A visual language model for gui agents,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp. 14\,281--14\,290.
+W.~Hong, W.~Wang, Q.~Lv, J.~Xu, W.~Yu, J.~Ji, Y.~Wang, Z.~Wang, Y.~Dong,
+  M.~Ding \emph{et~al.}, ``Cogagent: A visual language model for gui agents,''
+  in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, 2024, pp. 14\,281--14\,290.
 
 \bibitem{zheng2024gpt}
-B.~Zheng, B.~Gou, J.~Kil, H.~Sun, and Y.~Su, ``Gpt-4v (ision) is a generalist web agent, if grounded,'' \emph{arXiv preprint arXiv:2401.01614}, 2024.
+B.~Zheng, B.~Gou, J.~Kil, H.~Sun, and Y.~Su, ``Gpt-4v (ision) is a generalist
+  web agent, if grounded,'' \emph{arXiv preprint arXiv:2401.01614}, 2024.
 
 \bibitem{zhang2023appagent}
-C.~Zhang, Z.~Yang, J.~Liu, Y.~Han, X.~Chen, Z.~Huang, B.~Fu, and G.~Yu, ``Appagent: Multimodal agents as smartphone users,'' \emph{arXiv preprint arXiv:2312.13771}, 2023.
+C.~Zhang, Z.~Yang, J.~Liu, Y.~Han, X.~Chen, Z.~Huang, B.~Fu, and G.~Yu,
+  ``Appagent: Multimodal agents as smartphone users,'' \emph{arXiv preprint
+  arXiv:2312.13771}, 2023.
 
 \bibitem{song2023navigating}
-Y.~Song, Y.~Bian, Y.~Tang, and Z.~Cai, ``Navigating interfaces with ai for enhanced user interaction,'' \emph{arXiv preprint arXiv:2312.11190}, 2023.
+Y.~Song, Y.~Bian, Y.~Tang, and Z.~Cai, ``Navigating interfaces with ai for
+  enhanced user interaction,'' \emph{arXiv preprint arXiv:2312.11190}, 2023.
 
 \bibitem{wen2024autodroid}
-H.~Wen, Y.~Li, G.~Liu, S.~Zhao, T.~Yu, T.~J.-J. Li, S.~Jiang, Y.~Liu, Y.~Zhang, and Y.~Liu, ``Autodroid: Llm-powered task automation in android,'' in \emph{Proceedings of the 30th Annual International Conference on Mobile Computing and Networking}, 2024, pp. 543--557.
+H.~Wen, Y.~Li, G.~Liu, S.~Zhao, T.~Yu, T.~J.-J. Li, S.~Jiang, Y.~Liu, Y.~Zhang,
+  and Y.~Liu, ``Autodroid: Llm-powered task automation in android,'' in
+  \emph{Proceedings of the 30th Annual International Conference on Mobile
+  Computing and Networking}, 2024, pp. 543--557.
 
 \bibitem{wang2024mobileagentv1}
-J.~Wang, H.~Xu, J.~Ye, M.~Yan, W.~Shen, J.~Zhang, F.~Huang, and J.~Sang, ``Mobile-agent: Autonomous multi-modal mobile device agent with visual perception,'' \emph{arXiv preprint arXiv:2401.16158}, 2024.
+J.~Wang, H.~Xu, J.~Ye, M.~Yan, W.~Shen, J.~Zhang, F.~Huang, and J.~Sang,
+  ``Mobile-agent: Autonomous multi-modal mobile device agent with visual
+  perception,'' \emph{arXiv preprint arXiv:2401.16158}, 2024.
 
 \bibitem{wang2024mobileagentv2}
-J.~Wang, H.~Xu, H.~Jia, X.~Zhang, M.~Yan, W.~Shen, J.~Zhang, F.~Huang, and J.~Sang, ``Mobile-agent-v2: Mobile device operation assistant with effective navigation via multi-agent collaboration,'' \emph{arXiv preprint arXiv:2406.01014}, 2024.
+J.~Wang, H.~Xu, H.~Jia, X.~Zhang, M.~Yan, W.~Shen, J.~Zhang, F.~Huang, and
+  J.~Sang, ``Mobile-agent-v2: Mobile device operation assistant with effective
+  navigation via multi-agent collaboration,'' \emph{arXiv preprint
+  arXiv:2406.01014}, 2024.
 
 \bibitem{wen2023droidbot}
-H.~Wen, H.~Wang, J.~Liu, and Y.~Li, ``Droidbot-gpt: Gpt-powered ui automation for android,'' \emph{arXiv preprint arXiv:2304.07061}, 2023.
+H.~Wen, H.~Wang, J.~Liu, and Y.~Li, ``Droidbot-gpt: Gpt-powered ui automation
+  for android,'' \emph{arXiv preprint arXiv:2304.07061}, 2023.
 
 \bibitem{liu2024vision}
-Z.~Liu, C.~Li, C.~Chen, J.~Wang, B.~Wu, Y.~Wang, J.~Hu, and Q.~Wang, ``Vision-driven automated mobile gui testing via multimodal large language model,'' \emph{arXiv preprint arXiv:2407.03037}, 2024.
+Z.~Liu, C.~Li, C.~Chen, J.~Wang, B.~Wu, Y.~Wang, J.~Hu, and Q.~Wang,
+  ``Vision-driven automated mobile gui testing via multimodal large language
+  model,'' \emph{arXiv preprint arXiv:2407.03037}, 2024.
 
 \bibitem{zhang2024mobileexperts}
-J.~Zhang, C.~Zhao, Y.~Zhao, Z.~Yu, M.~He, and J.~Fan, ``Mobileexperts: A dynamic tool-enabled agent team in mobile devices,'' \emph{arXiv preprint arXiv:2407.03913}, 2024.
+J.~Zhang, C.~Zhao, Y.~Zhao, Z.~Yu, M.~He, and J.~Fan, ``Mobileexperts: A
+  dynamic tool-enabled agent team in mobile devices,'' \emph{arXiv preprint
+  arXiv:2407.03913}, 2024.
 
 \bibitem{lu2024omniparser}
-Y.~Lu, J.~Yang, Y.~Shen, and A.~Awadallah, ``Omniparser for pure vision based gui agent,'' \emph{arXiv preprint arXiv:2408.00203}, 2024.
+Y.~Lu, J.~Yang, Y.~Shen, and A.~Awadallah, ``Omniparser for pure vision based
+  gui agent,'' \emph{arXiv preprint arXiv:2408.00203}, 2024.
 
 \bibitem{wang2023enabling}
-B.~Wang, G.~Li, and Y.~Li, ``Enabling conversational interaction with mobile ui using large language models,'' in \emph{Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems}, 2023, pp. 1--17.
+B.~Wang, G.~Li, and Y.~Li, ``Enabling conversational interaction with mobile ui
+  using large language models,'' in \emph{Proceedings of the 2023 CHI
+  Conference on Human Factors in Computing Systems}, 2023, pp. 1--17.
 
 \bibitem{guan2023intelligent}
-Y.~Guan, D.~Wang, Z.~Chu, S.~Wang, F.~Ni, R.~Song, L.~Li, J.~Gu, and C.~Zhuang, ``Intelligent virtual assistants with llm-based process automation,'' \emph{arXiv preprint arXiv:2312.06677}, 2023.
+Y.~Guan, D.~Wang, Z.~Chu, S.~Wang, F.~Ni, R.~Song, L.~Li, J.~Gu, and C.~Zhuang,
+  ``Intelligent virtual assistants with llm-based process automation,''
+  \emph{arXiv preprint arXiv:2312.06677}, 2023.
 
 \bibitem{fan2024readpointedlayoutawaregui}
 \BIBentryALTinterwordspacing
-Y.~Fan, L.~Ding, C.-C. Kuo, S.~Jiang, Y.~Zhao, X.~Guan, J.~Yang, Y.~Zhang, and X.~E. Wang, ``Read anywhere pointed: Layout-aware gui screen reading with tree-of-lens grounding,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2406.19263}
+Y.~Fan, L.~Ding, C.-C. Kuo, S.~Jiang, Y.~Zhao, X.~Guan, J.~Yang, Y.~Zhang, and
+  X.~E. Wang, ``Read anywhere pointed: Layout-aware gui screen reading with
+  tree-of-lens grounding,'' 2024. [Online]. Available:
+  \url{https://arxiv.org/abs/2406.19263}
 \BIBentrySTDinterwordspacing
 
 \bibitem{yan2023gpt}
-A.~Yan, Z.~Yang, W.~Zhu, K.~Lin, L.~Li, J.~Wang, J.~Yang, Y.~Zhong, J.~McAuley, J.~Gao \emph{et~al.}, ``Gpt-4v in wonderland: Large multimodal models for zero-shot smartphone gui navigation,'' \emph{arXiv preprint arXiv:2311.07562}, 2023.
+A.~Yan, Z.~Yang, W.~Zhu, K.~Lin, L.~Li, J.~Wang, J.~Yang, Y.~Zhong, J.~McAuley,
+  J.~Gao \emph{et~al.}, ``Gpt-4v in wonderland: Large multimodal models for
+  zero-shot smartphone gui navigation,'' \emph{arXiv preprint
+  arXiv:2311.07562}, 2023.
 
 \bibitem{lee2023exploremobilegpt}
-S.~Lee, J.~Choi, J.~Lee, M.~H. Wasi, H.~Choi, S.~Y. Ko, S.~Oh, and I.~Shin, ``Explore, select, derive, and recall: Augmenting llm with human-like memory for mobile task automation,'' \emph{arXiv preprint arXiv:2312.03003}, 2023.
+S.~Lee, J.~Choi, J.~Lee, M.~H. Wasi, H.~Choi, S.~Y. Ko, S.~Oh, and I.~Shin,
+  ``Explore, select, derive, and recall: Augmenting llm with human-like memory
+  for mobile task automation,'' \emph{arXiv preprint arXiv:2312.03003}, 2023.
 
 \bibitem{wu2024gui}
-Q.~Wu, D.~Gao, K.~Q. Lin, Z.~Wu, X.~Guo, P.~Li, W.~Zhang, H.~Wang, and M.~Z. Shou, ``Gui action narrator: Where and when did that action take place?'' \emph{arXiv preprint arXiv:2406.13719}, 2024.
+Q.~Wu, D.~Gao, K.~Q. Lin, Z.~Wu, X.~Guo, P.~Li, W.~Zhang, H.~Wang, and M.~Z.
+  Shou, ``Gui action narrator: Where and when did that action take place?''
+  \emph{arXiv preprint arXiv:2406.13719}, 2024.
 
 \bibitem{wu2024mobilevlm}
-Q.~Wu, W.~Xu, W.~Liu, T.~Tan, J.~Liu, A.~Li, J.~Luan, B.~Wang, and S.~Shang, ``Mobilevlm: A vision-language model for better intra-and inter-ui understanding,'' \emph{arXiv preprint arXiv:2409.14818}, 2024.
+Q.~Wu, W.~Xu, W.~Liu, T.~Tan, J.~Liu, A.~Li, J.~Luan, B.~Wang, and S.~Shang,
+  ``Mobilevlm: A vision-language model for better intra-and inter-ui
+  understanding,'' \emph{arXiv preprint arXiv:2409.14818}, 2024.
 
 \bibitem{li2024appagentv2}
-Y.~Li, C.~Zhang, W.~Yang, B.~Fu, P.~Cheng, X.~Chen, L.~Chen, and Y.~Wei, ``Appagent v2: Advanced agent for flexible mobile interactions,'' \emph{arXiv preprint arXiv:2408.11824}, 2024.
+Y.~Li, C.~Zhang, W.~Yang, B.~Fu, P.~Cheng, X.~Chen, L.~Chen, and Y.~Wei,
+  ``Appagent v2: Advanced agent for flexible mobile interactions,'' \emph{arXiv
+  preprint arXiv:2408.11824}, 2024.
 
 \bibitem{zhang2023youautoui}
-Z.~Zhang and A.~Zhang, ``You only look at screens: Multimodal chain-of-action agents,'' \emph{arXiv preprint arXiv:2309.11436}, 2023.
+Z.~Zhang and A.~Zhang, ``You only look at screens: Multimodal chain-of-action
+  agents,'' \emph{arXiv preprint arXiv:2309.11436}, 2023.
 
 \bibitem{baechler2024screenai}
-G.~Baechler, S.~Sunkara, M.~Wang, F.~Zubach, H.~Mansoor, V.~Etter, V.~C{\u{a}}rbune, J.~Lin, J.~Chen, and A.~Sharma, ``Screenai: A vision-language model for ui and infographics understanding,'' \emph{arXiv preprint arXiv:2402.04615}, 2024.
+G.~Baechler, S.~Sunkara, M.~Wang, F.~Zubach, H.~Mansoor, V.~Etter,
+  V.~C{\u{a}}rbune, J.~Lin, J.~Chen, and A.~Sharma, ``Screenai: A
+  vision-language model for ui and infographics understanding,'' \emph{arXiv
+  preprint arXiv:2402.04615}, 2024.
 
 \bibitem{ma2024coco}
-X.~Ma, Z.~Zhang, and H.~Zhao, ``Coco-agent: A comprehensive cognitive mllm agent for smartphone gui automation,'' in \emph{Findings of the Association for Computational Linguistics ACL 2024}, 2024, pp. 9097--9110.
+X.~Ma, Z.~Zhang, and H.~Zhao, ``Coco-agent: A comprehensive cognitive mllm
+  agent for smartphone gui automation,'' in \emph{Findings of the Association
+  for Computational Linguistics ACL 2024}, 2024, pp. 9097--9110.
 
 \bibitem{song2024mmac}
-Z.~Song, Y.~Li, M.~Fang, Z.~Chen, Z.~Shi, and Y.~Huang, ``Mmac-copilot: Multi-modal agent collaboration operating system copilot,'' \emph{arXiv preprint arXiv:2404.18074}, 2024.
+Z.~Song, Y.~Li, M.~Fang, Z.~Chen, Z.~Shi, and Y.~Huang, ``Mmac-copilot:
+  Multi-modal agent collaboration operating system copilot,'' \emph{arXiv
+  preprint arXiv:2404.18074}, 2024.
 
 \bibitem{tan2024cradle}
-W.~Tan, W.~Zhang, X.~Xu, H.~Xia, Z.~Ding, B.~Li, B.~Zhou, J.~Yue, J.~Jiang, Y.~Li \emph{et~al.}, ``Cradle: Empowering foundation agents towards general computer control,'' in \emph{NeurIPS 2024 Workshop on Open-World Agents}.
+W.~Tan, W.~Zhang, X.~Xu, H.~Xia, Z.~Ding, B.~Li, B.~Zhou, J.~Yue, J.~Jiang,
+  Y.~Li \emph{et~al.}, ``Cradle: Empowering foundation agents towards general
+  computer control,'' in \emph{NeurIPS 2024 Workshop on Open-World Agents}.
 
 \bibitem{wang2025mobile}
-Z.~Wang, H.~Xu, J.~Wang, X.~Zhang, M.~Yan, J.~Zhang, F.~Huang, and H.~Ji, ``Mobile-agent-e: Self-evolving mobile assistant for complex tasks,'' \emph{arXiv preprint arXiv:2501.11733}, 2025.
+Z.~Wang, H.~Xu, J.~Wang, X.~Zhang, M.~Yan, J.~Zhang, F.~Huang, and H.~Ji,
+  ``Mobile-agent-e: Self-evolving mobile assistant for complex tasks,''
+  \emph{arXiv preprint arXiv:2501.11733}, 2025.
 
 \bibitem{huang2024promptrpa}
-T.~Huang, C.~Yu, W.~Shi, Z.~Peng, D.~Yang, W.~Sun, and Y.~Shi, ``Promptrpa: Generating robotic process automation on smartphones from textual prompts,'' \emph{arXiv preprint arXiv:2404.02475}, 2024.
+T.~Huang, C.~Yu, W.~Shi, Z.~Peng, D.~Yang, W.~Sun, and Y.~Shi, ``Promptrpa:
+  Generating robotic process automation on smartphones from textual prompts,''
+  \emph{arXiv preprint arXiv:2404.02475}, 2024.
 
 \bibitem{zhang2024ask}
-X.~Zhang, Y.~Deng, Z.~Ren, S.-K. Ng, and T.-S. Chua, ``Ask-before-plan: Proactive language agents for real-world planning,'' \emph{arXiv preprint arXiv:2406.12639}, 2024.
+X.~Zhang, Y.~Deng, Z.~Ren, S.-K. Ng, and T.-S. Chua, ``Ask-before-plan:
+  Proactive language agents for real-world planning,'' \emph{arXiv preprint
+  arXiv:2406.12639}, 2024.
 
 \bibitem{sodhi2024step}
-P.~Sodhi, S.~Branavan, Y.~Artzi, and R.~McDonald, ``Step: Stacked llm policies for web actions,'' in \emph{First Conference on Language Modeling}, 2024.
+P.~Sodhi, S.~Branavan, Y.~Artzi, and R.~McDonald, ``Step: Stacked llm policies
+  for web actions,'' in \emph{First Conference on Language Modeling}, 2024.
 
 \bibitem{gou2024navigating}
-B.~Gou, R.~Wang, B.~Zheng, Y.~Xie, C.~Chang, Y.~Shu, H.~Sun, and Y.~Su, ``Navigating the digital world as humans do: Universal visual grounding for gui agents,'' \emph{arXiv preprint arXiv:2410.05243}, 2024.
+B.~Gou, R.~Wang, B.~Zheng, Y.~Xie, C.~Chang, Y.~Shu, H.~Sun, and Y.~Su,
+  ``Navigating the digital world as humans do: Universal visual grounding for
+  gui agents,'' \emph{arXiv preprint arXiv:2410.05243}, 2024.
 
 \bibitem{christianos2024lightweight}
-F.~Christianos, G.~Papoudakis, T.~Coste, J.~Hao, J.~Wang, and K.~Shao, ``Lightweight neural app control,'' \emph{arXiv preprint arXiv:2410.17883}, 2024.
+F.~Christianos, G.~Papoudakis, T.~Coste, J.~Hao, J.~Wang, and K.~Shao,
+  ``Lightweight neural app control,'' \emph{arXiv preprint arXiv:2410.17883},
+  2024.
 
 \bibitem{hoscilowicz2024clickagent}
-J.~Hoscilowicz, B.~Maj, B.~Kozakiewicz, O.~Tymoshchuk, and A.~Janicki, ``Clickagent: Enhancing ui location capabilities of autonomous agents,'' \emph{arXiv preprint arXiv:2410.11872}, 2024.
+J.~Hoscilowicz, B.~Maj, B.~Kozakiewicz, O.~Tymoshchuk, and A.~Janicki,
+  ``Clickagent: Enhancing ui location capabilities of autonomous agents,''
+  \emph{arXiv preprint arXiv:2410.11872}, 2024.
 
 \bibitem{wang2024ponder}
-Y.~Wang, H.~Zhang, J.~Tian, and Y.~Tang, ``Ponder \& press: Advancing visual gui agent towards general computer control,'' \emph{arXiv preprint arXiv:2412.01268}, 2024.
+Y.~Wang, H.~Zhang, J.~Tian, and Y.~Tang, ``Ponder \& press: Advancing visual
+  gui agent towards general computer control,'' \emph{arXiv preprint
+  arXiv:2412.01268}, 2024.
 
 \bibitem{taeb2024axnav}
-M.~Taeb, A.~Swearngin, E.~Schoop, R.~Cheng, Y.~Jiang, and J.~Nichols, ``Axnav: Replaying accessibility tests from natural language,'' in \emph{Proceedings of the CHI Conference on Human Factors in Computing Systems}, 2024, pp. 1--16.
+M.~Taeb, A.~Swearngin, E.~Schoop, R.~Cheng, Y.~Jiang, and J.~Nichols, ``Axnav:
+  Replaying accessibility tests from natural language,'' in \emph{Proceedings
+  of the CHI Conference on Human Factors in Computing Systems}, 2024, pp.
+  1--16.
 
 \bibitem{song2024visiontasker}
-Y.~Song, Y.~Bian, Y.~Tang, G.~Ma, and Z.~Cai, ``Visiontasker: Mobile task automation using vision based ui understanding and llm task planning,'' in \emph{Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology}, 2024, pp. 1--17.
+Y.~Song, Y.~Bian, Y.~Tang, G.~Ma, and Z.~Cai, ``Visiontasker: Mobile task
+  automation using vision based ui understanding and llm task planning,'' in
+  \emph{Proceedings of the 37th Annual ACM Symposium on User Interface Software
+  and Technology}, 2024, pp. 1--17.
 
 \bibitem{nong2024mobileflow}
-S.~Nong, J.~Zhu, R.~Wu, J.~Jin, S.~Shan, X.~Huang, and W.~Xu, ``Mobileflow: A multimodal llm for mobile gui agent,'' \emph{arXiv preprint arXiv:2407.04346}, 2024.
+S.~Nong, J.~Zhu, R.~Wu, J.~Jin, S.~Shan, X.~Huang, and W.~Xu, ``Mobileflow: A
+  multimodal llm for mobile gui agent,'' \emph{arXiv preprint
+  arXiv:2407.04346}, 2024.
 
 \bibitem{lin2024showui}
-K.~Q. Lin, L.~Li, D.~Gao, Z.~Yang, S.~Wu, Z.~Bai, W.~Lei, L.~Wang, and M.~Z. Shou, ``Showui: One vision-language-action model for gui visual agent,'' \emph{arXiv preprint arXiv:2411.17465}, 2024.
+K.~Q. Lin, L.~Li, D.~Gao, Z.~Yang, S.~Wu, Z.~Bai, W.~Lei, L.~Wang, and M.~Z.
+  Shou, ``Showui: One vision-language-action model for gui visual agent,''
+  \emph{arXiv preprint arXiv:2411.17465}, 2024.
 
 \bibitem{xu2024aguvis}
-Y.~Xu, Z.~Wang, J.~Wang, D.~Lu, T.~Xie, A.~Saha, D.~Sahoo, T.~Yu, and C.~Xiong, ``Aguvis: Unified pure vision agents for autonomous gui interaction,'' \emph{arXiv preprint arXiv:2412.04454}, 2024.
+Y.~Xu, Z.~Wang, J.~Wang, D.~Lu, T.~Xie, A.~Saha, D.~Sahoo, T.~Yu, and C.~Xiong,
+  ``Aguvis: Unified pure vision agents for autonomous gui interaction,''
+  \emph{arXiv preprint arXiv:2412.04454}, 2024.
 
 \bibitem{qin2025ui}
-Y.~Qin, Y.~Ye, J.~Fang, H.~Wang, S.~Liang, S.~Tian, J.~Zhang, J.~Li, Y.~Li, S.~Huang \emph{et~al.}, ``Ui-tars: Pioneering automated gui interaction with native agents,'' \emph{arXiv preprint arXiv:2501.12326}, 2025.
+Y.~Qin, Y.~Ye, J.~Fang, H.~Wang, S.~Liang, S.~Tian, J.~Zhang, J.~Li, Y.~Li,
+  S.~Huang \emph{et~al.}, ``Ui-tars: Pioneering automated gui interaction with
+  native agents,'' \emph{arXiv preprint arXiv:2501.12326}, 2025.
 
 \bibitem{li2022mug}
-T.~Li, G.~Li, J.~Zheng, P.~Wang, and Y.~Li, ``Mug: Interactive multimodal grounding on user interfaces,'' \emph{arXiv preprint arXiv:2209.15099}, 2022.
+T.~Li, G.~Li, J.~Zheng, P.~Wang, and Y.~Li, ``Mug: Interactive multimodal
+  grounding on user interfaces,'' \emph{arXiv preprint arXiv:2209.15099}, 2022.
 
 \bibitem{qian2024visualgrounding}
-Y.~Qian, Y.~Lu, A.~G. Hauptmann, and O.~Riva, ``Visual grounding for user interfaces,'' in \emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track)}, 2024, pp. 97--107.
+Y.~Qian, Y.~Lu, A.~G. Hauptmann, and O.~Riva, ``Visual grounding for user
+  interfaces,'' in \emph{Proceedings of the 2024 Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies (Volume 6: Industry Track)}, 2024, pp. 97--107.
 
 \bibitem{zhang2024ui-hawk}
-J.~Zhang, Y.~Yu, M.~Liao, W.~Li, J.~Wu, and Z.~Wei, ``Ui-hawk: Unleashing the screen stream understanding for gui agents,'' 2024.
+J.~Zhang, Y.~Yu, M.~Liao, W.~Li, J.~Wu, and Z.~Wei, ``Ui-hawk: Unleashing the
+  screen stream understanding for gui agents,'' 2024.
 
 \bibitem{yang2024aria}
-Y.~Yang, Y.~Wang, D.~Li, Z.~Luo, B.~Chen, C.~Huang, and J.~Li, ``Aria-ui: Visual grounding for gui instructions,'' \emph{arXiv preprint arXiv:2412.16256}, 2024.
+Y.~Yang, Y.~Wang, D.~Li, Z.~Luo, B.~Chen, C.~Huang, and J.~Li, ``Aria-ui:
+  Visual grounding for gui instructions,'' \emph{arXiv preprint
+  arXiv:2412.16256}, 2024.
 
 \bibitem{wu2024atlas}
-Z.~Wu, Z.~Wu, F.~Xu, Y.~Wang, Q.~Sun, C.~Jia, K.~Cheng, Z.~Ding, L.~Chen, P.~P. Liang \emph{et~al.}, ``Os-atlas: A foundation action model for generalist gui agents,'' \emph{arXiv preprint arXiv:2410.23218}, 2024.
+Z.~Wu, Z.~Wu, F.~Xu, Y.~Wang, Q.~Sun, C.~Jia, K.~Cheng, Z.~Ding, L.~Chen, P.~P.
+  Liang \emph{et~al.}, ``Os-atlas: A foundation action model for generalist gui
+  agents,'' \emph{arXiv preprint arXiv:2410.23218}, 2024.
 
 \bibitem{fan2025gui}
-Y.~Fan, H.~Zhao, R.~Zhang, Y.~Shen, X.~E. Wang, and G.~Wu, ``Gui-bee: Align gui action grounding to novel environments via autonomous exploration,'' \emph{arXiv preprint arXiv:2501.13896}, 2025.
+Y.~Fan, H.~Zhao, R.~Zhang, Y.~Shen, X.~E. Wang, and G.~Wu, ``Gui-bee: Align gui
+  action grounding to novel environments via autonomous exploration,''
+  \emph{arXiv preprint arXiv:2501.13896}, 2025.
 
 \bibitem{you2024ferret}
-K.~You, H.~Zhang, E.~Schoop, F.~Weers, A.~Swearngin, J.~Nichols, Y.~Yang, and Z.~Gan, ``Ferret-ui: Grounded mobile ui understanding with multimodal llms,'' \emph{arXiv preprint arXiv:2404.05719}, 2024.
+K.~You, H.~Zhang, E.~Schoop, F.~Weers, A.~Swearngin, J.~Nichols, Y.~Yang, and
+  Z.~Gan, ``Ferret-ui: Grounded mobile ui understanding with multimodal llms,''
+  \emph{arXiv preprint arXiv:2404.05719}, 2024.
 
 \bibitem{li2024ferretui2masteringuniversal}
 \BIBentryALTinterwordspacing
-Z.~Li, K.~You, H.~Zhang, D.~Feng, H.~Agrawal, X.~Li, M.~P.~S. Moorthy, J.~Nichols, Y.~Yang, and Z.~Gan, ``Ferret-ui 2: Mastering universal user interface understanding across platforms,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2410.18967}
+Z.~Li, K.~You, H.~Zhang, D.~Feng, H.~Agrawal, X.~Li, M.~P.~S. Moorthy,
+  J.~Nichols, Y.~Yang, and Z.~Gan, ``Ferret-ui 2: Mastering universal user
+  interface understanding across platforms,'' 2024. [Online]. Available:
+  \url{https://arxiv.org/abs/2410.18967}
 \BIBentrySTDinterwordspacing
 
 \bibitem{burns2024tell}
-A.~Burns, K.~Saenko, and B.~A. Plummer, ``Tell me what's next: Textual foresight for generic ui representations,'' \emph{arXiv preprint arXiv:2406.07822}, 2024.
+A.~Burns, K.~Saenko, and B.~A. Plummer, ``Tell me what's next: Textual
+  foresight for generic ui representations,'' \emph{arXiv preprint
+  arXiv:2406.07822}, 2024.
 
 \bibitem{chen2024webvln}
-Q.~Chen, D.~Pitawela, C.~Zhao, G.~Zhou, H.-T. Chen, and Q.~Wu, ``Webvln: Vision-and-language navigation on websites,'' in \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, vol.~38, no.~2, 2024, pp. 1165--1173.
+Q.~Chen, D.~Pitawela, C.~Zhao, G.~Zhou, H.-T. Chen, and Q.~Wu, ``Webvln:
+  Vision-and-language navigation on websites,'' in \emph{Proceedings of the
+  AAAI Conference on Artificial Intelligence}, vol.~38, no.~2, 2024, pp.
+  1165--1173.
 
 \bibitem{cheng2024seeclick}
-K.~Cheng, Q.~Sun, Y.~Chu, F.~Xu, Y.~Li, J.~Zhang, and Z.~Wu, ``Seeclick: Harnessing gui grounding for advanced visual gui agents,'' \emph{arXiv preprint arXiv:2401.10935}, 2024.
+K.~Cheng, Q.~Sun, Y.~Chu, F.~Xu, Y.~Li, J.~Zhang, and Z.~Wu, ``Seeclick:
+  Harnessing gui grounding for advanced visual gui agents,'' \emph{arXiv
+  preprint arXiv:2401.10935}, 2024.
 
 \bibitem{liu2025infiguiagent}
-Y.~Liu, P.~Li, Z.~Wei, C.~Xie, X.~Hu, X.~Xu, S.~Zhang, X.~Han, H.~Yang, and F.~Wu, ``Infiguiagent: A multimodal generalist gui agent with native reasoning and reflection,'' \emph{arXiv preprint arXiv:2501.04575}, 2025.
+Y.~Liu, P.~Li, Z.~Wei, C.~Xie, X.~Hu, X.~Xu, S.~Zhang, X.~Han, H.~Yang, and
+  F.~Wu, ``Infiguiagent: A multimodal generalist gui agent with native
+  reasoning and reflection,'' \emph{arXiv preprint arXiv:2501.04575}, 2025.
 
 \bibitem{chen2024guicourse}
-W.~Chen, J.~Cui, J.~Hu, Y.~Qin, J.~Fang, Y.~Zhao, C.~Wang, J.~Liu, G.~Chen, Y.~Huo \emph{et~al.}, ``Guicourse: From general vision language models to versatile gui agents,'' \emph{arXiv preprint arXiv:2406.11317}, 2024.
+W.~Chen, J.~Cui, J.~Hu, Y.~Qin, J.~Fang, Y.~Zhao, C.~Wang, J.~Liu, G.~Chen,
+  Y.~Huo \emph{et~al.}, ``Guicourse: From general vision language models to
+  versatile gui agents,'' \emph{arXiv preprint arXiv:2406.11317}, 2024.
 
 \bibitem{yuan2025agent}
-S.~Yuan, Z.~Chen, Z.~Xi, J.~Ye, Z.~Du, and J.~Chen, ``Agent-r: Training language model agents to reflect via iterative self-training,'' \emph{arXiv preprint arXiv:2501.11425}, 2025.
+S.~Yuan, Z.~Chen, Z.~Xi, J.~Ye, Z.~Du, and J.~Chen, ``Agent-r: Training
+  language model agents to reflect via iterative self-training,'' \emph{arXiv
+  preprint arXiv:2501.11425}, 2025.
 
 \bibitem{lu2024guiodyssey}
-Q.~Lu, W.~Shao, Z.~Liu, F.~Meng, B.~Li, B.~Chen, S.~Huang, K.~Zhang, Y.~Qiao, and P.~Luo, ``Gui odyssey: A comprehensive dataset for cross-app gui navigation on mobile devices,'' \emph{arXiv preprint arXiv:2406.08451}, 2024.
+Q.~Lu, W.~Shao, Z.~Liu, F.~Meng, B.~Li, B.~Chen, S.~Huang, K.~Zhang, Y.~Qiao,
+  and P.~Luo, ``Gui odyssey: A comprehensive dataset for cross-app gui
+  navigation on mobile devices,'' \emph{arXiv preprint arXiv:2406.08451}, 2024.
 
 \bibitem{pawlowski2024tinyclick}
-P.~Pawlowski, K.~Zawistowski, W.~Lapacz, M.~Skorupa, A.~Wiacek, S.~Postansque, and J.~Hoscilowicz, ``Tinyclick: Single-turn agent for empowering gui automation,'' \emph{arXiv preprint arXiv:2410.11871}, 2024.
+P.~Pawlowski, K.~Zawistowski, W.~Lapacz, M.~Skorupa, A.~Wiacek, S.~Postansque,
+  and J.~Hoscilowicz, ``Tinyclick: Single-turn agent for empowering gui
+  automation,'' \emph{arXiv preprint arXiv:2410.11871}, 2024.
 
 \bibitem{ding2024mobileagentsop}
-T.~Ding, ``Mobileagent: enhancing mobile control via human-machine interaction and sop integration,'' \emph{arXiv preprint arXiv:2401.04124}, 2024.
+T.~Ding, ``Mobileagent: enhancing mobile control via human-machine interaction
+  and sop integration,'' \emph{arXiv preprint arXiv:2401.04124}, 2024.
 
 \bibitem{moniz2024realm}
-J.~R.~A. Moniz, S.~Krishnan, M.~Ozyildirim, P.~Saraf, H.~C. Ates, Y.~Zhang, H.~Yu, and N.~Rajshree, ``Realm: Reference resolution as language modeling,'' \emph{arXiv preprint arXiv:2403.20329}, 2024.
+J.~R.~A. Moniz, S.~Krishnan, M.~Ozyildirim, P.~Saraf, H.~C. Ates, Y.~Zhang,
+  H.~Yu, and N.~Rajshree, ``Realm: Reference resolution as language modeling,''
+  \emph{arXiv preprint arXiv:2403.20329}, 2024.
 
 \bibitem{haque2024infering}
-S.~Haque and C.~Csallner, ``Infering alt-text for ui icons with large language models during app development,'' \emph{arXiv preprint arXiv:2409.18060}, 2024.
+S.~Haque and C.~Csallner, ``Infering alt-text for ui icons with large language
+  models during app development,'' \emph{arXiv preprint arXiv:2409.18060},
+  2024.
 
 \bibitem{bai2024digirl}
-H.~Bai, Y.~Zhou, M.~Cemri, J.~Pan, A.~Suhr, S.~Levine, and A.~Kumar, ``Digirl: Training in-the-wild device-control agents with autonomous reinforcement learning,'' \emph{arXiv preprint arXiv:2406.11896}, 2024.
+H.~Bai, Y.~Zhou, M.~Cemri, J.~Pan, A.~Suhr, S.~Levine, and A.~Kumar, ``Digirl:
+  Training in-the-wild device-control agents with autonomous reinforcement
+  learning,'' \emph{arXiv preprint arXiv:2406.11896}, 2024.
 
 \bibitem{wang2024distrl}
-T.~Wang, Z.~Wu, J.~Liu, J.~Hao, J.~Wang, and K.~Shao, ``Distrl: An asynchronous distributed reinforcement learning framework for on-device control agents,'' \emph{arXiv preprint arXiv:2410.14803}, 2024.
+T.~Wang, Z.~Wu, J.~Liu, J.~Hao, J.~Wang, and K.~Shao, ``Distrl: An asynchronous
+  distributed reinforcement learning framework for on-device control agents,''
+  \emph{arXiv preprint arXiv:2410.14803}, 2024.
 
 \bibitem{liu2024autoglm}
-X.~Liu, B.~Qin, D.~Liang, G.~Dong, H.~Lai, H.~Zhang, H.~Zhao, I.~L. Iong, J.~Sun, J.~Wang \emph{et~al.}, ``Autoglm: Autonomous foundation agents for guis,'' \emph{arXiv preprint arXiv:2411.00820}, 2024.
+X.~Liu, B.~Qin, D.~Liang, G.~Dong, H.~Lai, H.~Zhang, H.~Zhao, I.~L. Iong,
+  J.~Sun, J.~Wang \emph{et~al.}, ``Autoglm: Autonomous foundation agents for
+  guis,'' \emph{arXiv preprint arXiv:2411.00820}, 2024.
 
 \bibitem{wu2025reachagent}
-Q.~Wu, W.~Liu, J.~Luan, and B.~Wang, ``Reachagent: Enhancing mobile agent via page reaching and operation,'' \emph{arXiv preprint arXiv:2502.02955}, 2025.
+Q.~Wu, W.~Liu, J.~Luan, and B.~Wang, ``Reachagent: Enhancing mobile agent via
+  page reaching and operation,'' \emph{arXiv preprint arXiv:2502.02955}, 2025.
 
 \bibitem{song2024trial}
-Y.~Song, D.~Yin, X.~Yue, J.~Huang, S.~Li, and B.~Y. Lin, ``Trial and error: Exploration-based trajectory optimization for llm agents,'' \emph{arXiv preprint arXiv:2403.02502}, 2024.
+Y.~Song, D.~Yin, X.~Yue, J.~Huang, S.~Li, and B.~Y. Lin, ``Trial and error:
+  Exploration-based trajectory optimization for llm agents,'' \emph{arXiv
+  preprint arXiv:2403.02502}, 2024.
 
 \bibitem{putta2024agentq}
-P.~Putta, E.~Mills, N.~Garg, S.~Motwani, C.~Finn, D.~Garg, and R.~Rafailov, ``Agent q: Advanced reasoning and learning for autonomous ai agents,'' \emph{arXiv preprint arXiv:2408.07199}, 2024.
+P.~Putta, E.~Mills, N.~Garg, S.~Motwani, C.~Finn, D.~Garg, and R.~Rafailov,
+  ``Agent q: Advanced reasoning and learning for autonomous ai agents,''
+  \emph{arXiv preprint arXiv:2408.07199}, 2024.
 
 \bibitem{lai2024autowebglm}
-H.~Lai, X.~Liu, I.~L. Iong, S.~Yao, Y.~Chen, P.~Shen, H.~Yu, H.~Zhang, X.~Zhang, Y.~Dong \emph{et~al.}, ``Autowebglm: A large language model-based web navigating agent,'' in \emph{Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining}, 2024, pp. 5295--5306.
+H.~Lai, X.~Liu, I.~L. Iong, S.~Yao, Y.~Chen, P.~Shen, H.~Yu, H.~Zhang,
+  X.~Zhang, Y.~Dong \emph{et~al.}, ``Autowebglm: A large language model-based
+  web navigating agent,'' in \emph{Proceedings of the 30th ACM SIGKDD
+  Conference on Knowledge Discovery and Data Mining}, 2024, pp. 5295--5306.
 
 \bibitem{Fereidouni_2024}
 \BIBentryALTinterwordspacing
-M.~Fereidouni, A.~Mosharrof, and A.~Siddique, ``Grounded language agent for product search via intelligent web interactions,'' in \emph{Proceedings of the 1st Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain, Application, Group, or Individual (CustomNLP4U)}.\hskip 1em plus 0.5em minus 0.4em\relax Association for Computational Linguistics, 2024, p. 63–75. [Online]. Available: \url{http://dx.doi.org/10.18653/v1/2024.customnlp4u-1.7}
+M.~Fereidouni, A.~Mosharrof, and A.~Siddique, ``Grounded language agent for
+  product search via intelligent web interactions,'' in \emph{Proceedings of
+  the 1st Workshop on Customizable NLP: Progress and Challenges in Customizing
+  NLP for a Domain, Application, Group, or Individual (CustomNLP4U)}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Association for Computational Linguistics, 2024,
+  p. 63–75. [Online]. Available:
+  \url{http://dx.doi.org/10.18653/v1/2024.customnlp4u-1.7}
 \BIBentrySTDinterwordspacing
 
 \bibitem{niu2024screenagent}
-R.~Niu, J.~Li, S.~Wang, Y.~Fu, X.~Hu, X.~Leng, H.~Kong, Y.~Chang, and Q.~Wang, ``Screenagent: A vision language model-driven computer control agent,'' \emph{arXiv preprint arXiv:2402.07945}, 2024.
+R.~Niu, J.~Li, S.~Wang, Y.~Fu, X.~Hu, X.~Leng, H.~Kong, Y.~Chang, and Q.~Wang,
+  ``Screenagent: A vision language model-driven computer control agent,''
+  \emph{arXiv preprint arXiv:2402.07945}, 2024.
 
 \bibitem{gao2023assistgui}
-D.~Gao, L.~Ji, Z.~Bai, M.~Ouyang, P.~Li, D.~Mao, Q.~Wu, W.~Zhang, P.~Wang, X.~Guo \emph{et~al.}, ``Assistgui: Task-oriented desktop graphical user interface automation,'' \emph{arXiv preprint arXiv:2312.13108}, 2023.
+D.~Gao, L.~Ji, Z.~Bai, M.~Ouyang, P.~Li, D.~Mao, Q.~Wu, W.~Zhang, P.~Wang,
+  X.~Guo \emph{et~al.}, ``Assistgui: Task-oriented desktop graphical user
+  interface automation,'' \emph{arXiv preprint arXiv:2312.13108}, 2023.
 
 \bibitem{deka2017rico}
-B.~Deka, Z.~Huang, C.~Franzen, J.~Hibschman, D.~Afergan, Y.~Li, J.~Nichols, and R.~Kumar, ``Rico: A mobile app dataset for building data-driven design applications,'' in \emph{Proceedings of the 30th annual ACM symposium on user interface software and technology}, 2017, pp. 845--854.
+B.~Deka, Z.~Huang, C.~Franzen, J.~Hibschman, D.~Afergan, Y.~Li, J.~Nichols, and
+  R.~Kumar, ``Rico: A mobile app dataset for building data-driven design
+  applications,'' in \emph{Proceedings of the 30th annual ACM symposium on user
+  interface software and technology}, 2017, pp. 845--854.
 
 \bibitem{sunkara2022towards}
-S.~Sunkara, M.~Wang, L.~Liu, G.~Baechler, Y.-C. Hsiao, A.~Sharma, J.~Stout \emph{et~al.}, ``Towards better semantic understanding of mobile interfaces,'' \emph{arXiv preprint arXiv:2210.02663}, 2022.
+S.~Sunkara, M.~Wang, L.~Liu, G.~Baechler, Y.-C. Hsiao, A.~Sharma, J.~Stout
+  \emph{et~al.}, ``Towards better semantic understanding of mobile
+  interfaces,'' \emph{arXiv preprint arXiv:2210.02663}, 2022.
 
 \bibitem{li2020PixelHelp}
-Y.~Li, J.~He, X.~Zhou, Y.~Zhang, and J.~Baldridge, ``Mapping natural language instructions to mobile ui action sequences,'' \emph{arXiv preprint arXiv:2005.03776}, 2020.
+Y.~Li, J.~He, X.~Zhou, Y.~Zhang, and J.~Baldridge, ``Mapping natural language
+  instructions to mobile ui action sequences,'' \emph{arXiv preprint
+  arXiv:2005.03776}, 2020.
 
 \bibitem{burns2021motif}
-A.~Burns, D.~Arsan, S.~Agrawal, R.~Kumar, K.~Saenko, and B.~A. Plummer, ``Mobile app tasks with iterative feedback (motif): Addressing task feasibility in interactive visual environments,'' \emph{arXiv preprint arXiv:2104.08560}, 2021.
+A.~Burns, D.~Arsan, S.~Agrawal, R.~Kumar, K.~Saenko, and B.~A. Plummer,
+  ``Mobile app tasks with iterative feedback (motif): Addressing task
+  feasibility in interactive visual environments,'' \emph{arXiv preprint
+  arXiv:2104.08560}, 2021.
 
 \bibitem{bai2021uibert}
-C.~Bai, X.~Zang, Y.~Xu, S.~Sunkara, A.~Rastogi, J.~Chen \emph{et~al.}, ``Uibert: Learning generic multimodal representations for ui understanding,'' \emph{arXiv preprint arXiv:2107.13731}, 2021.
+C.~Bai, X.~Zang, Y.~Xu, S.~Sunkara, A.~Rastogi, J.~Chen \emph{et~al.},
+  ``Uibert: Learning generic multimodal representations for ui understanding,''
+  \emph{arXiv preprint arXiv:2107.13731}, 2021.
 
 \bibitem{sun2022metagui}
-L.~Sun, X.~Chen, L.~Chen, T.~Dai, Z.~Zhu, and K.~Yu, ``Meta-gui: Towards multi-modal conversational agents on mobile gui,'' \emph{arXiv preprint arXiv:2205.11029}, 2022.
+L.~Sun, X.~Chen, L.~Chen, T.~Dai, Z.~Zhu, and K.~Yu, ``Meta-gui: Towards
+  multi-modal conversational agents on mobile gui,'' \emph{arXiv preprint
+  arXiv:2205.11029}, 2022.
 
 \bibitem{venkatesh2022ugif}
-S.~G. Venkatesh, P.~Talukdar, and S.~Narayanan, ``Ugif: Ui grounded instruction following,'' \emph{arXiv preprint arXiv:2211.07615}, 2022.
+S.~G. Venkatesh, P.~Talukdar, and S.~Narayanan, ``Ugif: Ui grounded instruction
+  following,'' \emph{arXiv preprint arXiv:2211.07615}, 2022.
 
 \bibitem{rawles2024androidinthewild}
-C.~Rawles, A.~Li, D.~Rodriguez, O.~Riva, and T.~Lillicrap, ``Androidinthewild: A large-scale dataset for android device control,'' \emph{Advances in Neural Information Processing Systems}, vol.~36, 2024.
+C.~Rawles, A.~Li, D.~Rodriguez, O.~Riva, and T.~Lillicrap, ``Androidinthewild:
+  A large-scale dataset for android device control,'' \emph{Advances in Neural
+  Information Processing Systems}, vol.~36, 2024.
 
 \bibitem{zhang2024aitz}
-J.~Zhang, J.~Wu, Y.~Teng, M.~Liao, N.~Xu, X.~Xiao, Z.~Wei, and D.~Tang, ``Android in the zoo: Chain-of-action-thought for gui agents,'' \emph{arXiv preprint arXiv:2403.02713}, 2024.
+J.~Zhang, J.~Wu, Y.~Teng, M.~Liao, N.~Xu, X.~Xiao, Z.~Wei, and D.~Tang,
+  ``Android in the zoo: Chain-of-action-thought for gui agents,'' \emph{arXiv
+  preprint arXiv:2403.02713}, 2024.
 
 \bibitem{chen2024gui}
-D.~Chen, Y.~Huang, S.~Wu, J.~Tang, L.~Chen, Y.~Bai, Z.~He, C.~Wang, H.~Zhou, Y.~Li \emph{et~al.}, ``Gui-world: A dataset for gui-oriented multimodal llm-based agents,'' \emph{arXiv preprint arXiv:2406.10819}, 2024.
+D.~Chen, Y.~Huang, S.~Wu, J.~Tang, L.~Chen, Y.~Bai, Z.~He, C.~Wang, H.~Zhou,
+  Y.~Li \emph{et~al.}, ``Gui-world: A dataset for gui-oriented multimodal
+  llm-based agents,'' \emph{arXiv preprint arXiv:2406.10819}, 2024.
 
 \bibitem{li2024androidcontrol}
-W.~Li, W.~Bishop, A.~Li, C.~Rawles, F.~Campbell-Ajala, D.~Tyamagundlu, and O.~Riva, ``On the effects of data scale on computer control agents,'' \emph{arXiv preprint arXiv:2406.03679}, 2024.
+W.~Li, W.~Bishop, A.~Li, C.~Rawles, F.~Campbell-Ajala, D.~Tyamagundlu, and
+  O.~Riva, ``On the effects of data scale on computer control agents,''
+  \emph{arXiv preprint arXiv:2406.03679}, 2024.
 
 \bibitem{chai2024amex}
-Y.~Chai, S.~Huang, Y.~Niu, H.~Xiao, L.~Liu, D.~Zhang, P.~Gao, S.~Ren, and H.~Li, ``Amex: Android multi-annotation expo dataset for mobile gui agents,'' \emph{arXiv preprint arXiv:2407.17490}, 2024.
+Y.~Chai, S.~Huang, Y.~Niu, H.~Xiao, L.~Liu, D.~Zhang, P.~Gao, S.~Ren, and
+  H.~Li, ``Amex: Android multi-annotation expo dataset for mobile gui agents,''
+  \emph{arXiv preprint arXiv:2407.17490}, 2024.
 
 \bibitem{gao2024mobileviews}
-L.~Gao, L.~Zhang, S.~Wang, S.~Wang, Y.~Li, and M.~Xu, ``Mobileviews: A large-scale mobile gui dataset,'' \emph{arXiv preprint arXiv:2409.14337}, 2024.
+L.~Gao, L.~Zhang, S.~Wang, S.~Wang, Y.~Li, and M.~Xu, ``Mobileviews: A
+  large-scale mobile gui dataset,'' \emph{arXiv preprint arXiv:2409.14337},
+  2024.
 
 \bibitem{zhang2023mobileenv}
-D.~Zhang, L.~Chen, and K.~Yu, ``Mobile-env: A universal platform for training and evaluation of mobile interaction,'' \emph{arXiv preprint arXiv:2305.08144}, 2023.
+D.~Zhang, L.~Chen, and K.~Yu, ``Mobile-env: A universal platform for training
+  and evaluation of mobile interaction,'' \emph{arXiv preprint
+  arXiv:2305.08144}, 2023.
 
 \bibitem{xing2024AndroidArena}
-M.~Xing, R.~Zhang, H.~Xue, Q.~Chen, F.~Yang, and Z.~Xiao, ``Understanding the weakness of large language model agents within a complex android environment,'' in \emph{Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining}, 2024, pp. 6061--6072.
+M.~Xing, R.~Zhang, H.~Xue, Q.~Chen, F.~Yang, and Z.~Xiao, ``Understanding the
+  weakness of large language model agents within a complex android
+  environment,'' in \emph{Proceedings of the 30th ACM SIGKDD Conference on
+  Knowledge Discovery and Data Mining}, 2024, pp. 6061--6072.
 
 \bibitem{zhang2024llamatouch}
-L.~Zhang, S.~Wang, X.~Jia, Z.~Zheng, Y.~Yan, L.~Gao, Y.~Li, and M.~Xu, ``Llamatouch: A faithful and scalable testbed for mobile ui automation task evaluation,'' \emph{arXiv preprint arXiv:2404.16054}, 2024.
+L.~Zhang, S.~Wang, X.~Jia, Z.~Zheng, Y.~Yan, L.~Gao, Y.~Li, and M.~Xu,
+  ``Llamatouch: A faithful and scalable testbed for mobile ui automation task
+  evaluation,'' \emph{arXiv preprint arXiv:2404.16054}, 2024.
 
 \bibitem{lee2024BMoCA}
-J.~Lee, T.~Min, M.~An, D.~Hahm, H.~Lee, C.~Kim, and K.~Lee, ``Benchmarking mobile device control agents across diverse configurations,'' \emph{arXiv preprint arXiv:2404.16660}, 2024.
+J.~Lee, T.~Min, M.~An, D.~Hahm, H.~Lee, C.~Kim, and K.~Lee, ``Benchmarking
+  mobile device control agents across diverse configurations,'' \emph{arXiv
+  preprint arXiv:2404.16660}, 2024.
 
 \bibitem{rawles2024androidworld}
-C.~Rawles, S.~Clinckemaillie, Y.~Chang, J.~Waltz, G.~Lau, M.~Fair, A.~Li, W.~Bishop, W.~Li, F.~Campbell-Ajala \emph{et~al.}, ``Androidworld: A dynamic benchmarking environment for autonomous agents,'' \emph{arXiv preprint arXiv:2405.14573}, 2024.
+C.~Rawles, S.~Clinckemaillie, Y.~Chang, J.~Waltz, G.~Lau, M.~Fair, A.~Li,
+  W.~Bishop, W.~Li, F.~Campbell-Ajala \emph{et~al.}, ``Androidworld: A dynamic
+  benchmarking environment for autonomous agents,'' \emph{arXiv preprint
+  arXiv:2405.14573}, 2024.
 
 \bibitem{hu2024auitestagent}
-Y.~Hu, X.~Wang, Y.~Wang, Y.~Zhang, S.~Guo, C.~Chen, X.~Wang, and Y.~Zhou, ``Auitestagent: Automatic requirements oriented gui function testing,'' \emph{arXiv preprint arXiv:2407.09018}, 2024.
+Y.~Hu, X.~Wang, Y.~Wang, Y.~Zhang, S.~Guo, C.~Chen, X.~Wang, and Y.~Zhou,
+  ``Auitestagent: Automatic requirements oriented gui function testing,''
+  \emph{arXiv preprint arXiv:2407.09018}, 2024.
 
 \bibitem{zheng2024agentstudio}
-L.~Zheng, Z.~Huang, Z.~Xue, X.~Wang, B.~An, and S.~Yan, ``Agentstudio: A toolkit for building general virtual agents,'' \emph{arXiv preprint arXiv:2403.17918}, 2024.
+L.~Zheng, Z.~Huang, Z.~Xue, X.~Wang, B.~An, and S.~Yan, ``Agentstudio: A
+  toolkit for building general virtual agents,'' \emph{arXiv preprint
+  arXiv:2403.17918}, 2024.
 
 \bibitem{xu2024androidlab}
-Y.~Xu, X.~Liu, X.~Sun, S.~Cheng, H.~Yu, H.~Lai, S.~Zhang, D.~Zhang, J.~Tang, and Y.~Dong, ``Androidlab: Training and systematic benchmarking of android autonomous agents,'' \emph{arXiv preprint arXiv:2410.24024}, 2024.
+Y.~Xu, X.~Liu, X.~Sun, S.~Cheng, H.~Yu, H.~Lai, S.~Zhang, D.~Zhang, J.~Tang,
+  and Y.~Dong, ``Androidlab: Training and systematic benchmarking of android
+  autonomous agents,'' \emph{arXiv preprint arXiv:2410.24024}, 2024.
 
 \bibitem{wang2024mobileagentbench}
-L.~Wang, Y.~Deng, Y.~Zha, G.~Mao, Q.~Wang, T.~Min, W.~Chen, and S.~Chen, ``Mobileagentbench: An efficient and user-friendly benchmark for mobile llm agents,'' \emph{arXiv preprint arXiv:2406.08184}, 2024.
+L.~Wang, Y.~Deng, Y.~Zha, G.~Mao, Q.~Wang, T.~Min, W.~Chen, and S.~Chen,
+  ``Mobileagentbench: An efficient and user-friendly benchmark for mobile llm
+  agents,'' \emph{arXiv preprint arXiv:2406.08184}, 2024.
 
 \bibitem{liu2024visualagentbench}
-X.~Liu, T.~Zhang, Y.~Gu, I.~L. Iong, Y.~Xu, X.~Song, S.~Zhang, H.~Lai, X.~Liu, H.~Zhao \emph{et~al.}, ``Visualagentbench: Towards large multimodal models as visual foundation agents,'' \emph{arXiv preprint arXiv:2408.06327}, 2024.
+X.~Liu, T.~Zhang, Y.~Gu, I.~L. Iong, Y.~Xu, X.~Song, S.~Zhang, H.~Lai, X.~Liu,
+  H.~Zhao \emph{et~al.}, ``Visualagentbench: Towards large multimodal models as
+  visual foundation agents,'' \emph{arXiv preprint arXiv:2408.06327}, 2024.
 
 \bibitem{chai2025a3}
-Y.~Chai, H.~Li, J.~Zhang, L.~Liu, G.~Wang, S.~Ren, S.~Huang, and H.~Li, ``A3: Android agent arena for mobile gui agents,'' \emph{arXiv preprint arXiv:2501.01149}, 2025.
+Y.~Chai, H.~Li, J.~Zhang, L.~Liu, G.~Wang, S.~Ren, S.~Huang, and H.~Li, ``A3:
+  Android agent arena for mobile gui agents,'' \emph{arXiv preprint
+  arXiv:2501.01149}, 2025.
 
 \bibitem{wu2024foundations}
-B.~Wu, Y.~Li, M.~Fang, Z.~Song, Z.~Zhang, Y.~Wei, and L.~Chen, ``Foundations and recent trends in multimodal mobile agents: A survey,'' \emph{arXiv preprint arXiv:2411.02006}, 2024.
+B.~Wu, Y.~Li, M.~Fang, Z.~Song, Z.~Zhang, Y.~Wei, and L.~Chen, ``Foundations
+  and recent trends in multimodal mobile agents: A survey,'' \emph{arXiv
+  preprint arXiv:2411.02006}, 2024.
 
 \bibitem{wang2024gui}
-S.~Wang, W.~Liu, J.~Chen, W.~Gan, X.~Zeng, S.~Yu, X.~Hao, K.~Shao, Y.~Wang, and R.~Tang, ``Gui agents with foundation models: A comprehensive survey,'' \emph{arXiv preprint arXiv:2411.04890}, 2024.
+S.~Wang, W.~Liu, J.~Chen, W.~Gan, X.~Zeng, S.~Yu, X.~Hao, K.~Shao, Y.~Wang, and
+  R.~Tang, ``Gui agents with foundation models: A comprehensive survey,''
+  \emph{arXiv preprint arXiv:2411.04890}, 2024.
 
 \bibitem{zhang2024large}
-C.~Zhang, S.~He, J.~Qian, B.~Li, L.~Li, S.~Qin, Y.~Kang, M.~Ma, Q.~Lin, S.~Rajmohan \emph{et~al.}, ``Large language model-brained gui agents: A survey,'' \emph{arXiv preprint arXiv:2411.18279}, 2024.
+C.~Zhang, S.~He, J.~Qian, B.~Li, L.~Li, S.~Qin, Y.~Kang, M.~Ma, Q.~Lin,
+  S.~Rajmohan \emph{et~al.}, ``Large language model-brained gui agents: A
+  survey,'' \emph{arXiv preprint arXiv:2411.18279}, 2024.
 
 \bibitem{kong2018automated}
-P.~Kong, L.~Li, J.~Gao, K.~Liu, T.~F. Bissyand{\'e}, and J.~Klein, ``Automated testing of android apps: A systematic literature review,'' \emph{IEEE Transactions on Reliability}, vol.~68, no.~1, pp. 45--66, 2018.
+P.~Kong, L.~Li, J.~Gao, K.~Liu, T.~F. Bissyand{\'e}, and J.~Klein, ``Automated
+  testing of android apps: A systematic literature review,'' \emph{IEEE
+  Transactions on Reliability}, vol.~68, no.~1, pp. 45--66, 2018.
 
 \bibitem{kirubakaran2013mobile}
-B.~Kirubakaran and V.~Karthikeyani, ``Mobile application testing—challenges and solution approach through automation,'' in \emph{2013 International Conference on Pattern Recognition, Informatics and Mobile Engineering}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2013, pp. 79--84.
+B.~Kirubakaran and V.~Karthikeyani, ``Mobile application testing—challenges
+  and solution approach through automation,'' in \emph{2013 International
+  Conference on Pattern Recognition, Informatics and Mobile Engineering}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2013, pp. 79--84.
 
 \bibitem{amalfitano2014mobiguitar}
-D.~Amalfitano, A.~R. Fasolino, P.~Tramontana, B.~D. Ta, and A.~M. Memon, ``Mobiguitar: Automated model-based testing of mobile apps,'' \emph{IEEE software}, vol.~32, no.~5, pp. 53--59, 2014.
+D.~Amalfitano, A.~R. Fasolino, P.~Tramontana, B.~D. Ta, and A.~M. Memon,
+  ``Mobiguitar: Automated model-based testing of mobile apps,'' \emph{IEEE
+  software}, vol.~32, no.~5, pp. 53--59, 2014.
 
 \bibitem{linares2017continuous}
-M.~Linares-V{\'a}squez, K.~Moran, and D.~Poshyvanyk, ``Continuous, evolutionary and large-scale: A new perspective for automated mobile app testing,'' in \emph{2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 399--410.
+M.~Linares-V{\'a}squez, K.~Moran, and D.~Poshyvanyk, ``Continuous, evolutionary
+  and large-scale: A new perspective for automated mobile app testing,'' in
+  \emph{2017 IEEE International Conference on Software Maintenance and
+  Evolution (ICSME)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp.
+  399--410.
 
 \bibitem{zhao2024dinodroid}
-Y.~Zhao, B.~Harrison, and T.~Yu, ``Dinodroid: Testing android apps using deep q-networks,'' \emph{ACM Transactions on Software Engineering and Methodology}, vol.~33, no.~5, pp. 1--24, 2024.
+Y.~Zhao, B.~Harrison, and T.~Yu, ``Dinodroid: Testing android apps using deep
+  q-networks,'' \emph{ACM Transactions on Software Engineering and
+  Methodology}, vol.~33, no.~5, pp. 1--24, 2024.
 
 \bibitem{hecht2015tracking}
-G.~Hecht, O.~Benomar, R.~Rouvoy, N.~Moha, and L.~Duchien, ``Tracking the software quality of android applications along their evolution (t),'' in \emph{2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 236--247.
+G.~Hecht, O.~Benomar, R.~Rouvoy, N.~Moha, and L.~Duchien, ``Tracking the
+  software quality of android applications along their evolution (t),'' in
+  \emph{2015 30th IEEE/ACM International Conference on Automated Software
+  Engineering (ASE)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp.
+  236--247.
 
 \bibitem{zein2016systematic}
-S.~Zein, N.~Salleh, and J.~Grundy, ``A systematic mapping study of mobile application testing techniques,'' \emph{Journal of Systems and Software}, vol. 117, pp. 334--356, 2016.
+S.~Zein, N.~Salleh, and J.~Grundy, ``A systematic mapping study of mobile
+  application testing techniques,'' \emph{Journal of Systems and Software},
+  vol. 117, pp. 334--356, 2016.
 
 \bibitem{jensen2013automated}
-C.~S. Jensen, M.~R. Prasad, and A.~M{\o}ller, ``Automated testing with targeted event sequence generation,'' in \emph{Proceedings of the 2013 International Symposium on Software Testing and Analysis}, 2013, pp. 67--77.
+C.~S. Jensen, M.~R. Prasad, and A.~M{\o}ller, ``Automated testing with targeted
+  event sequence generation,'' in \emph{Proceedings of the 2013 International
+  Symposium on Software Testing and Analysis}, 2013, pp. 67--77.
 
 \bibitem{machiry2013dynodroid}
-A.~Machiry, R.~Tahiliani, and M.~Naik, ``Dynodroid: An input generation system for android apps,'' in \emph{Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering}, 2013, pp. 224--234.
+A.~Machiry, R.~Tahiliani, and M.~Naik, ``Dynodroid: An input generation system
+  for android apps,'' in \emph{Proceedings of the 2013 9th Joint Meeting on
+  Foundations of Software Engineering}, 2013, pp. 224--234.
 
 \bibitem{amalfitano2012using}
-D.~Amalfitano, A.~R. Fasolino, P.~Tramontana, S.~De~Carmine, and A.~M. Memon, ``Using gui ripping for automated testing of android applications,'' in \emph{Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering}, 2012, pp. 258--261.
+D.~Amalfitano, A.~R. Fasolino, P.~Tramontana, S.~De~Carmine, and A.~M. Memon,
+  ``Using gui ripping for automated testing of android applications,'' in
+  \emph{Proceedings of the 27th IEEE/ACM International Conference on Automated
+  Software Engineering}, 2012, pp. 258--261.
 
 \bibitem{ladosz2022exploration}
-P.~Ladosz, L.~Weng, M.~Kim, and H.~Oh, ``Exploration in deep reinforcement learning: A survey,'' \emph{Information Fusion}, vol.~85, pp. 1--22, 2022.
+P.~Ladosz, L.~Weng, M.~Kim, and H.~Oh, ``Exploration in deep reinforcement
+  learning: A survey,'' \emph{Information Fusion}, vol.~85, pp. 1--22, 2022.
 
 \bibitem{fan2020theoretical}
-J.~Fan, Z.~Wang, Y.~Xie, and Z.~Yang, ``A theoretical analysis of deep q-learning,'' in \emph{Learning for dynamics and control}.\hskip 1em plus 0.5em minus 0.4em\relax PMLR, 2020, pp. 486--489.
+J.~Fan, Z.~Wang, Y.~Xie, and Z.~Yang, ``A theoretical analysis of deep
+  q-learning,'' in \emph{Learning for dynamics and control}.\hskip 1em plus
+  0.5em minus 0.4em\relax PMLR, 2020, pp. 486--489.
 
 \bibitem{luo2024survey}
-F.-M. Luo, T.~Xu, H.~Lai, X.-H. Chen, W.~Zhang, and Y.~Yu, ``A survey on model-based reinforcement learning,'' \emph{Science China Information Sciences}, vol.~67, no.~2, p. 121101, 2024.
+F.-M. Luo, T.~Xu, H.~Lai, X.-H. Chen, W.~Zhang, and Y.~Yu, ``A survey on
+  model-based reinforcement learning,'' \emph{Science China Information
+  Sciences}, vol.~67, no.~2, p. 121101, 2024.
 
 \bibitem{bridle2006inducing}
-R.~Bridle and E.~McCreath, ``Inducing shortcuts on a mobile phone interface,'' in \emph{Proceedings of the 11th international conference on Intelligent user interfaces}, 2006, pp. 327--329.
+R.~Bridle and E.~McCreath, ``Inducing shortcuts on a mobile phone interface,''
+  in \emph{Proceedings of the 11th international conference on Intelligent user
+  interfaces}, 2006, pp. 327--329.
 
 \bibitem{guerreiro2008mnemonical}
-T.~Guerreiro, R.~Gamboa, and J.~Jorge, ``Mnemonical body shortcuts: improving mobile interaction,'' in \emph{Proceedings of the 15th European conference on Cognitive ergonomics: the ergonomics of cool interaction}, 2008, pp. 1--8.
+T.~Guerreiro, R.~Gamboa, and J.~Jorge, ``Mnemonical body shortcuts: improving
+  mobile interaction,'' in \emph{Proceedings of the 15th European conference on
+  Cognitive ergonomics: the ergonomics of cool interaction}, 2008, pp. 1--8.
 
 \bibitem{kennedy2011use}
-C.~Kennedy and S.~E. Everett, ``Use of cognitive shortcuts in landline and cell phone surveys,'' \emph{Public Opinion Quarterly}, vol.~75, no.~2, pp. 336--348, 2011.
+C.~Kennedy and S.~E. Everett, ``Use of cognitive shortcuts in landline and cell
+  phone surveys,'' \emph{Public Opinion Quarterly}, vol.~75, no.~2, pp.
+  336--348, 2011.
 
 \bibitem{agostinelli2019research}
-S.~Agostinelli, A.~Marrella, and M.~Mecella, ``Research challenges for intelligent robotic process automation,'' in \emph{Business Process Management Workshops: BPM 2019 International Workshops, Vienna, Austria, September 1--6, 2019, Revised Selected Papers 17}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2019, pp. 12--18.
+S.~Agostinelli, A.~Marrella, and M.~Mecella, ``Research challenges for
+  intelligent robotic process automation,'' in \emph{Business Process
+  Management Workshops: BPM 2019 International Workshops, Vienna, Austria,
+  September 1--6, 2019, Revised Selected Papers 17}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2019, pp. 12--18.
 
 \bibitem{pramod2022robotic}
-D.~Pramod, ``Robotic process automation for industry: adoption status, benefits, challenges and research agenda,'' \emph{Benchmarking: an international journal}, vol.~29, no.~5, pp. 1562--1586, 2022.
+D.~Pramod, ``Robotic process automation for industry: adoption status,
+  benefits, challenges and research agenda,'' \emph{Benchmarking: an
+  international journal}, vol.~29, no.~5, pp. 1562--1586, 2022.
 
 \bibitem{syed2020robotic}
-R.~Syed, S.~Suriadi, M.~Adams, W.~Bandara, S.~J. Leemans, C.~Ouyang, A.~H. Ter~Hofstede, I.~Van De~Weerd, M.~T. Wynn, and H.~A. Reijers, ``Robotic process automation: contemporary themes and challenges,'' \emph{Computers in Industry}, vol. 115, p. 103162, 2020.
+R.~Syed, S.~Suriadi, M.~Adams, W.~Bandara, S.~J. Leemans, C.~Ouyang, A.~H.
+  Ter~Hofstede, I.~Van De~Weerd, M.~T. Wynn, and H.~A. Reijers, ``Robotic
+  process automation: contemporary themes and challenges,'' \emph{Computers in
+  Industry}, vol. 115, p. 103162, 2020.
 
 \bibitem{clarke2016therapeutic}
-J.~Clarke, J.~Proudfoot, A.~Whitton, M.-R. Birch, M.~Boyd, G.~Parker, V.~Manicavasagar, D.~Hadzi-Pavlovic, A.~Fogarty \emph{et~al.}, ``Therapeutic alliance with a fully automated mobile phone and web-based intervention: secondary analysis of a randomized controlled trial,'' \emph{JMIR mental health}, vol.~3, no.~1, p. e4656, 2016.
+J.~Clarke, J.~Proudfoot, A.~Whitton, M.-R. Birch, M.~Boyd, G.~Parker,
+  V.~Manicavasagar, D.~Hadzi-Pavlovic, A.~Fogarty \emph{et~al.}, ``Therapeutic
+  alliance with a fully automated mobile phone and web-based intervention:
+  secondary analysis of a randomized controlled trial,'' \emph{JMIR mental
+  health}, vol.~3, no.~1, p. e4656, 2016.
 
 \bibitem{li2017sugilite}
-T.~J.-J. Li, A.~Azaria, and B.~A. Myers, ``Sugilite: creating multimodal smartphone automation by demonstration,'' in \emph{Proceedings of the 2017 CHI conference on human factors in computing systems}, 2017, pp. 6038--6049.
+T.~J.-J. Li, A.~Azaria, and B.~A. Myers, ``Sugilite: creating multimodal
+  smartphone automation by demonstration,'' in \emph{Proceedings of the 2017
+  CHI conference on human factors in computing systems}, 2017, pp. 6038--6049.
 
 \bibitem{patel2015home}
-S.~M. Patel and S.~J. Pasha, ``Home automation system (has) using android for mobile phone,'' \emph{International Journal Of Scientific Engeneering and Technology Research,, ISSN}, pp. 2319--8885, 2015.
+S.~M. Patel and S.~J. Pasha, ``Home automation system (has) using android for
+  mobile phone,'' \emph{International Journal Of Scientific Engeneering and
+  Technology Research,, ISSN}, pp. 2319--8885, 2015.
 
 \bibitem{asadullah2016overview}
-M.~Asadullah and A.~Raza, ``An overview of home automation systems,'' in \emph{2016 2nd international conference on robotics and artificial intelligence (ICRAI)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp. 27--31.
+M.~Asadullah and A.~Raza, ``An overview of home automation systems,'' in
+  \emph{2016 2nd international conference on robotics and artificial
+  intelligence (ICRAI)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp.
+  27--31.
 
 \bibitem{majeed2020intelligent}
-R.~Majeed, N.~A. Abdullah, I.~Ashraf, Y.~B. Zikria, M.~F. Mushtaq, and M.~Umer, ``An intelligent, secure, and smart home automation system,'' \emph{Scientific Programming}, vol. 2020, no.~1, p. 4579291, 2020.
+R.~Majeed, N.~A. Abdullah, I.~Ashraf, Y.~B. Zikria, M.~F. Mushtaq, and M.~Umer,
+  ``An intelligent, secure, and smart home automation system,''
+  \emph{Scientific Programming}, vol. 2020, no.~1, p. 4579291, 2020.
 
 \bibitem{liu2023understanding}
-X.~Liu, Y.~Shi, C.~Yu, C.~Gao, T.~Yang, C.~Liang, and Y.~Shi, ``Understanding in-situ programming for smart home automation,'' \emph{Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}, vol.~7, no.~2, pp. 1--31, 2023.
+X.~Liu, Y.~Shi, C.~Yu, C.~Gao, T.~Yang, C.~Liang, and Y.~Shi, ``Understanding
+  in-situ programming for smart home automation,'' \emph{Proceedings of the ACM
+  on Interactive, Mobile, Wearable and Ubiquitous Technologies}, vol.~7, no.~2,
+  pp. 1--31, 2023.
 
 \bibitem{kodali2019low}
-R.~K. Kodali, S.~C. Rajanarayanan, L.~Boppana, S.~Sharma, and A.~Kumar, ``Low cost smart home automation system using smart phone,'' in \emph{2019 IEEE R10 humanitarian technology conference (R10-HTC)(47129)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2019, pp. 120--125.
+R.~K. Kodali, S.~C. Rajanarayanan, L.~Boppana, S.~Sharma, and A.~Kumar, ``Low
+  cost smart home automation system using smart phone,'' in \emph{2019 IEEE R10
+  humanitarian technology conference (R10-HTC)(47129)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2019, pp. 120--125.
 
 \bibitem{kodali2017low}
-R.~K. Kodali and K.~S. Mahesh, ``Low cost implementation of smart home automation,'' in \emph{2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 461--466.
+R.~K. Kodali and K.~S. Mahesh, ``Low cost implementation of smart home
+  automation,'' in \emph{2017 International Conference on Advances in
+  Computing, Communications and Informatics (ICACCI)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2017, pp. 461--466.
 
 \bibitem{moreira2023process}
-S.~Moreira, H.~S. Mamede, and A.~Santos, ``Process automation using rpa--a literature review,'' \emph{Procedia Computer Science}, vol. 219, pp. 244--254, 2023.
+S.~Moreira, H.~S. Mamede, and A.~Santos, ``Process automation using rpa--a
+  literature review,'' \emph{Procedia Computer Science}, vol. 219, pp.
+  244--254, 2023.
 
 \bibitem{lamberton2017impact}
-C.~Lamberton, D.~Brigo, and D.~Hoy, ``Impact of robotics, rpa and ai on the insurance industry: challenges and opportunities,'' \emph{Journal of Financial Perspectives}, vol.~4, no.~1, 2017.
+C.~Lamberton, D.~Brigo, and D.~Hoy, ``Impact of robotics, rpa and ai on the
+  insurance industry: challenges and opportunities,'' \emph{Journal of
+  Financial Perspectives}, vol.~4, no.~1, 2017.
 
 \bibitem{meironke2022measure}
-A.~Meironke and S.~Kuehnel, ``How to measure rpa's benefits? a review on metrics, indicators, and evaluation methods of rpa benefit assessment,'' 2022.
+A.~Meironke and S.~Kuehnel, ``How to measure rpa's benefits? a review on
+  metrics, indicators, and evaluation methods of rpa benefit assessment,''
+  2022.
 
 \bibitem{tripathi2018learning}
-A.~M. Tripathi, \emph{Learning Robotic Process Automation: Create Software robots and automate business processes with the leading RPA tool--UiPath}.\hskip 1em plus 0.5em minus 0.4em\relax Packt Publishing Ltd, 2018.
+A.~M. Tripathi, \emph{Learning Robotic Process Automation: Create Software
+  robots and automate business processes with the leading RPA
+  tool--UiPath}.\hskip 1em plus 0.5em minus 0.4em\relax Packt Publishing Ltd,
+  2018.
 
 \bibitem{ling2020intelligent}
-X.~Ling, M.~Gao, and D.~Wang, ``Intelligent document processing based on rpa and machine learning,'' in \emph{2020 Chinese Automation Congress (CAC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 1349--1353.
+X.~Ling, M.~Gao, and D.~Wang, ``Intelligent document processing based on rpa
+  and machine learning,'' in \emph{2020 Chinese Automation Congress
+  (CAC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 1349--1353.
 
 \bibitem{agostinelli2022reactive}
-S.~Agostinelli, M.~Lupia, A.~Marrella, and M.~Mecella, ``Reactive synthesis of software robots in rpa from user interface logs,'' \emph{Computers in Industry}, vol. 142, p. 103721, 2022.
+S.~Agostinelli, M.~Lupia, A.~Marrella, and M.~Mecella, ``Reactive synthesis of
+  software robots in rpa from user interface logs,'' \emph{Computers in
+  Industry}, vol. 142, p. 103721, 2022.
 
 \bibitem{le2020shortcut}
-H.~V. Le, S.~Mayer, M.~Wei{\ss}, J.~Vogelsang, H.~Weing{\"a}rtner, and N.~Henze, ``Shortcut gestures for mobile text editing on fully touch sensitive smartphones,'' \emph{ACM Transactions on Computer-Human Interaction (TOCHI)}, vol.~27, no.~5, pp. 1--38, 2020.
+H.~V. Le, S.~Mayer, M.~Wei{\ss}, J.~Vogelsang, H.~Weing{\"a}rtner, and
+  N.~Henze, ``Shortcut gestures for mobile text editing on fully touch
+  sensitive smartphones,'' \emph{ACM Transactions on Computer-Human Interaction
+  (TOCHI)}, vol.~27, no.~5, pp. 1--38, 2020.
 
 \bibitem{roffarello2024trigger}
-A.~M. Roffarello, A.~K. Purohit, and S.~V. Purohit, ``Trigger-action programming for wellbeing: Insights from 6590 ios shortcuts,'' \emph{IEEE Pervasive Computing}, 2024.
+A.~M. Roffarello, A.~K. Purohit, and S.~V. Purohit, ``Trigger-action
+  programming for wellbeing: Insights from 6590 ios shortcuts,'' \emph{IEEE
+  Pervasive Computing}, 2024.
 
 \bibitem{kepuska2018next}
-V.~Kepuska and G.~Bohouta, ``Next-generation of virtual personal assistants (microsoft cortana, apple siri, amazon alexa and google home),'' in \emph{2018 IEEE 8th annual computing and communication workshop and conference (CCWC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 99--103.
+V.~Kepuska and G.~Bohouta, ``Next-generation of virtual personal assistants
+  (microsoft cortana, apple siri, amazon alexa and google home),'' in
+  \emph{2018 IEEE 8th annual computing and communication workshop and
+  conference (CCWC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp.
+  99--103.
 
 \bibitem{cowan2017can}
-B.~R. Cowan, N.~Pantidi, D.~Coyle, K.~Morrissey, P.~Clarke, S.~Al-Shehri, D.~Earley, and N.~Bandeira, ``" what can i help you with?" infrequent users' experiences of intelligent personal assistants,'' in \emph{Proceedings of the 19th international conference on human-computer interaction with mobile devices and services}, 2017, pp. 1--12.
+B.~R. Cowan, N.~Pantidi, D.~Coyle, K.~Morrissey, P.~Clarke, S.~Al-Shehri,
+  D.~Earley, and N.~Bandeira, ``" what can i help you with?" infrequent users'
+  experiences of intelligent personal assistants,'' in \emph{Proceedings of the
+  19th international conference on human-computer interaction with mobile
+  devices and services}, 2017, pp. 1--12.
 
 \bibitem{anicic2010rule}
-D.~Anicic, P.~Fodor, S.~Rudolph, R.~St{\"u}hmer, N.~Stojanovic, and R.~Studer, ``A rule-based language for complex event processing and reasoning,'' in \emph{Web Reasoning and Rule Systems: Fourth International Conference, RR 2010, Bressanone/Brixen, Italy, September 22-24, 2010. Proceedings 4}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2010, pp. 42--57.
+D.~Anicic, P.~Fodor, S.~Rudolph, R.~St{\"u}hmer, N.~Stojanovic, and R.~Studer,
+  ``A rule-based language for complex event processing and reasoning,'' in
+  \emph{Web Reasoning and Rule Systems: Fourth International Conference, RR
+  2010, Bressanone/Brixen, Italy, September 22-24, 2010. Proceedings 4}.\hskip
+  1em plus 0.5em minus 0.4em\relax Springer, 2010, pp. 42--57.
 
 \bibitem{kang2013using}
-N.~Kang, B.~Singh, Z.~Afzal, E.~M. van Mulligen, and J.~A. Kors, ``Using rule-based natural language processing to improve disease normalization in biomedical text,'' \emph{Journal of the American Medical Informatics Association}, vol.~20, no.~5, pp. 876--881, 2013.
+N.~Kang, B.~Singh, Z.~Afzal, E.~M. van Mulligen, and J.~A. Kors, ``Using
+  rule-based natural language processing to improve disease normalization in
+  biomedical text,'' \emph{Journal of the American Medical Informatics
+  Association}, vol.~20, no.~5, pp. 876--881, 2013.
 
 \bibitem{karanikolas2023large}
-N.~Karanikolas, E.~Manga, N.~Samaridi, E.~Tousidou, and M.~Vassilakopoulos, ``Large language models versus natural language understanding and generation,'' in \emph{Proceedings of the 27th Pan-Hellenic Conference on Progress in Computing and Informatics}, 2023, pp. 278--290.
+N.~Karanikolas, E.~Manga, N.~Samaridi, E.~Tousidou, and M.~Vassilakopoulos,
+  ``Large language models versus natural language understanding and
+  generation,'' in \emph{Proceedings of the 27th Pan-Hellenic Conference on
+  Progress in Computing and Informatics}, 2023, pp. 278--290.
 
 \bibitem{fu2024understanding}
-J.~Fu, X.~Zhang, Y.~Wang, W.~Zeng, and N.~Zheng, ``Understanding mobile gui: From pixel-words to screen-sentences,'' \emph{Neurocomputing}, vol. 601, p. 128200, 2024.
+J.~Fu, X.~Zhang, Y.~Wang, W.~Zeng, and N.~Zheng, ``Understanding mobile gui:
+  From pixel-words to screen-sentences,'' \emph{Neurocomputing}, vol. 601, p.
+  128200, 2024.
 
 \bibitem{banerjee2013graphical}
-I.~Banerjee, B.~Nguyen, V.~Garousi, and A.~Memon, ``Graphical user interface (gui) testing: Systematic mapping and repository,'' \emph{Information and Software Technology}, vol.~55, no.~10, pp. 1679--1694, 2013.
+I.~Banerjee, B.~Nguyen, V.~Garousi, and A.~Memon, ``Graphical user interface
+  (gui) testing: Systematic mapping and repository,'' \emph{Information and
+  Software Technology}, vol.~55, no.~10, pp. 1679--1694, 2013.
 
 \bibitem{chen2018ui}
-C.~Chen, T.~Su, G.~Meng, Z.~Xing, and Y.~Liu, ``From ui design image to gui skeleton: a neural machine translator to bootstrap mobile gui implementation,'' in \emph{Proceedings of the 40th International Conference on Software Engineering}, 2018, pp. 665--676.
+C.~Chen, T.~Su, G.~Meng, Z.~Xing, and Y.~Liu, ``From ui design image to gui
+  skeleton: a neural machine translator to bootstrap mobile gui
+  implementation,'' in \emph{Proceedings of the 40th International Conference
+  on Software Engineering}, 2018, pp. 665--676.
 
 \bibitem{brich2017exploring}
-J.~Brich, M.~Walch, M.~Rietzler, M.~Weber, and F.~Schaub, ``Exploring end user programming needs in home automation,'' \emph{ACM Transactions on Computer-Human Interaction (TOCHI)}, vol.~24, no.~2, pp. 1--35, 2017.
+J.~Brich, M.~Walch, M.~Rietzler, M.~Weber, and F.~Schaub, ``Exploring end user
+  programming needs in home automation,'' \emph{ACM Transactions on
+  Computer-Human Interaction (TOCHI)}, vol.~24, no.~2, pp. 1--35, 2017.
 
 \bibitem{wu2021screen}
-J.~Wu, X.~Zhang, J.~Nichols, and J.~P. Bigham, ``Screen parsing: Towards reverse engineering of ui models from screenshots,'' in \emph{The 34th Annual ACM Symposium on User Interface Software and Technology}, 2021, pp. 470--483.
+J.~Wu, X.~Zhang, J.~Nichols, and J.~P. Bigham, ``Screen parsing: Towards
+  reverse engineering of ui models from screenshots,'' in \emph{The 34th Annual
+  ACM Symposium on User Interface Software and Technology}, 2021, pp. 470--483.
 
 \bibitem{brown2020language}
-T.~Brown, B.~Mann, N.~Ryder, M.~Subbiah, J.~D. Kaplan, P.~Dhariwal, A.~Neelakantan, P.~Shyam, G.~Sastry, A.~Askell \emph{et~al.}, ``Language models are few-shot learners,'' \emph{Advances in neural information processing systems}, vol.~33, pp. 1877--1901, 2020.
+T.~Brown, B.~Mann, N.~Ryder, M.~Subbiah, J.~D. Kaplan, P.~Dhariwal,
+  A.~Neelakantan, P.~Shyam, G.~Sastry, A.~Askell \emph{et~al.}, ``Language
+  models are few-shot learners,'' \emph{Advances in neural information
+  processing systems}, vol.~33, pp. 1877--1901, 2020.
 
 \bibitem{kaplan2020scaling}
-J.~Kaplan, S.~McCandlish, T.~Henighan, T.~B. Brown, B.~Chess, R.~Child, S.~Gray, A.~Radford, J.~Wu, and D.~Amodei, ``Scaling laws for neural language models,'' \emph{arXiv preprint arXiv:2001.08361}, 2020.
+J.~Kaplan, S.~McCandlish, T.~Henighan, T.~B. Brown, B.~Chess, R.~Child,
+  S.~Gray, A.~Radford, J.~Wu, and D.~Amodei, ``Scaling laws for neural language
+  models,'' \emph{arXiv preprint arXiv:2001.08361}, 2020.
 
 \bibitem{hagendorff2023machine}
-T.~Hagendorff, ``Machine psychology: Investigating emergent capabilities and behavior in large language models using psychological methods,'' \emph{arXiv preprint arXiv:2303.13988}, vol.~1, 2023.
+T.~Hagendorff, ``Machine psychology: Investigating emergent capabilities and
+  behavior in large language models using psychological methods,'' \emph{arXiv
+  preprint arXiv:2303.13988}, vol.~1, 2023.
 
 \bibitem{vaswani2017attention}
-A.~Vaswani, ``Attention is all you need,'' \emph{Advances in Neural Information Processing Systems}, 2017.
+A.~Vaswani, ``Attention is all you need,'' \emph{Advances in Neural Information
+  Processing Systems}, 2017.
 
 \bibitem{radford2018improving}
-A.~Radford, ``Improving language understanding by generative pre-training,'' 2018.
+A.~Radford, ``Improving language understanding by generative pre-training,''
+  2018.
 
 \bibitem{devlin2018bert}
-J.~Devlin, ``Bert: Pre-training of deep bidirectional transformers for language understanding,'' \emph{arXiv preprint arXiv:1810.04805}, 2018.
+J.~Devlin, ``Bert: Pre-training of deep bidirectional transformers for language
+  understanding,'' \emph{arXiv preprint arXiv:1810.04805}, 2018.
 
 \bibitem{zhao2023survey}
-W.~X. Zhao, K.~Zhou, J.~Li, T.~Tang, X.~Wang, Y.~Hou, Y.~Min, B.~Zhang, J.~Zhang, Z.~Dong \emph{et~al.}, ``A survey of large language models,'' \emph{arXiv preprint arXiv:2303.18223}, 2023.
+W.~X. Zhao, K.~Zhou, J.~Li, T.~Tang, X.~Wang, Y.~Hou, Y.~Min, B.~Zhang,
+  J.~Zhang, Z.~Dong \emph{et~al.}, ``A survey of large language models,''
+  \emph{arXiv preprint arXiv:2303.18223}, 2023.
 
 \bibitem{chang2024survey}
-Y.~Chang, X.~Wang, J.~Wang, Y.~Wu, L.~Yang, K.~Zhu, H.~Chen, X.~Yi, C.~Wang, Y.~Wang \emph{et~al.}, ``A survey on evaluation of large language models,'' \emph{ACM Transactions on Intelligent Systems and Technology}, vol.~15, no.~3, pp. 1--45, 2024.
+Y.~Chang, X.~Wang, J.~Wang, Y.~Wu, L.~Yang, K.~Zhu, H.~Chen, X.~Yi, C.~Wang,
+  Y.~Wang \emph{et~al.}, ``A survey on evaluation of large language models,''
+  \emph{ACM Transactions on Intelligent Systems and Technology}, vol.~15,
+  no.~3, pp. 1--45, 2024.
 
 \bibitem{minaee2024large}
-S.~Minaee, T.~Mikolov, N.~Nikzad, M.~Chenaghlu, R.~Socher, X.~Amatriain, and J.~Gao, ``Large language models: A survey,'' \emph{arXiv preprint arXiv:2402.06196}, 2024.
+S.~Minaee, T.~Mikolov, N.~Nikzad, M.~Chenaghlu, R.~Socher, X.~Amatriain, and
+  J.~Gao, ``Large language models: A survey,'' \emph{arXiv preprint
+  arXiv:2402.06196}, 2024.
 
 \bibitem{wang2023can}
-B.~Wang, X.~Yue, and H.~Sun, ``Can chatgpt defend its belief in truth? evaluating llm reasoning via debate,'' \emph{arXiv preprint arXiv:2305.13160}, 2023.
+B.~Wang, X.~Yue, and H.~Sun, ``Can chatgpt defend its belief in truth?
+  evaluating llm reasoning via debate,'' \emph{arXiv preprint
+  arXiv:2305.13160}, 2023.
 
 \bibitem{yuan2024advancing}
-L.~Yuan, G.~Cui, H.~Wang, N.~Ding, X.~Wang, J.~Deng, B.~Shan, H.~Chen, R.~Xie, Y.~Lin \emph{et~al.}, ``Advancing llm reasoning generalists with preference trees,'' \emph{arXiv preprint arXiv:2404.02078}, 2024.
+L.~Yuan, G.~Cui, H.~Wang, N.~Ding, X.~Wang, J.~Deng, B.~Shan, H.~Chen, R.~Xie,
+  Y.~Lin \emph{et~al.}, ``Advancing llm reasoning generalists with preference
+  trees,'' \emph{arXiv preprint arXiv:2404.02078}, 2024.
 
 \bibitem{song2023llm}
-C.~H. Song, J.~Wu, C.~Washington, B.~M. Sadler, W.-L. Chao, and Y.~Su, ``Llm-planner: Few-shot grounded planning for embodied agents with large language models,'' in \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, 2023, pp. 2998--3009.
+C.~H. Song, J.~Wu, C.~Washington, B.~M. Sadler, W.-L. Chao, and Y.~Su,
+  ``Llm-planner: Few-shot grounded planning for embodied agents with large
+  language models,'' in \emph{Proceedings of the IEEE/CVF International
+  Conference on Computer Vision}, 2023, pp. 2998--3009.
 
 \bibitem{valmeekam2023planning}
-K.~Valmeekam, M.~Marquez, S.~Sreedharan, and S.~Kambhampati, ``On the planning abilities of large language models-a critical investigation,'' \emph{Advances in Neural Information Processing Systems}, vol.~36, pp. 75\,993--76\,005, 2023.
+K.~Valmeekam, M.~Marquez, S.~Sreedharan, and S.~Kambhampati, ``On the planning
+  abilities of large language models-a critical investigation,'' \emph{Advances
+  in Neural Information Processing Systems}, vol.~36, pp. 75\,993--76\,005,
+  2023.
 
 \bibitem{talukdar2024improving}
-W.~Talukdar and A.~Biswas, ``Improving large language model (llm) fidelity through context-aware grounding: A systematic approach to reliability and veracity,'' \emph{arXiv preprint arXiv:2408.04023}, 2024.
+W.~Talukdar and A.~Biswas, ``Improving large language model (llm) fidelity
+  through context-aware grounding: A systematic approach to reliability and
+  veracity,'' \emph{arXiv preprint arXiv:2408.04023}, 2024.
 
 \bibitem{koike2024outfox}
-R.~Koike, M.~Kaneko, and N.~Okazaki, ``Outfox: Llm-generated essay detection through in-context learning with adversarially generated examples,'' in \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, vol.~38, no.~19, 2024, pp. 21\,258--21\,266.
+R.~Koike, M.~Kaneko, and N.~Okazaki, ``Outfox: Llm-generated essay detection
+  through in-context learning with adversarially generated examples,'' in
+  \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  vol.~38, no.~19, 2024, pp. 21\,258--21\,266.
 
 \bibitem{zhang2024dynamic}
-S.~Zhang, Z.~Zhang, K.~Chen, X.~Ma, M.~Yang, T.~Zhao, and M.~Zhang, ``Dynamic planning for llm-based graphical user interface automation,'' \emph{arXiv preprint arXiv:2410.00467}, 2024.
+S.~Zhang, Z.~Zhang, K.~Chen, X.~Ma, M.~Yang, T.~Zhao, and M.~Zhang, ``Dynamic
+  planning for llm-based graphical user interface automation,'' \emph{arXiv
+  preprint arXiv:2410.00467}, 2024.
 
 \bibitem{monahan1982state}
-G.~E. Monahan, ``State of the art—a survey of partially observable markov decision processes: theory, models, and algorithms,'' \emph{Management science}, vol.~28, no.~1, pp. 1--16, 1982.
+G.~E. Monahan, ``State of the art—a survey of partially observable markov
+  decision processes: theory, models, and algorithms,'' \emph{Management
+  science}, vol.~28, no.~1, pp. 1--16, 1982.
 
 \bibitem{spaan2012partially}
-M.~T. Spaan, ``Partially observable markov decision processes,'' in \emph{Reinforcement learning: State-of-the-art}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2012, pp. 387--414.
+M.~T. Spaan, ``Partially observable markov decision processes,'' in
+  \emph{Reinforcement learning: State-of-the-art}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2012, pp. 387--414.
 
 \bibitem{medhi2013comparison}
-I.~Medhi, K.~Toyama, A.~Joshi, U.~Athavankar, and E.~Cutrell, ``A comparison of list vs. hierarchical uis on mobile phones for non-literate users,'' in \emph{Human-Computer Interaction--INTERACT 2013: 14th IFIP TC 13 International Conference, Cape Town, South Africa, September 2-6, 2013, Proceedings, Part II 14}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2013, pp. 497--504.
+I.~Medhi, K.~Toyama, A.~Joshi, U.~Athavankar, and E.~Cutrell, ``A comparison of
+  list vs. hierarchical uis on mobile phones for non-literate users,'' in
+  \emph{Human-Computer Interaction--INTERACT 2013: 14th IFIP TC 13
+  International Conference, Cape Town, South Africa, September 2-6, 2013,
+  Proceedings, Part II 14}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  2013, pp. 497--504.
 
 \bibitem{rasanen2015sequence}
-O.~J. R{\"a}s{\"a}nen and J.~P. Saarinen, ``Sequence prediction with sparse distributed hyperdimensional coding applied to the analysis of mobile phone use patterns,'' \emph{IEEE transactions on neural networks and learning systems}, vol.~27, no.~9, pp. 1878--1889, 2015.
+O.~J. R{\"a}s{\"a}nen and J.~P. Saarinen, ``Sequence prediction with sparse
+  distributed hyperdimensional coding applied to the analysis of mobile phone
+  use patterns,'' \emph{IEEE transactions on neural networks and learning
+  systems}, vol.~27, no.~9, pp. 1878--1889, 2015.
 
 \bibitem{verma2024adaptagent}
-G.~Verma, R.~Kaur, N.~Srishankar, Z.~Zeng, T.~Balch, and M.~Veloso, ``Adaptagent: Adapting multimodal web agents with few-shot learning from human demonstrations,'' \emph{arXiv preprint arXiv:2411.13451}, 2024.
+G.~Verma, R.~Kaur, N.~Srishankar, Z.~Zeng, T.~Balch, and M.~Veloso,
+  ``Adaptagent: Adapting multimodal web agents with few-shot learning from
+  human demonstrations,'' \emph{arXiv preprint arXiv:2411.13451}, 2024.
 
 \bibitem{he2024webvoyager}
-H.~He, W.~Yao, K.~Ma, W.~Yu, Y.~Dai, H.~Zhang, Z.~Lan, and D.~Yu, ``Webvoyager: Building an end-to-end web agent with large multimodal models,'' \emph{arXiv preprint arXiv:2401.13919}, 2024.
+H.~He, W.~Yao, K.~Ma, W.~Yu, Y.~Dai, H.~Zhang, Z.~Lan, and D.~Yu, ``Webvoyager:
+  Building an end-to-end web agent with large multimodal models,'' \emph{arXiv
+  preprint arXiv:2401.13919}, 2024.
 
 \bibitem{tang2024steward}
-B.~Tang and K.~G. Shin, ``Steward: Natural language web automation,'' \emph{arXiv preprint arXiv:2409.15441}, 2024.
+B.~Tang and K.~G. Shin, ``Steward: Natural language web automation,''
+  \emph{arXiv preprint arXiv:2409.15441}, 2024.
 
 \bibitem{yang2023setofmark}
 \BIBentryALTinterwordspacing
-J.~Yang, H.~Zhang, F.~Li, X.~Zou, C.~Li, and J.~Gao, ``Set-of-mark prompting unleashes extraordinary visual grounding in gpt-4v,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2310.11441}
+J.~Yang, H.~Zhang, F.~Li, X.~Zou, C.~Li, and J.~Gao, ``Set-of-mark prompting
+  unleashes extraordinary visual grounding in gpt-4v,'' 2023. [Online].
+  Available: \url{https://arxiv.org/abs/2310.11441}
 \BIBentrySTDinterwordspacing
 
 \bibitem{koh2024visualwebarena}
-J.~Y. Koh, R.~Lo, L.~Jang, V.~Duvvur, M.~C. Lim, P.-Y. Huang, G.~Neubig, S.~Zhou, R.~Salakhutdinov, and D.~Fried, ``Visualwebarena: Evaluating multimodal agents on realistic visual web tasks,'' \emph{arXiv preprint arXiv:2401.13649}, 2024.
+J.~Y. Koh, R.~Lo, L.~Jang, V.~Duvvur, M.~C. Lim, P.-Y. Huang, G.~Neubig,
+  S.~Zhou, R.~Salakhutdinov, and D.~Fried, ``Visualwebarena: Evaluating
+  multimodal agents on realistic visual web tasks,'' \emph{arXiv preprint
+  arXiv:2401.13649}, 2024.
 
 \bibitem{bonatti2024windows}
-R.~Bonatti, D.~Zhao, F.~Bonacci, D.~Dupont, S.~Abdali, Y.~Li, Y.~Lu, J.~Wagle, K.~Koishida, A.~Bucker \emph{et~al.}, ``Windows agent arena: Evaluating multi-modal os agents at scale,'' \emph{arXiv preprint arXiv:2409.08264}, 2024.
+R.~Bonatti, D.~Zhao, F.~Bonacci, D.~Dupont, S.~Abdali, Y.~Li, Y.~Lu, J.~Wagle,
+  K.~Koishida, A.~Bucker \emph{et~al.}, ``Windows agent arena: Evaluating
+  multi-modal os agents at scale,'' \emph{arXiv preprint arXiv:2409.08264},
+  2024.
 
 \bibitem{ge2023llm}
-Y.~Ge, Y.~Ren, W.~Hua, S.~Xu, J.~Tan, and Y.~Zhang, ``Llm as os, agents as apps: Envisioning aios, agents and the aios-agent ecosystem,'' \emph{arXiv e-prints}, pp. arXiv--2312, 2023.
+Y.~Ge, Y.~Ren, W.~Hua, S.~Xu, J.~Tan, and Y.~Zhang, ``Llm as os, agents as
+  apps: Envisioning aios, agents and the aios-agent ecosystem,'' \emph{arXiv
+  e-prints}, pp. arXiv--2312, 2023.
 
 \bibitem{mei2024aios}
-K.~Mei, Z.~Li, S.~Xu, R.~Ye, Y.~Ge, and Y.~Zhang, ``Aios: Llm agent operating system,'' \emph{arXiv e-prints, pp. arXiv--2403}, 2024.
+K.~Mei, Z.~Li, S.~Xu, R.~Ye, Y.~Ge, and Y.~Zhang, ``Aios: Llm agent operating
+  system,'' \emph{arXiv e-prints, pp. arXiv--2403}, 2024.
 
 \bibitem{deng2024multi}
-Y.~Deng, X.~Zhang, W.~Zhang, Y.~Yuan, S.-K. Ng, and T.-S. Chua, ``On the multi-turn instruction following for conversational web agents,'' \emph{arXiv preprint arXiv:2402.15057}, 2024.
+Y.~Deng, X.~Zhang, W.~Zhang, Y.~Yuan, S.-K. Ng, and T.-S. Chua, ``On the
+  multi-turn instruction following for conversational web agents,'' \emph{arXiv
+  preprint arXiv:2402.15057}, 2024.
 
 \bibitem{li2023zero}
-T.~Li, G.~Li, Z.~Deng, B.~Wang, and Y.~Li, ``A zero-shot language agent for computer control with structured reflection,'' \emph{arXiv preprint arXiv:2310.08740}, 2023.
+T.~Li, G.~Li, Z.~Deng, B.~Wang, and Y.~Li, ``A zero-shot language agent for
+  computer control with structured reflection,'' \emph{arXiv preprint
+  arXiv:2310.08740}, 2023.
 
 \bibitem{gandhi2024understanding}
-K.~Gandhi, J.-P. Fr{\"a}nken, T.~Gerstenberg, and N.~Goodman, ``Understanding social reasoning in language models with language models,'' \emph{Advances in Neural Information Processing Systems}, vol.~36, 2024.
+K.~Gandhi, J.-P. Fr{\"a}nken, T.~Gerstenberg, and N.~Goodman, ``Understanding
+  social reasoning in language models with language models,'' \emph{Advances in
+  Neural Information Processing Systems}, vol.~36, 2024.
 
 \bibitem{chen2024optimizing}
-Z.~Chen, Y.~Li, and K.~Wang, ``Optimizing reasoning abilities in large language models: A step-by-step approach,'' \emph{Authorea Preprints}, 2024.
+Z.~Chen, Y.~Li, and K.~Wang, ``Optimizing reasoning abilities in large language
+  models: A step-by-step approach,'' \emph{Authorea Preprints}, 2024.
 
 \bibitem{plaat2024reasoning}
-A.~Plaat, A.~Wong, S.~Verberne, J.~Broekens, N.~van Stein, and T.~Back, ``Reasoning with large language models, a survey,'' \emph{arXiv preprint arXiv:2407.11511}, 2024.
+A.~Plaat, A.~Wong, S.~Verberne, J.~Broekens, N.~van Stein, and T.~Back,
+  ``Reasoning with large language models, a survey,'' \emph{arXiv preprint
+  arXiv:2407.11511}, 2024.
 
 \bibitem{wei2022chain}
-J.~Wei, X.~Wang, D.~Schuurmans, M.~Bosma, F.~Xia, E.~Chi, Q.~V. Le, D.~Zhou \emph{et~al.}, ``Chain-of-thought prompting elicits reasoning in large language models,'' \emph{Advances in neural information processing systems}, vol.~35, pp. 24\,824--24\,837, 2022.
+J.~Wei, X.~Wang, D.~Schuurmans, M.~Bosma, F.~Xia, E.~Chi, Q.~V. Le, D.~Zhou
+  \emph{et~al.}, ``Chain-of-thought prompting elicits reasoning in large
+  language models,'' \emph{Advances in neural information processing systems},
+  vol.~35, pp. 24\,824--24\,837, 2022.
 
 \bibitem{koh2024tree}
-J.~Y. Koh, S.~McAleer, D.~Fried, and R.~Salakhutdinov, ``Tree search for language model agents,'' \emph{arXiv preprint arXiv:2407.01476}, 2024.
+J.~Y. Koh, S.~McAleer, D.~Fried, and R.~Salakhutdinov, ``Tree search for
+  language model agents,'' \emph{arXiv preprint arXiv:2407.01476}, 2024.
 
 \bibitem{bishop2024latent}
-W.~E. Bishop, A.~Li, C.~Rawles, and O.~Riva, ``Latent state estimation helps ui agents to reason,'' \emph{arXiv preprint arXiv:2405.11120}, 2024.
+W.~E. Bishop, A.~Li, C.~Rawles, and O.~Riva, ``Latent state estimation helps ui
+  agents to reason,'' \emph{arXiv preprint arXiv:2405.11120}, 2024.
 
 \bibitem{shinn2024reflexion}
-N.~Shinn, F.~Cassano, A.~Gopinath, K.~Narasimhan, and S.~Yao, ``Reflexion: Language agents with verbal reinforcement learning,'' \emph{Advances in Neural Information Processing Systems}, vol.~36, 2024.
+N.~Shinn, F.~Cassano, A.~Gopinath, K.~Narasimhan, and S.~Yao, ``Reflexion:
+  Language agents with verbal reinforcement learning,'' \emph{Advances in
+  Neural Information Processing Systems}, vol.~36, 2024.
 
 \bibitem{pan2024autonomous}
-J.~Pan, Y.~Zhang, N.~Tomlin, Y.~Zhou, S.~Levine, and A.~Suhr, ``Autonomous evaluation and refinement of digital agents,'' \emph{arXiv preprint arXiv:2404.06474}, 2024.
+J.~Pan, Y.~Zhang, N.~Tomlin, Y.~Zhou, S.~Levine, and A.~Suhr, ``Autonomous
+  evaluation and refinement of digital agents,'' \emph{arXiv preprint
+  arXiv:2404.06474}, 2024.
 
 \bibitem{duan2024uicrit}
-P.~Duan, C.-Y. Cheng, G.~Li, B.~Hartmann, and Y.~Li, ``Uicrit: Enhancing automated design evaluation with a ui critique dataset,'' in \emph{Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology}, 2024, pp. 1--17.
+P.~Duan, C.-Y. Cheng, G.~Li, B.~Hartmann, and Y.~Li, ``Uicrit: Enhancing
+  automated design evaluation with a ui critique dataset,'' in
+  \emph{Proceedings of the 37th Annual ACM Symposium on User Interface Software
+  and Technology}, 2024, pp. 1--17.
 
 \bibitem{patil2016enhanced}
-N.~Patil, D.~Bhole, and P.~Shete, ``Enhanced ui automator viewer with improved android accessibility evaluation features,'' in \emph{2016 International Conference on Automatic Control and Dynamic Optimization Techniques (ICACDOT)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp. 977--983.
+N.~Patil, D.~Bhole, and P.~Shete, ``Enhanced ui automator viewer with improved
+  android accessibility evaluation features,'' in \emph{2016 International
+  Conference on Automatic Control and Dynamic Optimization Techniques
+  (ICACDOT)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp. 977--983.
 
 \bibitem{lodi2021xctest}
-G.~Lodi, ``Xctest introduction,'' in \emph{Test-Driven Development in Swift: Compile Better Code with XCTest and TDD}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2021, pp. 13--25.
+G.~Lodi, ``Xctest introduction,'' in \emph{Test-Driven Development in Swift:
+  Compile Better Code with XCTest and TDD}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2021, pp. 13--25.
 
 \bibitem{singh2014automated}
-S.~Singh, R.~Gadgil, and A.~Chudgor, ``Automated testing of mobile applications using scripting technique: A study on appium,'' \emph{International Journal of Current Engineering and Technology (IJCET)}, vol.~4, no.~5, pp. 3627--3630, 2014.
+S.~Singh, R.~Gadgil, and A.~Chudgor, ``Automated testing of mobile applications
+  using scripting technique: A study on appium,'' \emph{International Journal
+  of Current Engineering and Technology (IJCET)}, vol.~4, no.~5, pp.
+  3627--3630, 2014.
 
 \bibitem{gundecha2015selenium}
-U.~Gundecha, \emph{Selenium Testing Tools Cookbook}.\hskip 1em plus 0.5em minus 0.4em\relax Packt Publishing Ltd, 2015.
+U.~Gundecha, \emph{Selenium Testing Tools Cookbook}.\hskip 1em plus 0.5em minus
+  0.4em\relax Packt Publishing Ltd, 2015.
 
 \bibitem{sinclairrole}
 C.~Sinclair, ``The role of selenium in mobile application testing.''
 
 \bibitem{torreno2017cooperative}
-A.~Torreno, E.~Onaindia, A.~Komenda, and M.~{\v{S}}tolba, ``Cooperative multi-agent planning: A survey,'' \emph{ACM Computing Surveys (CSUR)}, vol.~50, no.~6, pp. 1--32, 2017.
+A.~Torreno, E.~Onaindia, A.~Komenda, and M.~{\v{S}}tolba, ``Cooperative
+  multi-agent planning: A survey,'' \emph{ACM Computing Surveys (CSUR)},
+  vol.~50, no.~6, pp. 1--32, 2017.
 
 \bibitem{dorri2018multi}
-A.~Dorri, S.~S. Kanhere, and R.~Jurdak, ``Multi-agent systems: A survey,'' \emph{Ieee Access}, vol.~6, pp. 28\,573--28\,593, 2018.
+A.~Dorri, S.~S. Kanhere, and R.~Jurdak, ``Multi-agent systems: A survey,''
+  \emph{Ieee Access}, vol.~6, pp. 28\,573--28\,593, 2018.
 
 \bibitem{gong2023mindagent}
-R.~Gong, Q.~Huang, X.~Ma, H.~Vo, Z.~Durante, Y.~Noda, Z.~Zheng, S.-C. Zhu, D.~Terzopoulos, L.~Fei-Fei \emph{et~al.}, ``Mindagent: Emergent gaming interaction,'' \emph{arXiv preprint arXiv:2309.09971}, 2023.
+R.~Gong, Q.~Huang, X.~Ma, H.~Vo, Z.~Durante, Y.~Noda, Z.~Zheng, S.-C. Zhu,
+  D.~Terzopoulos, L.~Fei-Fei \emph{et~al.}, ``Mindagent: Emergent gaming
+  interaction,'' \emph{arXiv preprint arXiv:2309.09971}, 2023.
 
 \bibitem{chen2019control}
-F.~Chen, W.~Ren \emph{et~al.}, ``On the control of multi-agent systems: A survey,'' \emph{Foundations and Trends{\textregistered} in Systems and Control}, vol.~6, no.~4, pp. 339--499, 2019.
+F.~Chen, W.~Ren \emph{et~al.}, ``On the control of multi-agent systems: A
+  survey,'' \emph{Foundations and Trends{\textregistered} in Systems and
+  Control}, vol.~6, no.~4, pp. 339--499, 2019.
 
 \bibitem{talebirad2023multi}
-Y.~Talebirad and A.~Nadiri, ``Multi-agent collaboration: Harnessing the power of intelligent llm agents,'' \emph{arXiv preprint arXiv:2306.03314}, 2023.
+Y.~Talebirad and A.~Nadiri, ``Multi-agent collaboration: Harnessing the power
+  of intelligent llm agents,'' \emph{arXiv preprint arXiv:2306.03314}, 2023.
 
 \bibitem{wu2023autogen}
-Q.~Wu, G.~Bansal, J.~Zhang, Y.~Wu, S.~Zhang, E.~Zhu, B.~Li, L.~Jiang, X.~Zhang, and C.~Wang, ``Autogen: Enabling next-gen llm applications via multi-agent conversation framework,'' \emph{arXiv preprint arXiv:2308.08155}, 2023.
+Q.~Wu, G.~Bansal, J.~Zhang, Y.~Wu, S.~Zhang, E.~Zhu, B.~Li, L.~Jiang, X.~Zhang,
+  and C.~Wang, ``Autogen: Enabling next-gen llm applications via multi-agent
+  conversation framework,'' \emph{arXiv preprint arXiv:2308.08155}, 2023.
 
 \bibitem{chen2023agentverse}
-W.~Chen, Y.~Su, J.~Zuo, C.~Yang, C.~Yuan, C.-M. Chan, H.~Yu, Y.~Lu, Y.-H. Hung, C.~Qian \emph{et~al.}, ``Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors,'' in \emph{The Twelfth International Conference on Learning Representations}, 2023.
+W.~Chen, Y.~Su, J.~Zuo, C.~Yang, C.~Yuan, C.-M. Chan, H.~Yu, Y.~Lu, Y.-H. Hung,
+  C.~Qian \emph{et~al.}, ``Agentverse: Facilitating multi-agent collaboration
+  and exploring emergent behaviors,'' in \emph{The Twelfth International
+  Conference on Learning Representations}, 2023.
 
 \bibitem{li2023theory}
-H.~Li, Y.~Q. Chong, S.~Stepputtis, J.~Campbell, D.~Hughes, M.~Lewis, and K.~Sycara, ``Theory of mind for multi-agent collaboration via large language models,'' \emph{arXiv preprint arXiv:2310.10701}, 2023.
+H.~Li, Y.~Q. Chong, S.~Stepputtis, J.~Campbell, D.~Hughes, M.~Lewis, and
+  K.~Sycara, ``Theory of mind for multi-agent collaboration via large language
+  models,'' \emph{arXiv preprint arXiv:2310.10701}, 2023.
 
 \bibitem{liu2024dynamic}
-Z.~Liu, Y.~Zhang, P.~Li, Y.~Liu, and D.~Yang, ``A dynamic llm-powered agent network for task-oriented agent collaboration,'' in \emph{First Conference on Language Modeling}, 2024.
+Z.~Liu, Y.~Zhang, P.~Li, Y.~Liu, and D.~Yang, ``A dynamic llm-powered agent
+  network for task-oriented agent collaboration,'' in \emph{First Conference on
+  Language Modeling}, 2024.
 
 \bibitem{li2024survey}
-X.~Li, S.~Wang, S.~Zeng, Y.~Wu, and Y.~Yang, ``A survey on llm-based multi-agent systems: workflow, infrastructure, and challenges,'' \emph{Vicinagearth}, vol.~1, no.~1, p.~9, 2024.
+X.~Li, S.~Wang, S.~Zeng, Y.~Wu, and Y.~Yang, ``A survey on llm-based
+  multi-agent systems: workflow, infrastructure, and challenges,''
+  \emph{Vicinagearth}, vol.~1, no.~1, p.~9, 2024.
 
 \bibitem{tran2025multi}
-K.-T. Tran, D.~Dao, M.-D. Nguyen, Q.-V. Pham, B.~O'Sullivan, and H.~D. Nguyen, ``Multi-agent collaboration mechanisms: A survey of llms,'' \emph{arXiv preprint arXiv:2501.06322}, 2025.
+K.-T. Tran, D.~Dao, M.-D. Nguyen, Q.-V. Pham, B.~O'Sullivan, and H.~D. Nguyen,
+  ``Multi-agent collaboration mechanisms: A survey of llms,'' \emph{arXiv
+  preprint arXiv:2501.06322}, 2025.
 
 \bibitem{yin2024agent}
-D.~Yin, F.~Brahman, A.~Ravichander, K.~Chandu, K.-W. Chang, Y.~Choi, and B.~Y. Lin, ``Agent lumos: Unified and modular training for open-source language agents,'' in \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, 2024, pp. 12\,380--12\,403.
+D.~Yin, F.~Brahman, A.~Ravichander, K.~Chandu, K.-W. Chang, Y.~Choi, and B.~Y.
+  Lin, ``Agent lumos: Unified and modular training for open-source language
+  agents,'' in \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, 2024, pp.
+  12\,380--12\,403.
 
 \bibitem{zhang2024webpilot}
-Y.~Zhang, Z.~Ma, Y.~Ma, Z.~Han, Y.~Wu, and V.~Tresp, ``Webpilot: A versatile and autonomous multi-agent system for web task execution with strategic exploration,'' \emph{arXiv preprint arXiv:2408.15978}, 2024.
+Y.~Zhang, Z.~Ma, Y.~Ma, Z.~Han, Y.~Wu, and V.~Tresp, ``Webpilot: A versatile
+  and autonomous multi-agent system for web task execution with strategic
+  exploration,'' \emph{arXiv preprint arXiv:2408.15978}, 2024.
 
 \bibitem{yao2024tree}
-S.~Yao, D.~Yu, J.~Zhao, I.~Shafran, T.~Griffiths, Y.~Cao, and K.~Narasimhan, ``Tree of thoughts: Deliberate problem solving with large language models,'' \emph{Advances in Neural Information Processing Systems}, vol.~36, 2024.
+S.~Yao, D.~Yu, J.~Zhao, I.~Shafran, T.~Griffiths, Y.~Cao, and K.~Narasimhan,
+  ``Tree of thoughts: Deliberate problem solving with large language models,''
+  \emph{Advances in Neural Information Processing Systems}, vol.~36, 2024.
 
 \bibitem{chen2022program}
-W.~Chen, X.~Ma, X.~Wang, and W.~W. Cohen, ``Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks,'' \emph{arXiv preprint arXiv:2211.12588}, 2022.
+W.~Chen, X.~Ma, X.~Wang, and W.~W. Cohen, ``Program of thoughts prompting:
+  Disentangling computation from reasoning for numerical reasoning tasks,''
+  \emph{arXiv preprint arXiv:2211.12588}, 2022.
 
 \bibitem{yang2024security}
-Y.~Yang, X.~Yang, S.~Li, C.~Lin, Z.~Zhao, C.~Shen, and T.~Zhang, ``Security matrix for multimodal agents on mobile devices: A systematic and proof of concept study,'' \emph{arXiv preprint arXiv:2407.09295}, 2024.
+Y.~Yang, X.~Yang, S.~Li, C.~Lin, Z.~Zhao, C.~Shen, and T.~Zhang, ``Security
+  matrix for multimodal agents on mobile devices: A systematic and proof of
+  concept study,'' \emph{arXiv preprint arXiv:2407.09295}, 2024.
 
 \bibitem{zhang2023igniting}
-Z.~Zhang, Y.~Yao, A.~Zhang, X.~Tang, X.~Ma, Z.~He, Y.~Wang, M.~Gerstein, R.~Wang, G.~Liu \emph{et~al.}, ``Igniting language intelligence: The hitchhiker's guide from chain-of-thought reasoning to language agents,'' \emph{arXiv preprint arXiv:2311.11797}, 2023.
+Z.~Zhang, Y.~Yao, A.~Zhang, X.~Tang, X.~Ma, Z.~He, Y.~Wang, M.~Gerstein,
+  R.~Wang, G.~Liu \emph{et~al.}, ``Igniting language intelligence: The
+  hitchhiker's guide from chain-of-thought reasoning to language agents,''
+  \emph{arXiv preprint arXiv:2311.11797}, 2023.
 
 \bibitem{li2023blip}
-J.~Li, D.~Li, S.~Savarese, and S.~Hoi, ``Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models,'' in \emph{International conference on machine learning}.\hskip 1em plus 0.5em minus 0.4em\relax PMLR, 2023, pp. 19\,730--19\,742.
+J.~Li, D.~Li, S.~Savarese, and S.~Hoi, ``Blip-2: Bootstrapping language-image
+  pre-training with frozen image encoders and large language models,'' in
+  \emph{International conference on machine learning}.\hskip 1em plus 0.5em
+  minus 0.4em\relax PMLR, 2023, pp. 19\,730--19\,742.
 
 \bibitem{ye2023mplug}
-Q.~Ye, H.~Xu, G.~Xu, J.~Ye, M.~Yan, Y.~Zhou, J.~Wang, A.~Hu, P.~Shi, Y.~Shi \emph{et~al.}, ``mplug-owl: Modularization empowers large language models with multimodality,'' \emph{arXiv preprint arXiv:2304.14178}, 2023.
+Q.~Ye, H.~Xu, G.~Xu, J.~Ye, M.~Yan, Y.~Zhou, J.~Wang, A.~Hu, P.~Shi, Y.~Shi
+  \emph{et~al.}, ``mplug-owl: Modularization empowers large language models
+  with multimodality,'' \emph{arXiv preprint arXiv:2304.14178}, 2023.
 
 \bibitem{wang2023cogvlm}
-W.~Wang, Q.~Lv, W.~Yu, W.~Hong, J.~Qi, Y.~Wang, J.~Ji, Z.~Yang, L.~Zhao, X.~Song \emph{et~al.}, ``Cogvlm: Visual expert for pretrained language models,'' \emph{arXiv preprint arXiv:2311.03079}, 2023.
+W.~Wang, Q.~Lv, W.~Yu, W.~Hong, J.~Qi, Y.~Wang, J.~Ji, Z.~Yang, L.~Zhao,
+  X.~Song \emph{et~al.}, ``Cogvlm: Visual expert for pretrained language
+  models,'' \emph{arXiv preprint arXiv:2311.03079}, 2023.
 
 \bibitem{Qwen-VL}
-J.~Bai, S.~Bai, S.~Yang, S.~Wang, S.~Tan, P.~Wang, J.~Lin, C.~Zhou, and J.~Zhou, ``Qwen-vl: A versatile vision-language model for understanding, localization, text reading, and beyond,'' \emph{arXiv preprint arXiv:2308.12966}, 2023.
+J.~Bai, S.~Bai, S.~Yang, S.~Wang, S.~Tan, P.~Wang, J.~Lin, C.~Zhou, and
+  J.~Zhou, ``Qwen-vl: A versatile vision-language model for understanding,
+  localization, text reading, and beyond,'' \emph{arXiv preprint
+  arXiv:2308.12966}, 2023.
 
 \bibitem{liu2024visual}
-H.~Liu, C.~Li, Q.~Wu, and Y.~J. Lee, ``Visual instruction tuning,'' \emph{Advances in neural information processing systems}, vol.~36, 2024.
+H.~Liu, C.~Li, Q.~Wu, and Y.~J. Lee, ``Visual instruction tuning,''
+  \emph{Advances in neural information processing systems}, vol.~36, 2024.
 
 \bibitem{Qwen2VL}
-P.~Wang, S.~Bai, S.~Tan, S.~Wang, Z.~Fan, J.~Bai, K.~Chen, X.~Liu, J.~Wang, W.~Ge, Y.~Fan, K.~Dang, M.~Du, X.~Ren, R.~Men, D.~Liu, C.~Zhou, J.~Zhou, and J.~Lin, ``Qwen2-vl: Enhancing vision-language model's perception of the world at any resolution,'' \emph{arXiv preprint arXiv:2409.12191}, 2024.
+P.~Wang, S.~Bai, S.~Tan, S.~Wang, Z.~Fan, J.~Bai, K.~Chen, X.~Liu, J.~Wang,
+  W.~Ge, Y.~Fan, K.~Dang, M.~Du, X.~Ren, R.~Men, D.~Liu, C.~Zhou, J.~Zhou, and
+  J.~Lin, ``Qwen2-vl: Enhancing vision-language model's perception of the world
+  at any resolution,'' \emph{arXiv preprint arXiv:2409.12191}, 2024.
 
 \bibitem{chen2024internvl}
-Z.~Chen, J.~Wu, W.~Wang, W.~Su, G.~Chen, S.~Xing, M.~Zhong, Q.~Zhang, X.~Zhu, L.~Lu \emph{et~al.}, ``Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp. 24\,185--24\,198.
+Z.~Chen, J.~Wu, W.~Wang, W.~Su, G.~Chen, S.~Xing, M.~Zhong, Q.~Zhang, X.~Zhu,
+  L.~Lu \emph{et~al.}, ``Internvl: Scaling up vision foundation models and
+  aligning for generic visual-linguistic tasks,'' in \emph{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp.
+  24\,185--24\,198.
 
 \bibitem{chen2024far}
-Z.~Chen, W.~Wang, H.~Tian, S.~Ye, Z.~Gao, E.~Cui, W.~Tong, K.~Hu, J.~Luo, Z.~Ma \emph{et~al.}, ``How far are we to gpt-4v? closing the gap to commercial multimodal models with open-source suites,'' \emph{arXiv preprint arXiv:2404.16821}, 2024.
+Z.~Chen, W.~Wang, H.~Tian, S.~Ye, Z.~Gao, E.~Cui, W.~Tong, K.~Hu, J.~Luo, Z.~Ma
+  \emph{et~al.}, ``How far are we to gpt-4v? closing the gap to commercial
+  multimodal models with open-source suites,'' \emph{arXiv preprint
+  arXiv:2404.16821}, 2024.
 
 \bibitem{zheng2023synapse}
-L.~Zheng, R.~Wang, X.~Wang, and B.~An, ``Synapse: Trajectory-as-exemplar prompting with memory for computer control,'' in \emph{The Twelfth International Conference on Learning Representations}, 2023.
+L.~Zheng, R.~Wang, X.~Wang, and B.~An, ``Synapse: Trajectory-as-exemplar
+  prompting with memory for computer control,'' in \emph{The Twelfth
+  International Conference on Learning Representations}, 2023.
 
 \bibitem{varghese2024yolov8}
-R.~Varghese and M.~Sambath, ``Yolov8: A novel object detection algorithm with enhanced performance and robustness,'' in \emph{2024 International Conference on Advances in Data Engineering and Intelligent Computing Systems (ADICS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2024, pp. 1--6.
+R.~Varghese and M.~Sambath, ``Yolov8: A novel object detection algorithm with
+  enhanced performance and robustness,'' in \emph{2024 International Conference
+  on Advances in Data Engineering and Intelligent Computing Systems
+  (ADICS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2024, pp. 1--6.
 
 \bibitem{du2020pp}
-Y.~Du, C.~Li, R.~Guo, X.~Yin, W.~Liu, J.~Zhou, Y.~Bai, Z.~Yu, Y.~Yang, Q.~Dang \emph{et~al.}, ``Pp-ocr: A practical ultra lightweight ocr system,'' \emph{arXiv preprint arXiv:2009.09941}, 2020.
+Y.~Du, C.~Li, R.~Guo, X.~Yin, W.~Liu, J.~Zhou, Y.~Bai, Z.~Yu, Y.~Yang, Q.~Dang
+  \emph{et~al.}, ``Pp-ocr: A practical ultra lightweight ocr system,''
+  \emph{arXiv preprint arXiv:2009.09941}, 2020.
 
 \bibitem{xu2024attention}
-H.-M. Xu, Q.~Chen, L.~Wang, and L.~Liu, ``Attention-driven gui grounding: Leveraging pretrained multimodal large language models without fine-tuning,'' \emph{arXiv preprint arXiv:2412.10840}, 2024.
+H.-M. Xu, Q.~Chen, L.~Wang, and L.~Liu, ``Attention-driven gui grounding:
+  Leveraging pretrained multimodal large language models without fine-tuning,''
+  \emph{arXiv preprint arXiv:2412.10840}, 2024.
 
 \bibitem{kaelbling1996reinforcement}
-L.~P. Kaelbling, M.~L. Littman, and A.~W. Moore, ``Reinforcement learning: A survey,'' \emph{Journal of artificial intelligence research}, vol.~4, pp. 237--285, 1996.
+L.~P. Kaelbling, M.~L. Littman, and A.~W. Moore, ``Reinforcement learning: A
+  survey,'' \emph{Journal of artificial intelligence research}, vol.~4, pp.
+  237--285, 1996.
 
 \bibitem{peng2024dreamstruct}
-Y.-H. Peng, F.~Huq, Y.~Jiang, J.~Wu, X.~Y. Li, J.~P. Bigham, and A.~Pavel, ``Dreamstruct: Understanding slides and user interfaces via synthetic data generation,'' in \emph{European Conference on Computer Vision}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2024, pp. 466--485.
+Y.-H. Peng, F.~Huq, Y.~Jiang, J.~Wu, X.~Y. Li, J.~P. Bigham, and A.~Pavel,
+  ``Dreamstruct: Understanding slides and user interfaces via synthetic data
+  generation,'' in \emph{European Conference on Computer Vision}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer, 2024, pp. 466--485.
 
 \bibitem{sun2024genesis}
-Q.~Sun, K.~Cheng, Z.~Ding, C.~Jin, Y.~Wang, F.~Xu, Z.~Wu, C.~Jia, L.~Chen, Z.~Liu \emph{et~al.}, ``Os-genesis: Automating gui agent trajectory construction via reverse task synthesis,'' \emph{arXiv preprint arXiv:2412.19723}, 2024.
+Q.~Sun, K.~Cheng, Z.~Ding, C.~Jin, Y.~Wang, F.~Xu, Z.~Wu, C.~Jia, L.~Chen,
+  Z.~Liu \emph{et~al.}, ``Os-genesis: Automating gui agent trajectory
+  construction via reverse task synthesis,'' \emph{arXiv preprint
+  arXiv:2412.19723}, 2024.
 
 \bibitem{su2025learn}
-H.~Su, R.~Sun, J.~Yoon, P.~Yin, T.~Yu, and S.~{\"O}. Ar{\i}k, ``Learn-by-interact: A data-centric framework for self-adaptive agents in realistic environments,'' \emph{arXiv preprint arXiv:2501.10893}, 2025.
+H.~Su, R.~Sun, J.~Yoon, P.~Yin, T.~Yu, and S.~{\"O}. Ar{\i}k,
+  ``Learn-by-interact: A data-centric framework for self-adaptive agents in
+  realistic environments,'' \emph{arXiv preprint arXiv:2501.10893}, 2025.
 
 \bibitem{wang2025fedmobileagent}
-W.~Wang, Z.~Yu, W.~Liu, R.~Ye, T.~Jin, S.~Chen, and Y.~Wang, ``Fedmobileagent: Training mobile agents using decentralized self-sourced data from diverse users,'' \emph{arXiv preprint arXiv:2502.02982}, 2025.
+W.~Wang, Z.~Yu, W.~Liu, R.~Ye, T.~Jin, S.~Chen, and Y.~Wang, ``Fedmobileagent:
+  Training mobile agents using decentralized self-sourced data from diverse
+  users,'' \emph{arXiv preprint arXiv:2502.02982}, 2025.
 
 \bibitem{berkovitch2024identifying}
-O.~Berkovitch, S.~Caduri, N.~Kahlon, A.~Efros, A.~Caciularu, and I.~Dagan, ``Identifying user goals from ui trajectories,'' \emph{arXiv preprint arXiv:2406.14314}, 2024.
+O.~Berkovitch, S.~Caduri, N.~Kahlon, A.~Efros, A.~Caciularu, and I.~Dagan,
+  ``Identifying user goals from ui trajectories,'' \emph{arXiv preprint
+  arXiv:2406.14314}, 2024.
 
 \bibitem{lin2024videogui}
-K.~Q. Lin, L.~Li, D.~Gao, Q.~Wu, M.~Yan, Z.~Yang, L.~Wang, and M.~Z. Shou, ``Videogui: A benchmark for gui automation from instructional videos,'' \emph{arXiv preprint arXiv:2406.10227}, 2024.
+K.~Q. Lin, L.~Li, D.~Gao, Q.~Wu, M.~Yan, Z.~Yang, L.~Wang, and M.~Z. Shou,
+  ``Videogui: A benchmark for gui automation from instructional videos,''
+  \emph{arXiv preprint arXiv:2406.10227}, 2024.
 
 \bibitem{chen2024octopus}
-W.~Chen and Z.~Li, ``Octopus v2: On-device language model for super agent,'' \emph{arXiv preprint arXiv:2404.01744}, 2024.
+W.~Chen and Z.~Li, ``Octopus v2: On-device language model for super agent,''
+  \emph{arXiv preprint arXiv:2404.01744}, 2024.
 
 \bibitem{wen2024autodroidv2}
-H.~Wen, S.~Tian, B.~Pavlov, W.~Du, Y.~Li, G.~Chang, S.~Zhao, J.~Liu, Y.~Liu, Y.-Q. Zhang \emph{et~al.}, ``Autodroid-v2: Boosting slm-based gui agents via code generation,'' \emph{arXiv preprint arXiv:2412.18116}, 2024.
+H.~Wen, S.~Tian, B.~Pavlov, W.~Du, Y.~Li, G.~Chang, S.~Zhao, J.~Liu, Y.~Liu,
+  Y.-Q. Zhang \emph{et~al.}, ``Autodroid-v2: Boosting slm-based gui agents via
+  code generation,'' \emph{arXiv preprint arXiv:2412.18116}, 2024.
 
 \bibitem{wang2024comprehensive}
-F.~Wang, Z.~Zhang, X.~Zhang, Z.~Wu, T.~Mo, Q.~Lu, W.~Wang, R.~Li, J.~Xu, X.~Tang \emph{et~al.}, ``A comprehensive survey of small language models in the era of large language models: Techniques, enhancements, applications, collaboration with llms, and trustworthiness,'' \emph{arXiv preprint arXiv:2411.03350}, 2024.
+F.~Wang, Z.~Zhang, X.~Zhang, Z.~Wu, T.~Mo, Q.~Lu, W.~Wang, R.~Li, J.~Xu,
+  X.~Tang \emph{et~al.}, ``A comprehensive survey of small language models in
+  the era of large language models: Techniques, enhancements, applications,
+  collaboration with llms, and trustworthiness,'' \emph{arXiv preprint
+  arXiv:2411.03350}, 2024.
 
 \bibitem{citation-111}
-F.~Huq, J.~P. Bigham, and N.~Martelaro, ``What’s important here?: Opportunities and challenges of llm in retrieving information from web interface,'' \emph{R0-FoMo: Robustness of Few-shot and Zero-shot Learning in Large Foundation Models}.
+F.~Huq, J.~P. Bigham, and N.~Martelaro, ``What’s important here?:
+  Opportunities and challenges of llm in retrieving information from web
+  interface,'' \emph{R0-FoMo: Robustness of Few-shot and Zero-shot Learning in
+  Large Foundation Models}.
 
 \bibitem{li2024uinav}
-W.~Li, F.-L. Hsu, W.~Bishop, F.~Campbell-Ajala, M.~Lin, and O.~Riva, ``Uinav: A practical approach to train on-device automation agents,'' in \emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track)}, 2024, pp. 36--51.
+W.~Li, F.-L. Hsu, W.~Bishop, F.~Campbell-Ajala, M.~Lin, and O.~Riva, ``Uinav: A
+  practical approach to train on-device automation agents,'' in
+  \emph{Proceedings of the 2024 Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies
+  (Volume 6: Industry Track)}, 2024, pp. 36--51.
 
 \bibitem{wu2024adversarial}
-C.~H. Wu, J.~Y. Koh, R.~Salakhutdinov, D.~Fried, and A.~Raghunathan, ``Adversarial attacks on multimodal agents,'' \emph{arXiv preprint arXiv:2406.12814}, 2024.
+C.~H. Wu, J.~Y. Koh, R.~Salakhutdinov, D.~Fried, and A.~Raghunathan,
+  ``Adversarial attacks on multimodal agents,'' \emph{arXiv preprint
+  arXiv:2406.12814}, 2024.
 
 \bibitem{yang2024watch}
-W.~Yang, X.~Bi, Y.~Lin, S.~Chen, J.~Zhou, and X.~Sun, ``Watch out for your agents! investigating backdoor threats to llm-based agents,'' \emph{arXiv preprint arXiv:2402.11208}, 2024.
+W.~Yang, X.~Bi, Y.~Lin, S.~Chen, J.~Zhou, and X.~Sun, ``Watch out for your
+  agents! investigating backdoor threats to llm-based agents,'' \emph{arXiv
+  preprint arXiv:2402.11208}, 2024.
 
 \bibitem{wang2024badagent}
-Y.~Wang, D.~Xue, S.~Zhang, and S.~Qian, ``Badagent: Inserting and activating backdoor attacks in llm agents,'' \emph{arXiv preprint arXiv:2406.03007}, 2024.
+Y.~Wang, D.~Xue, S.~Zhang, and S.~Qian, ``Badagent: Inserting and activating
+  backdoor attacks in llm agents,'' \emph{arXiv preprint arXiv:2406.03007},
+  2024.
 
 \end{thebibliography}

@@ -220,7 +220,7 @@
 \backcite {lee2023exploremobilegpt}{{10}{3.1.1}{subsubsection.3.1.1}}
 \backcite {lu2024omniparser}{{10}{3.1.1}{subsubsection.3.1.1}}
 \backcite {bonatti2024windows}{{10}{3.1.1}{subsubsection.3.1.1}}
-\backcite {wang2024mobileagentv2}{{10}{3.1.2}{subsubsection.3.1.2}}
+\backcite {wang2024mobileagentv2}{{11}{3.1.2}{subsubsection.3.1.2}}
 \backcite {ge2023llm,mei2024aios}{{11}{3.2}{subsection.3.2}}
 \backcite {xi2023rise}{{11}{3.2.1}{subsubsection.3.2.1}}
 \backcite {wang2024mobileagentv2}{{11}{3.2.1}{subsubsection.3.2.1}}
@@ -255,7 +255,7 @@
 \backcite {xi2023rise,wang2024mobileagentv2,tan2024cradle,song2024mmac}{{12}{3.4}{figure.caption.7}}
 \backcite {chen2019control,talebirad2023multi,wu2023autogen,chen2023agentverse,li2023theory,liu2024dynamic,li2024survey,tran2025multi}{{12}{3.4}{figure.caption.7}}
 \backcite {song2024mmac}{{12}{3.4.1}{subsubsection.3.4.1}}
-\backcite {wang2024mobileagentv2}{{12}{3.4.1}{subsubsection.3.4.1}}
+\backcite {wang2024mobileagentv2}{{13}{3.4.1}{subsubsection.3.4.1}}
 \backcite {wang2025mobile}{{13}{3.4.1}{subsubsection.3.4.1}}
 \backcite {tan2024cradle}{{14}{3.4.1}{subsubsection.3.4.1}}
 \backcite {zhang2024ask}{{14}{3.4.1}{subsubsection.3.4.1}}
@@ -278,7 +278,7 @@
 \backcite {wen2023droidbot, zhang2023appagent, song2023navigating}{{15}{4}{section.4}}
 \backcite {radford2018gpt1,radford2019gpt2,brown2020gpt3}{{15}{4.1}{figure.caption.10}}
 \backcite {wei2022chain, yao2024tree, chen2022program}{{15}{4.1}{figure.caption.10}}
-\backcite {wen2023droidbot,yan2023gpt,zhang2023appagent,wang2024mobileagentv1,wang2024mobileagentv2,zhang2024mobileexperts,lu2024omniparser,song2023navigating,taeb2024axnav,yang2024security,liu2024vision, huang2024promptrpa}{{15}{4.1}{figure.caption.10}}
+\backcite {wen2023droidbot,yan2023gpt,zhang2023appagent,wang2024mobileagentv1,wang2024mobileagentv2,zhang2024mobileexperts,lu2024omniparser,song2023navigating,taeb2024axnav,yang2024security,liu2024vision, huang2024promptrpa}{{16}{4.1}{figure.caption.10}}
 \backcite {wei2022chain,zhang2023igniting}{{16}{4.1}{figure.caption.10}}
 \backcite {wang2024mobileagentv2}{{16}{4.1.1}{subsubsection.4.1.1}}
 \backcite {wang2023enabling}{{16}{4.1.1}{subsubsection.4.1.1}}
@@ -352,7 +352,7 @@
 \backcite {xu2024attention}{{21}{4.2.1}{figure.caption.13}}
 \backcite {you2024ferret}{{21}{4.2.1}{figure.caption.13}}
 \backcite {li2024ferretui2masteringuniversal}{{21}{4.2.1}{figure.caption.13}}
-\backcite {burns2024tell}{{21}{4.2.1}{figure.caption.13}}
+\backcite {burns2024tell}{{22}{4.2.1}{figure.caption.13}}
 \backcite {zhang2024ui-hawk}{{22}{4.2.1}{figure.caption.13}}
 \backcite {baechler2024screenai}{{22}{4.2.1}{figure.caption.13}}
 \backcite {chen2024webvln}{{22}{4.2.1}{figure.caption.13}}
@@ -430,7 +430,6 @@
 \backcite {berkovitch2024identifying}{{27}{5.1}{subsection.5.1}}
 \backcite {zhang2023mobileenv}{{27}{5.2.1}{subsubsection.5.2.1}}
 \backcite {xing2024AndroidArena}{{27}{5.2.1}{subsubsection.5.2.1}}
-\backcite {zheng2024agentstudio}{{27}{5.2.1}{subsubsection.5.2.1}}
 \backcite {zhang2023mobileenv}{{28}{7}{table.caption.17}}
 \backcite {wen2024autodroid}{{28}{7}{table.caption.17}}
 \backcite {xing2024AndroidArena}{{28}{7}{table.caption.17}}
@@ -443,13 +442,14 @@
 \backcite {zheng2024agentstudio}{{28}{7}{table.caption.17}}
 \backcite {xu2024androidlab}{{28}{7}{table.caption.17}}
 \backcite {chai2025a3}{{28}{7}{table.caption.17}}
+\backcite {zheng2024agentstudio}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {zhang2024llamatouch}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {lee2024BMoCA}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {rawles2024androidworld}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {wang2024mobileagentbench}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {hu2024auitestagent}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {xu2024androidlab}{{28}{5.2.1}{subsubsection.5.2.1}}
-\backcite {liu2024visualagentbench}{{28}{5.2.1}{subsubsection.5.2.1}}
+\backcite {liu2024visualagentbench}{{29}{5.2.1}{subsubsection.5.2.1}}
 \backcite {chai2025a3}{{29}{5.2.1}{subsubsection.5.2.1}}
 \backcite {rawles2024androidworld}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {xu2024androidlab}{{29}{5.2.2}{subsubsection.5.2.2}}
