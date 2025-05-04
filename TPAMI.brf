@@ -444,13 +444,15 @@
 \backcite {zheng2024agentstudio}{{28}{7}{table.caption.17}}
 \backcite {xu2024androidlab}{{28}{7}{table.caption.17}}
 \backcite {chai2025a3}{{28}{7}{table.caption.17}}
+\backcite {liu2025learnact}{{28}{7}{table.caption.17}}
 \backcite {lee2024BMoCA}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {rawles2024androidworld}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {wang2024mobileagentbench}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {hu2024auitestagent}{{28}{5.2.1}{subsubsection.5.2.1}}
 \backcite {xu2024androidlab}{{28}{5.2.1}{subsubsection.5.2.1}}
-\backcite {liu2024visualagentbench}{{28}{5.2.1}{subsubsection.5.2.1}}
-\backcite {chai2025a3}{{28}{5.2.1}{subsubsection.5.2.1}}
+\backcite {liu2025learnact}{{28}{5.2.1}{subsubsection.5.2.1}}
+\backcite {liu2024visualagentbench}{{29}{5.2.1}{subsubsection.5.2.1}}
+\backcite {chai2025a3}{{29}{5.2.1}{subsubsection.5.2.1}}
 \backcite {rawles2024androidworld}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {xu2024androidlab}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {zhang2024llamatouch}{{29}{5.2.2}{subsubsection.5.2.2}}
@@ -469,8 +471,8 @@
 \backcite {zhang2024llamatouch}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {xing2024AndroidArena}{{29}{5.2.2}{subsubsection.5.2.2}}
 \backcite {zhang2023mobileenv}{{29}{5.2.2}{subsubsection.5.2.2}}
-\backcite {rawles2024androidinthewild, zhang2024aitz}{{29}{6}{section.6}}
-\backcite {lin2024videogui}{{29}{6}{section.6}}
+\backcite {rawles2024androidinthewild, zhang2024aitz}{{30}{6}{section.6}}
+\backcite {lin2024videogui}{{30}{6}{section.6}}
 \backcite {li2024androidcontrol}{{30}{6}{section.6}}
 \backcite {ding2024mobileagentsop}{{30}{6}{section.6}}
 \backcite {chen2024octopus}{{30}{6}{section.6}}

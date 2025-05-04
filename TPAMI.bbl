@@ -817,6 +817,9 @@ W.~Wang, Z.~Yu, W.~Liu, R.~Ye, T.~Jin, S.~Chen, and Y.~Wang, ``Fedmobileagent: T
 \bibitem{berkovitch2024identifying}
 O.~Berkovitch, S.~Caduri, N.~Kahlon, A.~Efros, A.~Caciularu, and I.~Dagan, ``Identifying user goals from ui trajectories,'' \emph{arXiv preprint arXiv:2406.14314}, 2024.
 
+\bibitem{liu2025learnact}
+G.~Liu, P.~Zhao, L.~Liu, Z.~Chen, Y.~Chai, S.~Ren, H.~Wang, S.~He, and W.~Meng, ``Learnact: Few-shot mobile gui agent with a unified demonstration benchmark,'' \emph{arXiv preprint arXiv:2504.13805}, 2025.
+
 \bibitem{lin2024videogui}
 K.~Q. Lin, L.~Li, D.~Gao, Q.~Wu, M.~Yan, Z.~Yang, L.~Wang, and M.~Z. Shou, ``Videogui: A benchmark for gui automation from instructional videos,'' \emph{arXiv preprint arXiv:2406.10227}, 2024.
 
