@@ -181,8 +181,9 @@ The subsequent sections delve into these approaches, discussing the development 
     \textbf{\href{https://github.com/bytedance/UI-TARS}{UI-TARS}}~\cite{qin2025ui} \githubicon{https://github.com/bytedance/UI-TARS} & 2025.01 & General & Qwen2-VL & \makecell[c]{2B / 7B / \\ 72B} & \makecell[c]{System-2 Reasoning; Online boot-\\strapping; Reflection tuning} \\
     \midrule
     \textbf{\href{https://gui-bee.github.io/}{GUI-Bee}}~\cite{fan2025gui} \githubicon{https://gui-bee.github.io/} & 2025.01 & \makecell[c]{Screen Under- \\ standing, Grounding} & \makecell[c]{SeeClick, \\ UIX-7B, \\ Qwen-GUI} & N/A & \makecell[c]{Model-Environment alignment;\\ Self-exploratory Data} \\
+    \midrule
+    \textbf{V-Droid}~\cite{dai2025advancing} & 2025.03 & \makecell[c]{General} & \makecell[c]{Llama-3.1-8B} & N/A & \makecell[c]{Verifier-driven framework} \\
     \bottomrule
-    % 多平台支持；高分辨率图像编码；高质量多模态数据生成方法
     \end{tabular}
     } % 结束 resizebox
     \label{tab:gui_llm_architectures}
@@ -203,6 +204,7 @@ Enhancing both perception and action response is crucial for comprehensive GUI a
 Addressing the need for effective GUI agents in applications featuring extensive Mandarin content, MobileFlow~\cite{nong2024mobileflow} introduces a multimodal LLM specifically designed for mobile GUI agents. MobileFlow employs a hybrid visual encoder trained on a vast array of GUI pages, enabling it to extract and comprehend information across diverse interfaces. The model incorporates a Mixture of Experts (MoE) and specialized modality alignment training tailored for GUIs.
 ShowUI~\cite{lin2024showui} employs the UI-Guided visual tokens selection method, which randomly selects a subset of tokens from each component during training. This approach retains the original positional information while reducing redundant tokens by 33\%, thereby accelerating training speed by 1.4 times. Furthermore, by using interleaved vision-language-action streaming combined with high-quality training data, it significantly improves the training speed and performance of GUI visual agents. Aguvis~\cite{xu2024aguvis} employs a two-stage training method to enhance the generalization and efficiency of GUI agents. It uses single-step task data to train the model's grounding abilities and multi-step task data to develop the model's planning and reasoning capabilities. This approach significantly improves the overall performance of the agents.
 UI-TARS~\cite{qin2025ui} employs a more in-depth and structurally robust System-2 reasoning method, combined with online bootstrapping and reflection tuning strategies. This combination effectively assists the model in handling complex tasks in dynamic environments and continuously optimizes overall performance.
+V-Droid~\cite{dai2025advancing} introduces a novel verifier-driven architecture where the LLM does not generate actions directly but instead scores and selects from a finite set of extracted actions, improving task success rates and significantly reducing latency.
 Collectively, these general-purpose Task Specific Model Architectures address key challenges in phone automation by enhancing direct GUI interaction, high-resolution visual recognition, comprehensive environment perception, and conditional action prediction. By leveraging multimodal inputs and innovative architectural designs, these models significantly advance the capabilities of AI agents in understanding and navigating complex mobile GUIs, paving the way for more intelligent and autonomous phone automation solutions.
 
 
