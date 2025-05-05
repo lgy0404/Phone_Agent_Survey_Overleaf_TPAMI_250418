@@ -214,11 +214,23 @@ Q.~Wu, W.~Xu, W.~Liu, T.~Tan, J.~Liu, A.~Li, J.~Luan, B.~Wang, and S.~Shang, ``M
 \bibitem{li2024appagentv2}
 Y.~Li, C.~Zhang, W.~Yang, B.~Fu, P.~Cheng, X.~Chen, L.~Chen, and Y.~Wei, ``Appagent v2: Advanced agent for flexible mobile interactions,'' \emph{arXiv preprint arXiv:2408.11824}, 2024.
 
+\bibitem{jiang2025appagentx}
+W.~Jiang, Y.~Zhuang, C.~Song, X.~Yang, J.~T. Zhou, and C.~Zhang, ``Appagentx: Evolving gui agents as proficient smartphone users,'' \emph{arXiv preprint arXiv:2503.02268}, 2025.
+
 \bibitem{zhang2023youautoui}
 Z.~Zhang and A.~Zhang, ``You only look at screens: Multimodal chain-of-action agents,'' \emph{arXiv preprint arXiv:2309.11436}, 2023.
 
 \bibitem{baechler2024screenai}
 G.~Baechler, S.~Sunkara, M.~Wang, F.~Zubach, H.~Mansoor, V.~Etter, V.~C{\u{a}}rbune, J.~Lin, J.~Chen, and A.~Sharma, ``Screenai: A vision-language model for ui and infographics understanding,'' \emph{arXiv preprint arXiv:2402.04615}, 2024.
+
+\bibitem{wang2025mobileagentv}
+J.~Wang, H.~Xu, X.~Zhang, M.~Yan, J.~Zhang, F.~Huang, and J.~Sang, ``Mobile-agent-v: Learning mobile device operation through video-guided multi-agent collaboration,'' \emph{arXiv preprint arXiv:2502.17110}, 2025.
+
+\bibitem{cheng2025kairos}
+P.~Cheng, Z.~Wu, Z.~Wu, A.~Zhang, Z.~Zhang, and G.~Liu, ``Os-kairos: Adaptive interaction for mllm-powered gui agents,'' \emph{arXiv preprint arXiv:2503.16465}, 2025.
+
+\bibitem{sun2025gui}
+Y.~Sun, S.~Zhao, T.~Yu, H.~Wen, S.~Va, M.~Xu, Y.~Li, and C.~Zhang, ``Gui-xplore: Empowering generalizable gui agents with one exploration,'' \emph{arXiv preprint arXiv:2503.17709}, 2025.
 
 \bibitem{ma2024coco}
 X.~Ma, Z.~Zhang, and H.~Zhao, ``Coco-agent: A comprehensive cognitive mllm agent for smartphone gui automation,'' in \emph{Findings of the Association for Computational Linguistics ACL 2024}, 2024, pp. 9097--9110.
@@ -234,6 +246,12 @@ Z.~Wang, H.~Xu, J.~Wang, X.~Zhang, M.~Yan, J.~Zhang, F.~Huang, and H.~Ji, ``Mobi
 
 \bibitem{huang2024promptrpa}
 T.~Huang, C.~Yu, W.~Shi, Z.~Peng, D.~Yang, W.~Sun, and Y.~Shi, ``Promptrpa: Generating robotic process automation on smartphones from textual prompts,'' \emph{arXiv preprint arXiv:2404.02475}, 2024.
+
+\bibitem{zhou2025chop}
+Y.~Zhou, S.~Wang, S.~Dai, Q.~Jia, Z.~Du, Z.~Dong, and J.~Xu, ``Chop: Mobile operating assistant with constrained high-frequency optimized subtask planning,'' \emph{arXiv preprint arXiv:2503.03743}, 2025.
+
+\bibitem{agashe2025agent}
+S.~Agashe, K.~Wong, V.~Tu, J.~Yang, A.~Li, and X.~E. Wang, ``Agent s2: A compositional generalist-specialist framework for computer use agents,'' \emph{arXiv preprint arXiv:2504.00906}, 2025.
 
 \bibitem{zhang2024ask}
 X.~Zhang, Y.~Deng, Z.~Ren, S.-K. Ng, and T.-S. Chua, ``Ask-before-plan: Proactive language agents for real-world planning,'' \emph{arXiv preprint arXiv:2406.12639}, 2024.
@@ -259,6 +277,12 @@ M.~Taeb, A.~Swearngin, E.~Schoop, R.~Cheng, Y.~Jiang, and J.~Nichols, ``Axnav: R
 \bibitem{song2024visiontasker}
 Y.~Song, Y.~Bian, Y.~Tang, G.~Ma, and Z.~Cai, ``Visiontasker: Mobile task automation using vision based ui understanding and llm task planning,'' in \emph{Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology}, 2024, pp. 1--17.
 
+\bibitem{li2025reusedroid}
+X.~Li, J.~Cao, Y.~Liu, S.-C. Cheung, and H.~Wang, ``Reusedroid: A vlm-empowered android ui test migrator boosted by active feedback,'' \emph{arXiv preprint arXiv:2504.02357}, 2025.
+
+\bibitem{demissie2025vlm}
+B.~F. Demissie, Y.~N. Tun, L.~K. Shar, and M.~Ceccato, ``Vlm-fuzz: Vision language model assisted recursive depth-first search exploration for effective ui testing of android apps,'' \emph{arXiv preprint arXiv:2504.11675}, 2025.
+
 \bibitem{nong2024mobileflow}
 S.~Nong, J.~Zhu, R.~Wu, J.~Jin, S.~Shan, X.~Huang, and W.~Xu, ``Mobileflow: A multimodal llm for mobile gui agent,'' \emph{arXiv preprint arXiv:2407.04346}, 2024.
 
@@ -267,6 +291,9 @@ K.~Q. Lin, L.~Li, D.~Gao, Z.~Yang, S.~Wu, Z.~Bai, W.~Lei, L.~Wang, and M.~Z. Sho
 
 \bibitem{xu2024aguvis}
 Y.~Xu, Z.~Wang, J.~Wang, D.~Lu, T.~Xie, A.~Saha, D.~Sahoo, T.~Yu, and C.~Xiong, ``Aguvis: Unified pure vision agents for autonomous gui interaction,'' \emph{arXiv preprint arXiv:2412.04454}, 2024.
+
+\bibitem{luo2025vimo}
+D.~Luo, B.~Tang, K.~Li, G.~Papoudakis, J.~Song, S.~Gong, J.~Hao, J.~Wang, and K.~Shao, ``Vimo: A generative visual gui world model for app agent,'' \emph{arXiv preprint arXiv:2504.13936}, 2025.
 
 \bibitem{qin2025ui}
 Y.~Qin, Y.~Ye, J.~Fang, H.~Wang, S.~Liang, S.~Tian, J.~Zhang, J.~Li, Y.~Li, S.~Huang \emph{et~al.}, ``Ui-tars: Pioneering automated gui interaction with native agents,'' \emph{arXiv preprint arXiv:2501.12326}, 2025.
@@ -285,6 +312,12 @@ Y.~Yang, Y.~Wang, D.~Li, Z.~Luo, B.~Chen, C.~Huang, and J.~Li, ``Aria-ui: Visual
 
 \bibitem{wu2024atlas}
 Z.~Wu, Z.~Wu, F.~Xu, Y.~Wang, Q.~Sun, C.~Jia, K.~Cheng, Z.~Ding, L.~Chen, P.~P. Liang \emph{et~al.}, ``Os-atlas: A foundation action model for generalist gui agents,'' \emph{arXiv preprint arXiv:2410.23218}, 2024.
+
+\bibitem{wang2025mp}
+Z.~Wang, W.~Chen, L.~Yang, S.~Zhou, S.~Zhao, H.~Zhan, J.~Jin, L.~Li, Z.~Shao, and J.~Bu, ``Mp-gui: Modality perception with mllms for gui understanding,'' \emph{arXiv preprint arXiv:2503.14021}, 2025.
+
+\bibitem{wu2025smoothing}
+Z.~Wu, P.~Cheng, Z.~Wu, T.~Ju, Z.~Zhang, and G.~Liu, ``Smoothing grounding and reasoning for mllm-powered gui agents with query-oriented pivot tasks,'' \emph{arXiv preprint arXiv:2503.00401}, 2025.
 
 \bibitem{fan2025gui}
 Y.~Fan, H.~Zhao, R.~Zhang, Y.~Shen, X.~E. Wang, and G.~Wu, ``Gui-bee: Align gui action grounding to novel environments via autonomous exploration,'' \emph{arXiv preprint arXiv:2501.13896}, 2025.
@@ -327,6 +360,12 @@ T.~Ding, ``Mobileagent: enhancing mobile control via human-machine interaction a
 \bibitem{moniz2024realm}
 J.~R.~A. Moniz, S.~Krishnan, M.~Ozyildirim, P.~Saraf, H.~C. Ates, Y.~Zhang, H.~Yu, and N.~Rajshree, ``Realm: Reference resolution as language modeling,'' \emph{arXiv preprint arXiv:2403.20329}, 2024.
 
+\bibitem{papoudakis2025appvlm}
+G.~Papoudakis, T.~Coste, Z.~Wu, J.~Hao, J.~Wang, and K.~Shao, ``Appvlm: A lightweight vision language model for online app control,'' \emph{arXiv preprint arXiv:2502.06395}, 2025.
+
+\bibitem{dai2025advancing}
+G.~Dai, S.~Jiang, T.~Cao, Y.~Li, Y.~Yang, R.~Tan, M.~Li, and L.~Qiu, ``Advancing mobile gui agents: A verifier-driven approach to practical deployment,'' \emph{arXiv preprint arXiv:2503.15937}, 2025.
+
 \bibitem{haque2024infering}
 S.~Haque and C.~Csallner, ``Infering alt-text for ui icons with large language models during app development,'' \emph{arXiv preprint arXiv:2409.18060}, 2024.
 
@@ -339,8 +378,20 @@ T.~Wang, Z.~Wu, J.~Liu, J.~Hao, J.~Wang, and K.~Shao, ``Distrl: An asynchronous 
 \bibitem{liu2024autoglm}
 X.~Liu, B.~Qin, D.~Liang, G.~Dong, H.~Lai, H.~Zhang, H.~Zhao, I.~L. Iong, J.~Sun, J.~Wang \emph{et~al.}, ``Autoglm: Autonomous foundation agents for guis,'' \emph{arXiv preprint arXiv:2411.00820}, 2024.
 
+\bibitem{bai2025digi}
+H.~Bai, Y.~Zhou, L.~E. Li, S.~Levine, and A.~Kumar, ``Digi-q: Learning q-value functions for training device-control agents,'' \emph{arXiv preprint arXiv:2502.15760}, 2025.
+
 \bibitem{wu2025reachagent}
 Q.~Wu, W.~Liu, J.~Luan, and B.~Wang, ``Reachagent: Enhancing mobile agent via page reaching and operation,'' \emph{arXiv preprint arXiv:2502.02955}, 2025.
+
+\bibitem{wu2025vsc}
+Q.~Wu, J.~Liu, J.~Hao, J.~Wang, and K.~Shao, ``Vsc-rl: Advancing autonomous vision-language agents with variational subgoal-conditioned reinforcement learning,'' \emph{arXiv preprint arXiv:2502.07949}, 2025.
+
+\bibitem{lu2025ui}
+Z.~Lu, Y.~Chai, Y.~Guo, X.~Yin, L.~Liu, H.~Wang, G.~Xiong, and H.~Li, ``Ui-r1: Enhancing action prediction of gui agents by reinforcement learning,'' \emph{arXiv preprint arXiv:2503.21620}, 2025.
+
+\bibitem{xia2025gui}
+X.~Xia and R.~Luo, ``Gui-r1: A generalist r1-style vision-language action model for gui agents,'' \emph{arXiv preprint arXiv:2504.10458}, 2025.
 
 \bibitem{song2024trial}
 Y.~Song, D.~Yin, X.~Yue, J.~Huang, S.~Li, and B.~Y. Lin, ``Trial and error: Exploration-based trajectory optimization for llm agents,'' \emph{arXiv preprint arXiv:2403.02502}, 2024.
@@ -430,6 +481,15 @@ L.~Wang, Y.~Deng, Y.~Zha, G.~Mao, Q.~Wang, T.~Min, W.~Chen, and S.~Chen, ``Mobil
 
 \bibitem{liu2024visualagentbench}
 X.~Liu, T.~Zhang, Y.~Gu, I.~L. Iong, Y.~Xu, X.~Song, S.~Zhang, H.~Lai, X.~Liu, H.~Zhao \emph{et~al.}, ``Visualagentbench: Towards large multimodal models as visual foundation agents,'' \emph{arXiv preprint arXiv:2408.06327}, 2024.
+
+\bibitem{wang2025fedmabench}
+W.~Wang, Z.~Yu, R.~Ye, J.~Zhang, S.~Chen, and Y.~Wang, ``Fedmabench: Benchmarking mobile agents on decentralized heterogeneous user data,'' \emph{arXiv preprint arXiv:2503.05143}, 2025.
+
+\bibitem{sun2025autoeval}
+J.~Sun, Z.~Hua, and Y.~Xia, ``Autoeval: A practical framework for autonomous evaluation of mobile agents,'' \emph{arXiv preprint arXiv:2503.02403}, 2025.
+
+\bibitem{liu2025learnact}
+G.~Liu, P.~Zhao, L.~Liu, Z.~Chen, Y.~Chai, S.~Ren, H.~Wang, S.~He, and W.~Meng, ``Learnact: Few-shot mobile gui agent with a unified demonstration benchmark,'' \emph{arXiv preprint arXiv:2504.13805}, 2025.
 
 \bibitem{chai2025a3}
 Y.~Chai, H.~Li, J.~Zhang, L.~Liu, G.~Wang, S.~Ren, S.~Huang, and H.~Li, ``A3: Android agent arena for mobile gui agents,'' \emph{arXiv preprint arXiv:2501.01149}, 2025.
@@ -802,6 +862,9 @@ H.-M. Xu, Q.~Chen, L.~Wang, and L.~Liu, ``Attention-driven gui grounding: Levera
 \bibitem{kaelbling1996reinforcement}
 L.~P. Kaelbling, M.~L. Littman, and A.~W. Moore, ``Reinforcement learning: A survey,'' \emph{Journal of artificial intelligence research}, vol.~4, pp. 237--285, 1996.
 
+\bibitem{zheng2025vem}
+J.~Zheng, L.~Wang, F.~Yang, C.~Zhang, L.~Mei, W.~Yin, Q.~Lin, D.~Zhang, S.~Rajmohan, and Q.~Zhang, ``Vem: Environment-free exploration for training gui agent with value environment model,'' \emph{arXiv preprint arXiv:2502.18906}, 2025.
+
 \bibitem{peng2024dreamstruct}
 Y.-H. Peng, F.~Huq, Y.~Jiang, J.~Wu, X.~Y. Li, J.~P. Bigham, and A.~Pavel, ``Dreamstruct: Understanding slides and user interfaces via synthetic data generation,'' in \emph{European Conference on Computer Vision}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2024, pp. 466--485.
 
@@ -816,9 +879,6 @@ W.~Wang, Z.~Yu, W.~Liu, R.~Ye, T.~Jin, S.~Chen, and Y.~Wang, ``Fedmobileagent: T
 
 \bibitem{berkovitch2024identifying}
 O.~Berkovitch, S.~Caduri, N.~Kahlon, A.~Efros, A.~Caciularu, and I.~Dagan, ``Identifying user goals from ui trajectories,'' \emph{arXiv preprint arXiv:2406.14314}, 2024.
-
-\bibitem{liu2025learnact}
-G.~Liu, P.~Zhao, L.~Liu, Z.~Chen, Y.~Chai, S.~Ren, H.~Wang, S.~He, and W.~Meng, ``Learnact: Few-shot mobile gui agent with a unified demonstration benchmark,'' \emph{arXiv preprint arXiv:2504.13805}, 2025.
 
 \bibitem{lin2024videogui}
 K.~Q. Lin, L.~Li, D.~Gao, Q.~Wu, M.~Yan, Z.~Yang, L.~Wang, and M.~Z. Shou, ``Videogui: A benchmark for gui automation from instructional videos,'' \emph{arXiv preprint arXiv:2406.10227}, 2024.
@@ -846,5 +906,8 @@ W.~Yang, X.~Bi, Y.~Lin, S.~Chen, J.~Zhou, and X.~Sun, ``Watch out for your agent
 
 \bibitem{wang2024badagent}
 Y.~Wang, D.~Xue, S.~Zhang, and S.~Qian, ``Badagent: Inserting and activating backdoor attacks in llm agents,'' \emph{arXiv preprint arXiv:2406.03007}, 2024.
+
+\bibitem{chen2025aeia}
+Y.~Chen, X.~Hu, K.~Yin, J.~Li, and S.~Zhang, ``Aeia-mn: Evaluating the robustness of multimodal llm-powered mobile agents against active environmental injection attacks,'' \emph{arXiv preprint arXiv:2502.13053}, 2025.
 
 \end{thebibliography}
