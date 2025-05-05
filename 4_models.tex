@@ -182,7 +182,9 @@ The subsequent sections delve into these approaches, discussing the development 
     \midrule
     \textbf{\href{https://gui-bee.github.io/}{GUI-Bee}}~\cite{fan2025gui} \githubicon{https://gui-bee.github.io/} & 2025.01 & \makecell[c]{Screen Under- \\ standing, Grounding} & \makecell[c]{SeeClick, \\ UIX-7B, \\ Qwen-GUI} & N/A & \makecell[c]{Model-Environment alignment;\\ Self-exploratory Data} \\
     \midrule
-    \textbf{V-Droid}~\cite{dai2025advancing} & 2025.03 & \makecell[c]{General} & \makecell[c]{Llama-3.1-8B} & N/A & \makecell[c]{Verifier-driven framework} \\
+    \textbf{V-Droid}~\cite{dai2025advancing} & 2025.03 & \makecell[c]{General} & \makecell[c]{Llama-3.1-8B} & 8b & \makecell[c]{Verifier-driven framework} \\
+    \midrule
+    \textbf{\href{https://github.com/BigTaige/MP-GUI}{MP-GUI}}~\cite{wang2025mp} \githubicon{https://github.com/BigTaige/MP-GUI}  & 2025.03 & \makecell[c]{General} & \makecell[c]{InternVL2-8B} & 8B & \makecell[c]{Screen Under- \\ standing, Referring} \\
     \bottomrule
     \end{tabular}
     } % 结束 resizebox
@@ -238,6 +240,7 @@ involves answering questions about the content and functionality of a screen bas
 ScreenAI~\cite{baechler2024screenai} specializes in understanding screen UIs and infographics, leveraging the common visual language and design principles shared between them. By introducing a flexible patching strategy and a novel textual representation for UIs, ScreenAI pre-trains models to interpret UI elements effectively. Using large language models to automatically generate training data, ScreenAI covers tasks such as screen annotation and screen QA.
 WebVLN~\cite{chen2024webvln} extends vision-and-language navigation to websites, where agents navigate based on question-based instructions and answer questions using information extracted from target web pages. By integrating visual inputs, linguistic instructions, and web-specific content like HTML, WebVLN enables agents to understand both the visual layout and underlying structure of web pages, enhancing screen QA capabilities.
 UI-Hawk~\cite{zhang2024ui-hawk} further enhances screen QA by enabling agents to process screen sequences and answer questions based on historical interactions. By incorporating screen question answering as one of its fundamental tasks, UI-Hawk improves the agent's ability to comprehend and reason about screen content over time.
+MP-GUI~\cite{wang2025mp} introduces a specialized MLLM for GUI understanding with three dedicated perceivers for graphical, textual, and spatial modalities. Using a fusion gate to adaptively combine these modalities and an automated data collection pipeline to address training data scarcity, MP-GUI achieves strong performance on GUI understanding tasks including screen QA despite limited training data.
 \end{itemize} 
 
 
