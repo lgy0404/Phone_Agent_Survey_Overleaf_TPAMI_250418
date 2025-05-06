@@ -12,11 +12,11 @@
 \backcite {wang2023voyager, hong2023metagpt, li2023camel, park2023generative, boiko2023emergent, qian2023communicative, xia2023towards, dasgupta2023collaborating, qian2024chatdev, dong2024self, goertzel2014artificial}{{1}{1}{section.1}}
 \backcite {wang2023voyager,hong2023metagpt,qian2024chatdev}{{1}{1}{section.1}}
 \backcite {xi2023rise,li2024personal,guo2024large,furuta2024exposing}{{1}{1}{section.1}}
-\backcite {hong2024cogagent,zheng2024gpt,zhang2023appagent,song2023navigating}{{2}{1}{figure.caption.1}}
-\backcite {wen2024autodroid}{{2}{1}{figure.caption.1}}
-\backcite {wang2024mobileagentv1,wang2024mobileagentv2}{{2}{1}{figure.caption.1}}
-\backcite {zhang2023appagent}{{2}{1}{figure.caption.1}}
-\backcite {radford2018gpt1,radford2019gpt2,brown2020gpt3,achiam2023gpt}{{2}{1}{figure.caption.1}}
+\backcite {hong2024cogagent,zheng2024gpt,zhang2023appagent,song2023navigating}{{1}{1}{figure.caption.1}}
+\backcite {wen2024autodroid}{{1}{1}{figure.caption.1}}
+\backcite {wang2024mobileagentv1,wang2024mobileagentv2}{{1}{1}{figure.caption.1}}
+\backcite {zhang2023appagent}{{1}{1}{figure.caption.1}}
+\backcite {radford2018gpt1,radford2019gpt2,brown2020gpt3,achiam2023gpt}{{1}{1}{figure.caption.1}}
 \backcite {wen2023droidbot,wen2024autodroid,wang2024mobileagentv1,wang2024mobileagentv2,liu2024vision,zhang2024mobileexperts,lu2024omniparser}{{2}{1}{figure.caption.1}}
 \backcite {arnatovich2018systematic,deshmukh2023automated,nass2024overcoming,nass2021many,tramontana2019automated}{{2}{1}{figure.caption.2}}
 \backcite {wu2024foundations}{{2}{1}{figure.caption.2}}
